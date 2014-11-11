@@ -8,12 +8,15 @@ fields:
   title:
     label: Title
     type:  text
+  description:
+    label: Description
+    type:  textarea
   year:
     label: Year
     type:  text
   text:
     label: Text
     type:  textarea
-  tags:
-    label: Tags
+  keywords:
+    label: Keyword for SEO
     type:  tags
