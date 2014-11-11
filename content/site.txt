@@ -1,8 +1,8 @@
-Title: Kirby Starterkit
+Title: By Design or by Disaster Publication
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: Amin Al Hazwani
 
 ----
 
@@ -10,8 +10,8 @@ Description: This is Kirby's Starterkit.
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Keywords: Some, nice, keyword, home
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Copyright: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
