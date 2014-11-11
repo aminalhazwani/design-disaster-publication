@@ -13,8 +13,8 @@ fields:
     label: Description
     type:  textarea
   keywords:
-    label: Keywords
-    type:  tags
+    label: Keyword for SEO
+    type: tags
   copyright:
     label: Copyright
     type:  textarea
