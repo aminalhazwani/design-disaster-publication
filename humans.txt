@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+Amin Al Hazwani -- Web Designer and Developer -- @aminalhazwani
+
+# THANKS
+
+<name>
+
+# TECHNOLOGY COLOPHON
+
+HTML5, CSS3
+jQuery, Modernizr
