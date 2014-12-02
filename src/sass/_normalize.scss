@@ -15,23 +15,23 @@ $legacy_support_for_ie: false !default; // Used also in Compass
 
 
 // Set the default font family here so you don't have to override it later
-$normalized_font_family: sans-serif !default;
+$normalized_font_family: $utopia !default;
 
 $normalize_headings: true !default;
 
-$h1_font_size: 2em !default;
-$h2_font_size: 1.5em !default;
-$h3_font_size: 1.17em !default;
-$h4_font_size: 1em !default;
-$h5_font_size: 0.83em !default;
-$h6_font_size: 0.75em !default;
+$h1_font_size: 3.157em !default;
+$h2_font_size: 2.369em !default;
+$h3_font_size: 1.777em !default;
+$h4_font_size: 1.333em !default;
+$h5_font_size: 1em !default;
+$h6_font_size: 0.83em !default;
 
-$h1_margin: 0.67em 0 !default;
-$h2_margin: 0.83em 0 !default;
-$h3_margin: 1em 0 !default;
-$h4_margin: 1.33em 0 !default;
-$h5_margin: 1.67em 0 !default;
-$h6_margin: 2.33em 0 !default;
+$h1_margin: 0 0 0.25em 0 !default;
+$h2_margin: 0 0 0.25em 0 !default;
+$h3_margin: 0 0 0.25em 0 !default;
+$h4_margin: 0 0 0.25em 0 !default;
+$h5_margin: 0 0 0.25em 0 !default;
+$h6_margin: 0 0 0.25em 0 !default;
 
 $background: #fff !default;
 $color: #000 !default;
@@ -98,8 +98,8 @@ html {
     @if $legacy_support_for_ie {
         font-size: 100%; // 1
     }
-		background: $background;
-		color: $color;
+	background: $background;
+	color: $color;
     -webkit-text-size-adjust: 100%; // 2
     -ms-text-size-adjust: 100%; // 2
 }
@@ -348,6 +348,7 @@ nav {
 //    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
 
 img {
+    max-width: 100%;
     border: 0; // 1
     @if $legacy_support_for_ie {
         -ms-interpolation-mode: bicubic; // 2

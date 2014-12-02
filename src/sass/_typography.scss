@@ -1,0 +1,33 @@
+h1, h2, h3, h4, h5, h6 {
+	font-family: $din;
+	color: $heading;
+	line-height: 1.1;
+}
+
+p {
+	margin: 0 0 1.3rem 0;
+	color: $text;
+	line-height: 1.45;
+}
+
+span {
+	color: $text;
+}
+
+a {
+	text-decoration: none;
+	color: $text;
+}
+
+blockquote {
+	margin: 1.3rem 0 1.3rem 0;
+	padding-left: 1.3rem;
+	font-family: $din-cond;
+	font-size: 1.25em;
+	border-left: 6px solid $red;
+
+	p {
+		margin: 0;
+		color: $heading;
+	}
+}

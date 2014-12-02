@@ -1,0 +1,22 @@
+// Fonts
+$din: 'ff-din-web', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$din-cond: 'din-condensed-web', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+$utopia: 'utopia-std', 'Georgia', 'Times', 'Times New Roman', serif;
+
+// Colors
+$black: #000;
+$white: #fff;
+$grey: #aaa;
+$yellow: #ffd930; 
+$red: #ed331a;
+$heading: #222;
+$text: #444;
+
+// Breakpoints
+$tabl-start:        481px;
+$lap-start:         768px;
+$desk-start:        1024px;
+$desk-wide-start:   1680px;
+$palm-end:     $tabl-start - 1px;
+$tabl-end:     $lap-start - 1px;
+$lap-end:      $desk-start;
