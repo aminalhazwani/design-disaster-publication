@@ -1,0 +1,104 @@
+Title: Designing blackouts
+
+----
+
+Description: This paper has been developed in sin- gular circumstances, which deserves to be told. Answering to the kind invita- tion of Alvise Matozzi and Kris Krois, I gave a talk that suggested that rather to avoid disasters, design might be help- ful to implement blackouts.
+
+----
+
+Keywords: design,blackout,electricity
+
+----
+
+Abstract: This paper has been developed in singular circumstances, which deserves to be told. Answering to the kind invitation of Alvise Mattozzi and Kris Krois, I gave a talk that suggested that rather to avoid disasters, design might be helpful to implement blackouts. Following the “enlightened catastrophism” of the philosopher Jean-Pierre Dupuy, I pro- posed that the best way to think about the electricity grid and its required new design is to organise blackouts, namely periods during which electricity is not available for people on a given territory. This proposition is not made to be pro- vocative, but to position the grid issue in ontological terms. What is the nature of the electricity obviousness? What is the organisation behind the fact that we have the assurance to get the possibility to use electricity at any time in many in- creasing places? What is required from all beings constituting the grid and its usages? How have these usages ex- pended so that electricity is intrinsically associated to human development? I start with the assumption that “Design thinking” can contribute to new images and plans since the questions concern sociotechnical systems in which users are central but often neglected.
+
+----
+
+Author: Grégoire Wallenborn
+
+----
+
+Authoraffilation: Science and Technology Studies — Université Libre de Bruxelles
+
+----
+
+Authormail: gregorie@wallenborn.com
+
+----
+
+Designer: Andreas Trenker
+
+----
+
+Designeraffilation: Freelance designer and teaching assistant at Unibz
+
+----
+
+Designermail: andreas.trenker@gmail.com
+
+----
+
+Introduction: ## Introduction
+This paper has been developed in singular circumstances, which deserves to be told. Answering to the kind invitation of Alvise Mattozzi and Kris Krois, I gave a talk that suggested that rather to avoid disasters, design might be helpful to implement blackouts. Following the “enlightened catastrophism” of the philosopher Jean-Pierre Dupuy, I pro- posed that the best way to think about the electricity grid and its required new design is to organise blackouts, namely periods during which electricity is not available for people on a given territory. This proposition is not made to be pro- vocative, but to position the grid issue in ontological terms. What is the nature of the electricity obviousness? What is the organisation behind the fact that we have the assurance to get the possibility to use electricity at any time in many increasing places? What is required from all beings constituting the grid and its usages? How have these usages expended so that electricity is intrinsically associated to human development? I start with the assumption that “Design thinking” can contribute to new images and plans since the questions concern sociotechnical systems in which users are central but often neglected.
+
+When I gave my talk, I did not imagine that one year later, the government of the country in which I live (Belgium) would announce a plan to unload the grid from whole parts of the territory.
+Due to the unexpected closure of three nuclear power plants, Belgium might lack electricity next Winter at peak hours, when electricity is mostly need- ed to light buildings and roads, to heat many places, to run trains, to cook, to perform economic activities, etc. This nuclear shutdown (3 gigawatts) represents around one quarter of the peak consumption (13 GW). Since Belgium was already on the provision edge, and since electricity exportation is limited (3,5 GW) and not reliable (the border- ing countries might also need their electricity at peak hours), federal authorities have developed an emergency plan that would cut power for defined parts of the grid. vThe government and Elia, the Belgian Transmission System Operator (which manages the high voltage part of the network), have decided to preserve cities, industries and security facilities (hospitals, police, firefighting) to the detriment of less densely populated and industrialised areas. At the same time, on the 3rd November 2014, authorities have issued a communication plan that will try to marshal all users — house- holds, enterprises, industries and ad- ministrations — and align them on the same goal: reduction of the electricity consumption at peak hours. Although authorities look confident that users, whether affected or not by the possibility of a power cut, will prove their soli- darity in acting at their levels, nobody knows what will happen.
+
+----
+
+Conclusion: ## Conclusion
+How to design a catastrophe?
+Planning an event? Without surprise, is it still an event?
+Which losses to be prevented? What are the necessary services?
+Dupuy: enlightened catastrophism (2004). “We do not believe in what we know”. Avoid catastrophe: make every- thing as if it will surely happen.
+Sustainability calls for
+
+1. a reduction of practices that involve resources,
+2. limiting delegation to technology, 
+3. an active involvement of bodies.
+
+What are then practices that require the attention of people and their bodies, im- peding them to do other things or to del- egate too many tasks to machines, and are also enjoyable?
+Designing performances and practices. Link to infrastructures and their func- tioning!
+From loads to activities. Load: language of Elia and engineers. Users are loads. No appropriation, no usage.
+Aims of blackout design:
+
+- blocking usual practices. Learn to do without electricity. When is it possible to live without electricity? For how long?
+- Learn to connect to intermittent resourc- es. Will take time, one or two generation. Issue of work organisation if activities are to happen when renewable energy is avail- able (Summer, etc.).
+
+Grid: evolutive design is required. How uses are scripted by the all network in- frastructure? How could this network co-evolve with uses?
+How to design processes?
+Can everything be designed (even na- ture as Latour claims)? What are the limits to the power of design?
+
+----
+
+Appendix: ## Appendix
+Copyright — Grégoire Wallenborn 
+Design — Andreas Trenker
+
+----
+
+Text: ## Learning to produce and use 100% of renewables
+The electricity grid is probably the big- gest machine ever built. At a national level, the grid connects billions of appli- ances, lamps and other machines. The grid is a machine of machines, which balances production and consumption at all time. The balancing process, con- trolled with the frequency stabilisation, creates an actual solidarity between billions of machines. This solidarity is weak, in the sense that it is mostly one- way (at the exception of big industries), and that environment is not really part of the landscape. Consumption leads production: in switching the light on, I (almost) immediately require that elec- tricity is produced on the grid. Fortu- nately, there is some inertia in the grid for it enables to react and pilot the super machine. Reactions are not instantane- ous but only very fast. And consumption can have some flexibility (automated in most industries that use high amounts of power). Grids are built with a certain capacity corresponding to a maximum power. Therefore utilities endeavour to limit peak demands and to shift loads at off-peak hours. On another hand, ss re- newable production increases, utilities are searching also ways to shift demand to peak productions. Grids are now flooded with currents that runs in all di- rections. New electrical solidarities are tied between entities, including decen- tralised production, wind turbines and solar panels.
+Long term energy objective can only be 100% renewable. To get a slight chance to avoid climatic disasters, all energy consumption should be renewable by 2100 (IPPC 2014), with a large share for developed countries by 2050. We have therefore time to learn how to adapt ac- tivities, but this learning should begin immediately and rapidly. We have to go from societies based on a stock of ener- gy (fossils) to organisations structured by variable energy fluxes. This can be realised according to priorities:
+
+1. reduce energy demand
+2. use efficient means to deliver energy, 
+3. produce and adapt demand to available resources.
+
+As progresses in storage are slower than development of energy capture (PV, wind, biomass), it is crucial to learn how to reduce electricity consumption when production is limited and increase consumption when there is an excess of production. This logic of offer reverses the perspective of the present-day grid that is mainly governed by demand. As production are decentralised and new active entities added to the grid, its topology must evolve.
+This evolution of the grid is often presented as “smart”. The idea of a smart grid result from the superimposition of, on one hand, information and communication technologies and, on the other hand electricity grids. Many technologi- cal promises are made and new actors emerge. However, nobody knows how smart grids will be shaped. Different sce- narios are possible. Many pilots are con- ducted all over the world. Different ac- tors strive to translate their interests into materialised devices (e.g. smart meters, electrical vehicles). Smart grids are usu- ally presented to solve many problems in the energy sector. They can help reduce transmission and distribution losses, optimize the use of existing infrastruc- ture by helping to regulate power flows and meet peak demand, accommodate significant volumes of decentralized and renewable energy into the grid, improve energy efficiency by managing the con- sumption patterns of new and existing users connected to the grid, and even develop a “self-healing” grid. Incumbent actors and policy makers believe that smart grids are essential for achieving energy security, affordable energy and climate change mitigation. In summary, the grid is the place where multiple tech- nological, economic and political inter- ests cross.
+
+## Smartening users
+Smart metering, dynamic prices, flexi- bility, demand response, active consum- ers, smart appliances... All this terms have been recently linked to “smart grids” and mark the desirable advent of consumer engagement into grid man- agement. Many documents from the European Commission and electricity actors repeat that smart grid manage- ment will develop only with the active participation of end users. It is not how- ever clear how many and how far con- sumers would engage in smart grids, even though marketing techniques are used to convince consumers1. Consum- ers and prosumers are one of the main unknowns of smart grid future. They are considered as important actors, or co-managers of the grid although it is not clear how this “material participa- tion” (Marres 2012) would occur.
+Do smart grids require smart and reac- tive users or, on the contrary, passive users who would delegate decisions to technology? The cases of smart meter- ing and demand response show the dif- ferent roles that users are supposed to play within smart grids. I begin with smart metering.
+Smart metering is a two-way communi- cation system between consumers and the grid. It has been sold all over Europe in telling that it will yield to energy con- servation for households. This affirma- tion confuses smart meters (which are communicating meters) with in-home displays (energy consumption is then
+readable in the home). Furthermore, large scale studies show that energy re- duction through direct feedback is lim- ited. Results from pilot studies show that consumers equipped with a smart meter (and a feedback system) can save energy in the range 2-4% in the best cases, the first year and when they have clearly chosen to participate to the experiment (ref). Participation rates to pilots are not easy to find in documented report, but best studies indicate that recruitment is around 5-10% of the population. The rest of people do not seem interested in having a smart meter and an in-home display. It is then not difficult to forecast that a smart meter roll-out will yield to electricity consumption decrease close to zero. And this is indeed what recent reports show (ref). Qualitative studies show that direct feedback devices can lead to energy savings only if users are already concerned by their energy con- sumption. The interest in direct feed- back fades away quickly too. Devices do not change by themselves practices. Under the guise of providing informa- tion to users, the Commission recom- mends to provide readings of the smart meters every 15 minutes [^2]. This frequen- cy will not greatly improve energy man- agement — direct feedback requires a reading every second. 15 minutes correspond however to the determina- tion of electricity price on the electric- ity markets. Smart meters are mainly interesting to develop dynamic tariffs and automated demand response. The holy grail of electricity providers is to make consumers pay the “real price” of electricity (ref). Besides administration and grid management, smart meters are today conceived as a a tool to transform electricity markets. Active consumers, according to the Commission, are con- sumers who change often of provider so that they benefit from best prices.
+“Demand response” refers to different actions that can be taken by consum- ers to modify their electricity usage in response to a signal that reflects special conditions within the electricity system (such as high prices or risk of grid con- gestion). Residential consumers repre- sent a large potential of peak shifting/ shaving, although its dispersion entails high transaction costs. The demand re- sponse potential depends on three fac- tors: the shifted power by action taken, the number of actions in a household and the number of involved households. Households actions occur through daily practices, and most practices are non negotiable (Strengers 2011). De- mand response focuses then on appli- ances which load can be shifted (electric water heater, washing machine, dryer, dishwasher) or erased (heating, air con- ditioner, fridge, freezer). Studies on de- mand response show that consumers can shift their peak consumption about 10-15% when the difference between low and peak prices is high enough. Critical peak pricing can lead up to 45% of reduction if price difference is consid- erable and if the event frequency is small
+(no more than 20 times a year). Peak shifting does not generally yield to en- ergy savings (Darby & Pisica, 2013). It is therefore possible to mobilise efficiently users to obtain a considerable reduc- tion in consumption for several hours if clear signals are sent. This is however with the condition that users have been voluntary enrolled. And we have seen that people who opt in for participating represent about 5-10% of the total popu- lation and are consumers already inter- ested in energy management.
+The consumer designed by current poli- cies is endowed with singular features. Strengers (2013) describes ‘Resource Man’ as “a data-driven, information- hungry, technology-savvy home energy manager, who is interested in and capa- ble of making efficient and rational re- source management decisions” (p.51). Consumers are supposed to be acti- vated or empowered through various information systems. The user is how- ever endowed with contradictory pow- ers: computing and acting fast, on one hand, and inertial and incompetent, on the other hand. Information has poor effects on behaviour change: practices are greatly scripted by the networks of provision. The automation of decisions is on its way, but we can assume that this new delegation of action to technology will lead to rebound effects through the multiplication of practices. Our bodies are increasingly equipped and extended (ref). The issue of sustainability is not the (ir)responsibility of people, but the multiplication of practices that requires evermore non-humans to be performed.
+
+Feedback and demand response de- vices are today conceived as economic ((e.g. dynamic pricing) and technologi- cal tools (direct load control), and rest upon contradictory figures of consum- ers (rational or lazy). The terms ‘feed- back’ and ‘demand response’ are used in a behaviourist perspective: information and signals drive actions. Flexibility is the perspective of neo-liberal econom- ics to capture value in human practices. Although many actors affirm that users have a central role to play in smart grids, the focus is mainly on technological is- sues and economic incentives. “From this perspective users are often regard- ed as a potential barrier to smart grids deployment and financial incentives the best instrument to persuade or se- duce the users.” 3 Current demand pro- grammes clearly lack other approaches to convince consumers that they are part of the grid. Should new tariffs be introduced or demand management benefits be sought, then these cannot be achieved unless customers are engaged and participate. In the perspective of increasing intermittent sources of elec- tricity, we can view demand response devices as the beginning of a deeper in- volvement of consumers in grid activi- ties. However, as the value of electricity will be increasingly time-dependent, it is crucial to design new tools in order to enroll users that may have different interests in energy management. Us- ers are not always interested by money. In surveys and in practices, residential users show a diversity of reasons to be interested: environment conservation,
+technology trial, energy autonomy, community, home control, better com- fort, social justice, etc.
+Consumers are certainly involved in the grid, but how to engage them in its man- agement? In my fieldwork I observe that a large part of users is ready to partici- pate more actively to the grid balancing, for collective or environmental reasons. Many smart grid projects report a high level of consumer’s scepticism. The par- ticipation of consumers will depend on the trust in utilities. If a big company ask their customers to change their be- haviours with little counterpart, we can expect them to be reluctant. End-users are asked to participate to the grid man- agement, but this demand is asymmet- ric. They are offered small advantages (some dozens euro a year) because it is only seen through economic lenses. By contrast, if a trustworthy relation is made with the local grid manager, con- sumers could accept to think about the meaning of load management — spe- cially if their neighbours are directly in- volved in the process. Demand response programmes would be more appropria- ble if consumers could participate to the shaping of the grid. In a participation process — here between users and the grid — information flows from all sides. The provision of relevant information (CO2 emissions, local load problems, etc.) to users is not sufficient. Grid us- ers also should learn how to speak to the grid. This begins concretely in new grid management configurations (user coun- cils, energy cooperatives, etc.) as hap- pening in different countries in Europe.
+
+[^2]: update, JRC Scien- tific and Policiy Reports, 2013.
