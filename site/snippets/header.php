@@ -63,6 +63,9 @@
     <!-- Stylesheets -->
     <?php echo css('assets/styles/main.min.css') ?>
 
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <?php echo js('assets/scripts/vendor/vendor.min.js') ?>
 </head>
 <body>
     <!--[if lt IE 7]>
