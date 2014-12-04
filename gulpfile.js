@@ -29,6 +29,7 @@ gulp.task('styles', function() {
 // gulp vendor task
 gulp.task('vendor', function() {
   return gulp.src('src/js/vendor/*.js')
+    .pipe(concat('vendor.js'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(uglify())
     .pipe(gulp.dest('assets/scripts/vendor'))
