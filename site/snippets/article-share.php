@@ -1,6 +1,6 @@
-<div class="article__share">
-	<p>Do you like what are you reading? Share it!</p>
-	<a href="#"><span>F</span></a>
-	<a href="#"><span>T</span></a>
-	<a href="#"><span>E</span></a>
-</div>
+<section class="article__share">
+	<p>It looks like you’re enjoying this publication... share it!</p>
+	<a href="#" class="article__share--fbk"></a>
+	<a href="#" class="article__share--bird"></a>
+	<a href="#" class="article__share--mail"></a>
+</section>

@@ -234,6 +234,8 @@ article {
 			}
 		}
 		&.text-white {
+			-webkit-font-smoothing:antialiased;
+            -moz-osx-font-smoothing: grayscale;
 			.footnotes > hr {
 				border-color: $white;
 			}
@@ -298,7 +300,7 @@ article {
 
 		p {
 			@include media-query(desk) {
-				
+
 			}
 		}
 
@@ -337,39 +339,63 @@ article {
 	@include e(share) {
 		padding: 15px;
 		font-family: $din;
+		font-weight: bold;
 		background-color: $yellow;
 		text-align: center;
 		overflow: hidden;
-		@include media-query(tabl) {
+		@include media-query(tabl-and-up) {
 			padding: 30px;
 		}
-		@include media-query(lap) {
-			padding: 45px;
+		p {
+			margin-bottom: 1rem;
+			line-height: 1.4;
 		}
 		@include media-query(desk) {
-			padding: 60px;
-		}
-
-		p {
-			margin: 0;
+			p {
+				display: inline-block;
+				margin-right: 2rem;
+			}
 		}
 
 		a {
-			background-color: $black;
-			border-radius: 50%;
-			width: 2rem;
-			height: 2rem;
+			width: 3rem;
+			height: 3rem;
+			@include media-query(tabl-and-up) {
+				width: 4rem;
+				height: 4rem;
+			}
 			display: inline-block;
+			vertical-align: middle;
 
 			&:nth-child(3) {
-				margin: 0 1rem;
+				margin: 0 2rem 0 1.5rem;
+				@include media-query(desk) {
+					margin: 0 1rem 0 .5rem;
+				}
 			}
+		}
+	}
+}
 
-			span {
-				color: $yellow;
-				line-height: 2rem;
-
-			}
+.article {
+	@include e(share) {
+		@include m(fbk) {
+			background-image: url('/assets/images/share-fbk.svg');
+			background-size: contain;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+		@include m(bird) {
+			background-image: url('/assets/images/share-twt.svg');
+			background-size: contain;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
+		}
+		@include m(mail) {
+			background-image: url('/assets/images/share-email.svg');
+			background-size: contain;
+			background-position: 50% 50%;
+			background-repeat: no-repeat;
 		}
 	}
 }
