@@ -54,8 +54,8 @@
 
     <meta property="og:url" content="<?php echo $page->url() ?>" />
   
-    <?php if($page->template() != 'home'): ?>
-        <meta property="og:image" content="#" />
+    <?php if($page->template() == 'article'): ?>
+        <meta property="og:image" content="<?php foreach($page->images() as $image): ?><?php if($image->cover() != ''): ?><?php echo $image->url() ?><?php endif ?><?php endforeach?>" />
     <?php else: ?>
         <meta property="og:image" content="#" />
     <?php endif ?>
