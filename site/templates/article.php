@@ -7,4 +7,5 @@
     <?php snippet('article-bottom-navigation') ?>
 </main>
 
-<!-- <?php snippet('footer') ?> -->
+<?php echo js('assets/scripts/article.min.js') ?>
+<?php snippet('footer') ?>

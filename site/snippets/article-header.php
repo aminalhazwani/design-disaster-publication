@@ -1,6 +1,6 @@
 <header class="article__header">
     <div class="article__header--meta">
-        <h1 class="article__header--title"><?php echo $page->title()->html() ?></h1>
+        <h1 class="article__header--title hyphenate"><?php echo $page->title()->html() ?></h1>
         <div class="article__header--author">
             <span>Article by</span>
             <h3 class="article__header--author--name"><a href="mailto:<?php echo $page->authormail()->html() ?>"><?php echo $page->author()->html() ?></a></h3>

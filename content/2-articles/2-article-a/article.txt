@@ -1,23 +1,241 @@
-Title: Project A
+Title: Communication and Design For Participatory Regional Development
 
 ----
 
-Year: 2014
-
-----
-
-Text: ### title i am a h3
-
-**Lorem ipsum dolor sit amet**, consectetuer *adipiscing* elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
-
-<pullquote class="right">I am a right pullquote</pullquote>
-
-> blockquote
-
-----
-
-Description: Lorem ipsum
+Description: This paper has been developed in singular circumstances, which deserves to be told. Answering to the kind invitation of Alvise Mattozzi and Kris Krois, I gave a talk that suggested that rather to avoid disasters, design might be helpful to implement
 
 ----
 
 Keywords: some,nice,keywords,for,seo,article
+
+----
+
+Author: 
+
+----
+
+Authoraffilation: 
+
+----
+
+Authormail: 
+
+----
+
+Designer: 
+
+----
+
+Designeraffilation: 
+
+----
+
+Designermail: 
+
+----
+
+Introtitle: 
+
+----
+
+Introbkcolor: white
+
+----
+
+Introtextcolor: black
+
+----
+
+Intro: 
+
+----
+
+Chonetitle: 
+
+----
+
+Chonebkcolor: white
+
+----
+
+Chonetextcolor: black
+
+----
+
+Chone: 
+
+----
+
+Chtwotitle: 
+
+----
+
+Chtwobkcolor: white
+
+----
+
+Chtwotextcolor: black
+
+----
+
+Chtwo: 
+
+----
+
+Chthreetitle: 
+
+----
+
+Chthreebkcolor: white
+
+----
+
+Chthreetextcolor: black
+
+----
+
+Chthree: 
+
+----
+
+Chfourtitle: 
+
+----
+
+Chfourbkcolor: white
+
+----
+
+Chfourtextcolor: black
+
+----
+
+Chfour: 
+
+----
+
+Chfivetitle: 
+
+----
+
+Chfivebkcolor: white
+
+----
+
+Chfivetextcolor: black
+
+----
+
+Chfive: 
+
+----
+
+Chsixtitle: 
+
+----
+
+Chsixbkcolor: white
+
+----
+
+Chsixtextcolor: black
+
+----
+
+Chsix: 
+
+----
+
+Chseventitle: 
+
+----
+
+Chsevenbkcolor: white
+
+----
+
+Chseventextcolor: black
+
+----
+
+Chseven: 
+
+----
+
+Cheighttitle: 
+
+----
+
+Cheightbkcolor: white
+
+----
+
+Cheighttextcolor: black
+
+----
+
+Cheight: 
+
+----
+
+Chninetitle: 
+
+----
+
+Chninebkcolor: white
+
+----
+
+Chninetextcolor: black
+
+----
+
+Chnine: 
+
+----
+
+Chtentitle: 
+
+----
+
+Chtenbkcolor: white
+
+----
+
+Chtentextcolor: black
+
+----
+
+Chten: 
+
+----
+
+Conclusiontitle: 
+
+----
+
+Conclusionbkcolor: white
+
+----
+
+Conclusiontextcolor: black
+
+----
+
+Conclusion: 
+
+----
+
+Appendixtitle: 
+
+----
+
+Appendixbkcolor: white
+
+----
+
+Appendixtextcolor: black
+
+----
+
+Appendix: 
