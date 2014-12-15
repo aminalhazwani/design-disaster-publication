@@ -81,10 +81,14 @@ pullquote {
 }
 
 .footnotes {
+	margin-top: 1rem;
 	hr {
 		border-style: solid;
 	}
 	ol {
 		font-size: smaller;
+		li > p {
+			margin-bottom: .5rem;
+		}
 	}
 }
