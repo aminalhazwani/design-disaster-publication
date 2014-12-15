@@ -10,15 +10,15 @@
 		@include m(info) {
 			overflow: hidden;
 			position: relative;
-			padding: 15px;
+			padding: 30px 15px;
 			@include media-query(tabl) {
-				padding: 30px;
+				padding: 45px 30px;
 			}
 			@include media-query(lap) {
-				padding: 45px;
+				padding: 60px 45px;
 			}
 			@include media-query(desk) {
-				padding: 60px;
+				padding: 90px 60px;
 			}
 		}
 
@@ -187,22 +187,22 @@
 // Article content font-sizes and paddings
 article {
 	section {
-		padding: 15px;
+		padding: 30px 15px;
 		@include media-query(tabl) {
 			font-size: 1.25em;
-			padding: 30px;
+			padding: 45px 30px;
 		}
 		@include media-query(lap) {
 			font-size: 1.25em;
-			padding: 45px;
+			padding: 60px 45px;
 		}
 		@include media-query(desk) {
 			font-size: 1.25em;
-			padding: 60px;
+			padding: 90px 60px;
 		}
 		@include media-query(desk-wide) {
 			font-size: 1.5em;
-			padding: 60px;
+			padding: 90px 60px;
 		}
 	}
 }
@@ -538,6 +538,7 @@ article {
 					}
 					@include media-query(desk) {
 						padding: 60px;
+						height: 400px;
 					}
 					h2 {
 						color: $white;
@@ -586,6 +587,7 @@ article {
 .article {
 	@include e(nav) {
 		@include m(bottom) {
+			overflow: hidden;
 			@include media-query(tabl) {
 				font-size: 1.25em;
 			}
@@ -626,6 +628,7 @@ article {
 					}
 					@include media-query(desk) {
 						padding: 60px;
+						height: 400px
 					}
 					h2 {
 						color: $white;
@@ -700,6 +703,7 @@ article {
 				}
 				@include media-query(desk) {
 					padding: 60px;
+					height: 400px;
 				}
 				overflow: hidden;
 				background-color: $red;
@@ -761,6 +765,7 @@ article {
 				}
 				@include media-query(desk) {
 					padding: 60px;
+					height: 400px;
 				}
 				overflow: hidden;
 				background-color: $red;
