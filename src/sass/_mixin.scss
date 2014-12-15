@@ -11,6 +11,11 @@
     }
 }
 
+@mixin font-smooth() {
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 
 // Media queries
 @mixin media-query($media-query){

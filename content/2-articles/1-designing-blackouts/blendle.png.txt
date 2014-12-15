@@ -1,9 +1,5 @@
-Caption: 
+Caption: I am a caption
 
 ----
 
-Cover: 1
-
-----
-
-Size: left
+Cover: 

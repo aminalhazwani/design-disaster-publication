@@ -1,18 +1,31 @@
 // Article header, meta and title
 .article {
 	@include e(header) {
-		padding: 15px 15px 30px 15px;
-		background-color: $yellow;
-		overflow: hidden;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
 		clear: both;
-		@include media-query(tabl) {
-			padding: 30px 30px 45px 30px;
+
+		@include m(info) {
+			overflow: hidden;
+			position: relative;
+			padding: 15px 15px 30px 15px;
+			@include media-query(tabl) {
+				padding: 30px 30px 45px 30px;
+			}
+			@include media-query(lap) {
+				padding: 45px 45px 60px 45px;
+			}
+			@include media-query(desk) {
+				padding: 60px 60px 90px 60px;
+			}
 		}
-		@include media-query(lap) {
-			padding: 45px 45px 60px 45px;
-		}
-		@include media-query(desk) {
-			padding: 60px 60px 90px 60px;
+
+		@include m(overlay) {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background-color: rgba(0,0,0,.5);
 		}
 
 		@include m(meta) {
@@ -25,6 +38,7 @@
 		}
 
 		@include m(title) {
+			color: $white;
 			margin-bottom: 1.3rem;
 			margin-left: -1px;
 			text-transform: uppercase;
@@ -62,14 +76,16 @@
 			span {
 				display: block;
 				font-family: $din;
-				color: $black;
+				color: $white;
+				@include font-smooth();
 			}
 			@include m(name) {
 				font-family: $din;
 				a {
-					color: $black;
+					@include font-smooth();
+					color: $white;
 					&:hover {
-						color: $red;
+						border-bottom: 1px solid $white;
 					}
 					&:after {
 						margin-left: .5rem;
@@ -85,7 +101,8 @@
 			@include m(field) {
 				font-family: $din;
 				line-height: 1.3;
-				color: $black;
+				@include font-smooth();
+				color: $white;
 			}
 		}
 	}
@@ -100,14 +117,16 @@
 			span {
 				display: block;
 				font-family: $din;
-				color: $black;
+				@include font-smooth();
+				color: $white;
 			}
 			@include m(name) {
 				font-family: $din;
 				a {
-					color: $black;
+					@include font-smooth();
+					color: $white;
 					&:hover {
-						color: $red;
+						border-bottom: 1px solid $white;
 					}
 					&:after {
 						margin-left: .5rem;
@@ -123,7 +142,8 @@
 			@include m(field) {
 				font-family: $din;
 				line-height: 1.3;
-				color: $black;
+				@include font-smooth();
+				color: $white;
 			}
 		}
 	}
@@ -135,7 +155,8 @@
 		@include m(abstract) {
 			margin-top: 2.6rem;
 			p {
-				color: $black;
+				@include font-smooth();
+				color: $white;
 				font-weight: bold;
 				margin-bottom: 0;
 			}
@@ -204,7 +225,7 @@ article {
 			.footnotes > hr {
 				border-color: $black;
 			}
-			h2, h3, p, ol, ul, pullquote {
+			h2, h3, p, ol, ul, figcaption, pullquote {
 				color: $black;
 			}
 			blockquote {
@@ -223,7 +244,7 @@ article {
 			.footnotes > hr {
 				border-color: $red;
 			}
-			h2, h3, p, ol, ul, pullquote {
+			h2, h3, p, ol, ul, figcaption, pullquote {
 				color: $red;
 			}
 			blockquote {
@@ -239,12 +260,11 @@ article {
 			}
 		}
 		&.text-white {
-			-webkit-font-smoothing:antialiased;
-            -moz-osx-font-smoothing: grayscale;
+			@include font-smooth();
 			.footnotes > hr {
 				border-color: $white;
 			}
-			h2, h3, p, ol, ul, pullquote {
+			h2, h3, p, ol, ul, figcaption, pullquote {
 				color: $white;
 			}
 			blockquote {
@@ -263,7 +283,7 @@ article {
 			.footnotes > hr {
 				border-color: $yellow;
 			}
-			h2, h3, p, ol, ul, pullquote {
+			h2, h3, p, ol, ul, figcaption, pullquote {
 				color: $yellow;
 			}
 			blockquote {
@@ -320,6 +340,13 @@ article {
 				margin-top: .6rem;
 				padding-right: 3.9rem;
 				box-sizing: border-box
+			}
+
+			figcaption {
+				line-height: 1;
+				font-family: $din;
+				font-size: smaller;
+				margin-top: .5rem;
 			}
 		}
 

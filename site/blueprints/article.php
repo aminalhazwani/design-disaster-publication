@@ -5,20 +5,10 @@ pages: false
 files:
   sortable: true
   fields: 
-    caption: 
-      label: Caption
-      type: text
     cover:
       label: Cover Image
       type: checkbox
       text: Is this the cover image?
-    size:
-      label: Size
-      type: radio
-      default: left
-      options:
-        full: Full
-        left: Left
 fields:
   title:
     label: Title
