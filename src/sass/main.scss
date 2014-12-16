@@ -1,9 +1,21 @@
-@import "vars";
-@import "normalize";
-@import "mixin";
+// Import Helpers
+@import "helpers/vars";
+@import "helpers/mixin";
 
-@import "base";
-@import "typography";
+// Import Base
+@import "base/normalize";
+@import "base/typography";
 
-@import "article";
-@import "lightbox";
+// Import Components
+@import "components/magnific-popup";
+
+// Import Layout
+@import "layout/header";
+@import "layout/footer";
+
+// Import Pages
+@import "pages/article-header";
+@import "pages/article-nav-top";
+@import "pages/article-nav-btm";
+@import "pages/article-share";
+@import "pages/article";

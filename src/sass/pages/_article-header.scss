@@ -1,0 +1,152 @@
+// Article header, meta and title
+.article {
+	@include e(header) {
+		position: relative;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		clear: both;
+		@include m(info) {
+			overflow: hidden;
+			position: relative;
+			padding: 30px 15px;
+			@include media-query(tabl) {
+				padding: 45px 30px;
+			}
+			@include media-query(lap) {
+				padding: 60px 45px;
+			}
+			@include media-query(desk) {
+				padding: 90px 60px;
+			}
+		}
+		@include m(overlay) {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			background-color: rgba(0,0,0,.5);
+		}
+		@include m(meta) {
+			@include media-query(desk) {
+				width: 50%;
+				float: left;
+				padding-right: 2.6rem;
+				box-sizing: border-box;
+			}
+		}
+		@include m(title) {
+			color: $white;
+			margin-bottom: 1.3rem;
+			margin-left: -1px;
+			text-transform: uppercase;
+			line-height: .9;
+			font-family: $din-cond;
+			font-size: 3em;
+			@include media-query(tabl) {
+				font-size: 4em;
+				margin-bottom: 2rem;
+				margin-left: -2px;
+			}
+			@include media-query(lap) {
+				font-size: 5em;
+				margin-bottom: 3rem;
+				margin-left: -3px;
+			}
+			@include media-query(desk) {
+				font-size: 6em;
+				margin-bottom: 3rem;
+				margin-left: -3px;
+			}
+		}
+	}
+}
+
+// Article author
+.article {
+	@include e(header) {
+		@include m(author) {
+			margin-bottom: 1.3rem;
+			line-height: 1.45;
+			span {
+				display: block;
+				font-family: $din;
+				color: $white;
+				@include font-smooth();
+			}
+			@include m(name) {
+				font-family: $din;
+				a {
+					@include font-smooth();
+					color: $white;
+					&:hover {
+						border-bottom: 1px solid $white;
+					}
+					&:after {
+						margin-left: .5rem;
+						content: "\2192";
+						font-family: $din;
+						font-size: small;
+						display: inline-block;
+						vertical-align: middle;
+						margin-top: -0.2rem;
+					}
+				}
+			}
+			@include m(field) {
+				font-family: $din;
+				line-height: 1.3;
+				@include font-smooth();
+				color: $white;
+			}
+		}
+	}
+}
+
+// Article designer
+.article {
+	@include e(header) {
+		@include m(designer) {
+			@extend .article__header--author;
+			@include m(name) {
+				@extend .article__header--author--name;
+			}
+			@include m(field) {
+				@extend .article__header--author--field;
+			}
+		}
+	}
+}
+
+// Article abstract
+.article {
+	@include e(header) {
+		@include m(abstract) {
+			margin-top: 2.6rem;
+			p {
+				@include font-smooth();
+				color: $white;
+				font-weight: bold;
+				margin-bottom: 0;
+			}
+			@include media-query(tabl) {
+				font-size: 1.25em;
+			}
+			@include media-query(lap) {
+				font-size: 1.25em;
+			}
+			@include media-query(desk) {
+				float: left;
+				width: 50%;
+				margin: 0;
+				font-size: 1.25em;
+				p {
+					font-size: 1.25em;
+					line-height: 1.4;
+				}
+			}
+			@include media-query(desk-wide) {
+				font-size: 1.5em;
+			}
+		}
+	}
+}

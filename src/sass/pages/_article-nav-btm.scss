@@ -1,0 +1,289 @@
+// Article bottom 
+.article {
+	@include e(nav) {
+		@include m(bottom) {
+			overflow: hidden;
+			@include media-query(tabl) {
+				font-size: 1.25em;
+			}
+			@include media-query(lap) {
+				font-size: 1.25em;
+			}
+			@include media-query(desk) {
+				font-size: 1.25em;
+			}
+			@include media-query(desk-wide) {
+				font-size: 1.5em;
+			}
+		}
+	}
+}
+
+// Article bottom navigation index next
+.article {
+	@include e(nav) {
+		@include m(bottom) {
+			@include m(index-next) {
+				position: relative;
+				display: block;
+				padding: 15px;
+				box-sizing: border-box;
+				height: 360px;
+				@include media-query(tabl) {
+					padding: 30px;
+				}
+				@include media-query(lap-and-up) {
+					padding: 45px ;
+					float: right;
+					width: 60%;
+				}
+				@include media-query(desk) {
+					padding: 60px;
+					height: 400px;
+				}
+				overflow: hidden;
+				background-color: $red;
+
+				h2 {
+					color: $white;
+					font-family: $din-cond;
+					text-transform: uppercase;
+				}
+
+				span {
+					position: absolute;
+					right: 0;
+					bottom: 0;
+					margin: 0 15px 15px 0;
+					@include media-query(tabl) {
+						margin: 0 30px 30px 0;
+					}
+					@include media-query(lap) {
+						margin: 0 45px 45px 0;
+					}
+					@include media-query(desk) {
+						margin: 0 60px 60px 0;
+					}
+					color: $white;
+					font-family: $din;
+					font-weight: bold;
+					&:after {
+						margin-left: .5rem;
+						content: "\2192";
+						font-family: $din;
+						display: inline-block;
+						vertical-align: middle;
+						margin-top: -0.6rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Article nav bottom index prev
+.article {
+	@include e(nav) {
+		@include m(bottom) {
+			@include m(index-prev) {
+				position: relative;
+				display: block;
+				padding: 15px;
+				box-sizing: border-box;
+				height: 160px;
+				@include media-query(tabl) {
+					padding: 30px;
+					height: 200px;
+				}
+				@include media-query(lap-and-up) {
+					padding: 45px;
+					float: left;
+					width: 40%;
+					height: 360px;
+				}
+				@include media-query(desk) {
+					padding: 60px;
+					height: 400px;
+				}
+				overflow: hidden;
+				background-color: $red;
+
+				h2 {
+					color: $white;
+					font-family: $din-cond;
+					text-transform: uppercase;
+				}
+
+				span {
+					position: absolute;
+					bottom: 0;
+					left: 0;
+					margin: 0 0 15px 15px;
+					@include media-query(tabl) {
+						margin: 0 0 30px 30px;
+					}
+					@include media-query(lap) {
+						margin: 0 0 45px 45px;
+					}
+					@include media-query(desk) {
+						margin: 0 0 60px 60px;
+					}
+					color: $white;
+					font-family: $din;
+					font-weight: bold;
+					&:before {
+						margin-right: .5rem;
+						content: "\2190";
+						font-family: $din;
+						display: inline-block;
+						vertical-align: middle;
+						margin-top: -0.6rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Article bottom navigation next
+.article {
+	@include e(nav) {
+		@include m(bottom) {
+			@include m(next) {
+				@extend .article__nav--bottom--index-next;
+				background-color: none;
+				padding: 0;
+				@include m(content) {
+					position: relative;
+					padding: 15px;
+					box-sizing: border-box;
+					height: 360px;
+					@include media-query(tabl) {
+						padding: 30px;
+					}
+					@include media-query(lap-and-up) {
+						padding: 45px ;
+					}
+					@include media-query(desk) {
+						padding: 60px;
+						height: 400px;
+					}
+					h2 {
+						color: $white;
+						font-family: $din-cond;
+						text-transform: uppercase;
+					}
+					p {
+						color: $white;
+					}
+					span {
+						position: absolute;
+						right: 0;
+						bottom: 0;
+						margin: 0 15px 15px 0;
+						@include media-query(tabl) {
+							margin: 0 30px 30px 0;
+						}
+						@include media-query(lap) {
+							margin: 0 45px 45px 0;
+						}
+						@include media-query(desk) {
+							margin: 0 60px 60px 0;
+						}
+						color: $white;
+						font-family: $din;
+						font-weight: bold;
+						&:after {
+							margin-left: .5rem;
+							content: "\2192";
+							font-family: $din;
+							font-size: small;
+							display: inline-block;
+							vertical-align: middle;
+							margin-top: -0.4rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Article bottom navigation prev
+.article {
+	@include e(nav) {
+		@include m(bottom) {
+			@include m(prev) {
+				@extend .article__nav--bottom--index-prev;
+				background-color: none;
+				padding: 0;
+
+				@include m(content) {
+					position: relative;
+					padding: 15px;
+					box-sizing: border-box;
+					height: 160px;
+					@include media-query(tabl) {
+						height: 200px;
+						padding: 30px;
+					}
+					@include media-query(lap-and-up) {
+						padding: 45px;
+						height: 360px;
+					}
+					@include media-query(desk) {
+						padding: 60px;
+						height: 400px
+					}
+					h2 {
+						color: $white;
+						font-family: $din-cond;
+						text-transform: uppercase;
+					}
+
+					span {
+						position: absolute;
+						bottom: 0;
+						left: 0;
+						margin: 0 0 15px 15px;
+						@include media-query(tabl) {
+							margin: 0 0 30px 30px;
+						}
+						@include media-query(lap) {
+							margin: 0 0 45px 45px;
+						}
+						@include media-query(desk) {
+							margin: 0 0 60px 60px;
+						}
+						color: $white;
+						font-family: $din;
+						font-weight: bold;
+						&:before {
+							margin-right: .5rem;
+							content: "\2190";
+							font-family: $din;
+							font-size: small;
+							display: inline-block;
+							vertical-align: middle;
+							margin-top: -0.4rem;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+// Article nav bottom overlay
+.article {
+	@include e(nav) {
+		@include m(bottom) {
+			@include m(overlay) {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				background-color: rgba(0,0,0,0.3);
+			}
+		}
+	}
+}

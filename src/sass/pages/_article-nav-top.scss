@@ -1,0 +1,64 @@
+// Article navigation top
+.article {
+	@include e(nav) {
+		@include m(top) {
+			padding: 15px;
+			@include media-query(tabl) {
+				padding: 15px 30px;
+			}
+			@include media-query(lap) {
+				padding: 15px 45px;
+			}
+			@include media-query(desk) {
+				padding: 30px 60px;
+			}
+			background-color: $red;
+			color: $white;
+			font-family: $din;
+			font-weight: 600;
+			text-transform: uppercase;
+			overflow: hidden;
+
+			@include m(index) {
+				width: 50%;
+				float: left;
+			}
+		}
+	}
+}
+
+// Article navigation top arrows
+.article {
+	@include e(nav) {
+		@include m(top) {
+			@include m(arrows) {
+				width: 50%;
+				float: left;
+				@include m(next) {
+					float: right;
+					&:after {
+						margin-left: .5rem;
+						content: "\2192";
+						font-family: $din;
+						font-size: small;
+						display: inline-block;
+						vertical-align: middle;
+						margin-top: -0.3rem;
+					}
+				}
+				@include m(prev) {
+					float: left;
+					&:before {
+						margin-right: .5rem;
+						content: "\2190";
+						font-family: $din;
+						font-size: small;
+						display: inline-block;
+						vertical-align: middle;
+						margin-top: -0.3rem;
+					}
+				}
+			}
+		}
+	}
+}
