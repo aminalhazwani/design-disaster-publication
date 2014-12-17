@@ -19,6 +19,10 @@
 		font-size: 1.75em;
 		padding: 15px 60px;
 	}
+	@include media-query(desk-super-wide) {
+		font-size: 2em;
+		padding: 15px 90px;
+	}
 }
 
 .header {
@@ -111,7 +115,7 @@
 
 .header {
 	@include e(navigation) {
-		position: absolute;
+		position: fixed;
 		top: -100%;
 		transition: top .5s ease-in-out;
 		&.is-open {

@@ -3,6 +3,7 @@
 	@include e(nav) {
 		@include m(bottom) {
 			overflow: hidden;
+			@include font-smooth();
 			@include media-query(tabl) {
 				font-size: 1.25em;
 			}
@@ -66,7 +67,7 @@
 					}
 					color: $white;
 					font-family: $din;
-					font-weight: 600;
+					font-weight: 700;
 					&:after {
 						margin-left: .5rem;
 						content: "\2192";
@@ -130,7 +131,7 @@
 					}
 					color: $white;
 					font-family: $din;
-					font-weight: 600;
+					font-weight: 700;
 					&:before {
 						margin-right: .5rem;
 						content: "\2190";
@@ -151,8 +152,6 @@
 		@include m(bottom) {
 			@include m(next) {
 				@extend .article__nav--bottom--index-next;
-				background-color: none;
-				padding: 0;
 				@include m(content) {
 					position: relative;
 					padding: 15px;
@@ -175,6 +174,7 @@
 					}
 					p {
 						color: $white;
+						line-height: 1.4;
 					}
 					span {
 						position: absolute;
@@ -192,7 +192,7 @@
 						}
 						color: $white;
 						font-family: $din;
-						font-weight: 600;
+						font-weight: 700;
 						&:after {
 							margin-left: .5rem;
 							content: "\2192";
@@ -214,9 +214,6 @@
 		@include m(bottom) {
 			@include m(prev) {
 				@extend .article__nav--bottom--index-prev;
-				background-color: none;
-				padding: 0;
-
 				@include m(content) {
 					position: relative;
 					padding: 15px;
@@ -256,7 +253,7 @@
 						}
 						color: $white;
 						font-family: $din;
-						font-weight: 600;
+						font-weight: 700;
 						&:before {
 							margin-right: .5rem;
 							content: "\2190";
@@ -272,6 +269,20 @@
 	}
 }
 
+// Article background image class
+.article {
+	@include e(nav) {
+		@include m(bottom) {
+			@include m(background) { 
+				background-color: none;
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: 50% 50%;
+				padding: 0;
+			}
+		}
+	}
+}
 // Article nav bottom overlay
 .article {
 	@include e(nav) {

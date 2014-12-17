@@ -18,6 +18,10 @@ article {
 			font-size: 1.5em;
 			padding: 90px 60px;
 		}
+		@include media-query(desk-super-wide) {
+			font-size: 1.75em;
+			padding: 120px 90px;
+		}
 	}
 }
 
@@ -118,14 +122,6 @@ article {
 
 // Article content floating
 .article {
-	margin-top: 56px;
-	@include media-query(tabl-and-up) {
-		margin-top: 58px;
-	}
-	@include media-query(desk) {
-		margin-top: 62px;
-	}
-
 	@include e(content) {
 		@include media-query(desk) { 
 			position: relative;

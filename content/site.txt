@@ -19,7 +19,7 @@ Copyright: This work is licensed under a <a rel="license" href="http://creativec
 ----
 
 Navigation: - (link: # text: About)
-- (link: # text: Index)
+- (link: # text: Index of articles)
 - (link: # text: DoD Blog)
 - (link: # text: MA in Glocal Design)
 - (link: # text: BA Design and Art)
