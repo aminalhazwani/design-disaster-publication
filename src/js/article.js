@@ -26,7 +26,7 @@ $(document).ready(function() {
 
 			tError: '<a href="%url%">The image</a> could not be loaded.' // Error message
 		},
-		mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+		mainClass: 'mfp-fade', // this class is for CSS animation below
 
 		zoom: {
 			enabled: true, // By default it's false, so don't forget to enable it
@@ -42,7 +42,8 @@ $(document).ready(function() {
 			  // you don't need to add "opener" option if this code matches your needs, it's defailt one.
 			  return openerElement.is('img') ? openerElement : openerElement.find('img');
 			}
-		}
+		},
+		closeOnContentClick: true
 	});
 });
 

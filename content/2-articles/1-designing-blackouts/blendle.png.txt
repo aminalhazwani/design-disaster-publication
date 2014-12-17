@@ -2,4 +2,4 @@ Cover:
 
 ----
 
-Caption: 
+Caption: I am a nice caption
