@@ -9,15 +9,15 @@
 		@include m(info) {
 			overflow: hidden;
 			position: relative;
-			padding: 30px 15px;
+			padding: 15px 15px 30px 15px;
 			@include media-query(tabl) {
-				padding: 45px 30px;
+				padding: 30px 30px 45px 30px;
 			}
 			@include media-query(lap) {
-				padding: 60px 45px;
+				padding: 45px 45px 60px 45px;
 			}
 			@include media-query(desk) {
-				padding: 90px 60px;
+				padding: 60px 60px 90px 60px;
 			}
 		}
 		@include m(overlay) {

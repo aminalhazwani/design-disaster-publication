@@ -12,6 +12,9 @@ fields:
   description:
     label: Description
     type:  textarea
+  navigation:
+    label: Navigation
+    type: textarea
   keywords:
     label: Keyword for SEO
     type: tags

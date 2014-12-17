@@ -118,6 +118,14 @@ article {
 
 // Article content floating
 .article {
+	margin-top: 56px;
+	@include media-query(tabl-and-up) {
+		margin-top: 58px;
+	}
+	@include media-query(desk) {
+		margin-top: 62px;
+	}
+
 	@include e(content) {
 		@include media-query(desk) { 
 			position: relative;

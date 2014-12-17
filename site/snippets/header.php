@@ -63,7 +63,7 @@
     <!-- Stylesheets -->
     <?php echo css('assets/styles/main.min.css') ?>
 
-    <!-- Scripts -->
+    <!-- Vendor Scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <?php echo js('assets/scripts/vendor/vendor.min.js') ?>
 </head>
@@ -72,6 +72,14 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-    <header class="header cf" role="banner">
-        <?php snippet('menu') ?>
+    <header class="header">
+        <div class="header__logo">
+            By <span>design</span> or by <span>disaster</span>
+        </div>
+
+        <div class="header__menu">
+            <span></span>
+        </div>
     </header>
+
+    <?php snippet('navigation') ?>

@@ -10,8 +10,16 @@ Description: This is Kirby's Starterkit.
 
 ----
 
-Keywords: Some, nice, keyword, home
+Keywords: Some,nice,keyword,home
 
 ----
 
 Copyright: This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
+----
+
+Navigation: - (link: # text: About)
+- (link: # text: Index)
+- (link: # text: DoD Blog)
+- (link: # text: MA in Glocal Design)
+- (link: # text: BA Design and Art)
