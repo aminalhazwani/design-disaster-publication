@@ -19,6 +19,7 @@
     'html' => function($tag) {
 
       $url     = $tag->attr('img');
+      $src     = $tag->attr('data-src');
       $alt     = $tag->attr('alt');
       $title   = $tag->attr('title');
       $link    = $tag->attr('link');
@@ -26,16 +27,27 @@
       $file    = $tag->file($url);
 
       // use the file url if available and otherwise the given url
-      $url = $file ? $file->url() : url($url);
+      $url = '/assets/images/1px.png';
+
+      // data-src
+      $src = $file ? $file->url() : url($url);
+
+      // class
+      $class = 'lazy';
 
       // alt text
-      $alt = $file->caption();
-      if(empty($alt)) $alt = pathinfo($url, PATHINFO_FILENAME);
+      if($file->caption() != '') {
+        $alt = $file->caption();
+      }
+      else {
+        $alt = pathinfo($url, PATHINFO_FILENAME);
+      }
 
       $img = html::img($url, array(
+        'data-src'=> html($src),
         'width'  => $tag->attr('width'),
         'height' => $tag->attr('height'),
-        'class'  => $tag->attr('imgclass'),
+        'class'  => html($class),
         'title'  => html($title),
         'alt'    => html($alt)
       ));
@@ -51,7 +63,7 @@
       $figure->addClass($tag->attr('class'));
       $figure->append($img);
 
-      if(!empty($file->caption())) {
+      if($file->caption() != '') {
         $figure->append('<figcaption>' . html($file->caption()) . '</figcaption>');
       }
 
