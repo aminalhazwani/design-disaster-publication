@@ -52,7 +52,7 @@
         'alt'    => html($alt)
       ));
 
-      $img = html::a(url($url), $img, array(
+      $img = html::a(html($src), $img, array(
         'rel'    => $tag->attr('rel'),
         'class'  => $tag->attr('linkclass'),
         'title'  => html($tag->attr('title')),
