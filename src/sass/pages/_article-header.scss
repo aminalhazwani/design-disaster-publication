@@ -127,6 +127,7 @@
 .article {
 	@include e(header) {
 		@include m(abstract) {
+			text-align: justify;
 			margin-top: 2.6rem;
 			p {
 				@include font-smooth();

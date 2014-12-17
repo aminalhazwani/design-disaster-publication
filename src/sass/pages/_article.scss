@@ -48,6 +48,7 @@ article {
 				color: $black;
 			}
 			blockquote {
+				text-align: left;
 				border-left-color: $black;
 			}
 			pullquote {
@@ -123,6 +124,7 @@ article {
 // Article content floating
 .article {
 	@include e(content) {
+		text-align: justify;
 		@include media-query(desk) { 
 			position: relative;
 			width: 50%;

@@ -9,15 +9,18 @@ fields:
   author:
     label: Author
     type:  text
+  keywords:
+    label: Keyword for SEO
+    type: tags
   description:
     label: Description
     type:  textarea
   navigation:
     label: Navigation
     type: textarea
-  keywords:
-    label: Keyword for SEO
-    type: tags
+  imprint:
+    label: Imprint
+    type: textarea
   copyright:
     label: Copyright
     type:  textarea

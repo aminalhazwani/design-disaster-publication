@@ -1,0 +1,96 @@
+.footer {
+	background-color: $yellow;
+	padding: 15px;
+	overflow: hidden;
+	@include media-query(tabl) { 
+		padding: 30px;
+	}
+	@include media-query(lap) { 
+		padding: 30px 45px;
+	}
+	@include media-query(desk) { 
+		padding: 45px 60px;
+	}
+	@include media-query(desk-wide) { 	
+		font-size: 1.25em;	
+		padding: 60px 60px;
+	}
+	@include media-query(desk-super-wide) { 
+		font-size: 1.25em;
+		padding: 60px 90px;
+	}
+
+	h4 {
+		font-size: smaller;
+		text-transform: uppercase;
+		letter-spacing: 1px;
+	}
+
+	p {
+		a {
+			border-bottom: 1px solid $black;
+		}
+	}
+}
+
+.footer {
+	@include e(col) {
+		margin-bottom: 2rem;
+		@include media-query(lap-and-up) {
+			width: 50%;
+			padding-right: 2rem;
+			box-sizing: border-box;
+			float: left;
+		}
+	}
+}
+
+.footer {
+	@include e(logos) {
+		overflow: hidden;
+		@include m(uni) {
+			width: 100%;
+			height: 100px;
+			background-image: url('/assets/images/logo-sidebarleft-unibz.png');
+			background-size: contain;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			@include media-query(tabl) { 
+				float: left;
+				width: 240px;
+				height: 80px;
+			}
+			@include media-query(desk) {
+				float: left;
+				width: 240px;
+				height: 80px;
+			}
+		}
+		@include m(press) {
+			width: 100%;
+			height: 100px;
+			margin-top: 1rem;
+			background-image: url('/assets/images/logo-header-bup.jpg');
+			background-size: contain;
+			background-position: 0 0;
+			background-repeat: no-repeat;
+			@include media-query(tabl) { 
+				float: left;
+				margin-top: 0;
+				width: 50%;
+				height: 80px;
+			}
+			@include media-query(desk) {
+				float: left;
+				margin-top: 0;
+				width: 50%;
+				height: 80px;
+			}
+		}
+
+		a {
+			display: block;
+			height: 100%;
+		}
+	}
+}

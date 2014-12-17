@@ -16,7 +16,7 @@
             </div>
         </div>
 
-        <div class="article__header--abstract">
+        <div class="article__header--abstract hyphenate">
             <?php echo $page->description()->kirbytext() ?>
         </div>
     </div>
