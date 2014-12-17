@@ -22,6 +22,10 @@ article {
 			font-size: 1.75em;
 			padding: 120px 90px;
 		}
+
+		&:last-of-type {
+			display: none;
+		}
 	}
 }
 
@@ -131,6 +135,7 @@ article {
 			left: 50%;
 		}
 		h2 {
+			text-align: left;
 			@include media-query(desk) {
 				position: absolute;
 				max-width: 100%;
@@ -140,6 +145,7 @@ article {
 			}
 		}
 		h3 {
+			text-align: left;
 			margin-top: 2.6rem;
 		}
 		p {
@@ -170,6 +176,7 @@ article {
 			}
 		}
 		ol, ul {
+			text-align: left;
 			margin-left: .3rem;
 			@include media-query (tabl-and-up) {
 				margin-left: 2.6rem;

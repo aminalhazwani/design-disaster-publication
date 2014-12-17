@@ -1,9 +1,5 @@
-Caption: 
+Caption: I am a traliccio elettrico
 
 ----
 
 Cover: 1
-
-----
-
-Size: left
