@@ -1,7 +1,3 @@
-.lazy {
-	display: none;
-}
-
 // Article content font-sizes and paddings
 article {
 	section {
@@ -165,6 +161,10 @@ article {
 				font-family: $din;
 				font-size: smaller;
 				margin-top: .5rem;
+			}
+			img {
+			  opacity: 0;
+			  transition: opacity .5s ease-in;
 			}
 		}
 		ol, ul {
