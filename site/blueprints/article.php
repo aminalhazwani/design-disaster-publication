@@ -5,6 +5,9 @@ pages: false
 files:
   sortable: true
   fields: 
+    caption:
+      label: Caption
+      type: text
     cover:
       label: Cover Image
       type: checkbox

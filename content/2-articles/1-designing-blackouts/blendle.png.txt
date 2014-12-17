@@ -1,5 +1,5 @@
-Caption: I am a caption
+Cover: 
 
 ----
 
-Cover: 
+Caption: I am a nice caption
