@@ -52,6 +52,7 @@
 		@include m(uni) {
 			width: 100%;
 			height: 100px;
+			margin-bottom: 1rem;
 			background-image: url('/assets/images/logo-sidebarleft-unibz.png');
 			background-size: contain;
 			background-position: 0 0;
@@ -70,14 +71,12 @@
 		@include m(press) {
 			width: 100%;
 			height: 100px;
-			margin-top: 1rem;
 			background-image: url('/assets/images/logo-header-bup.jpg');
 			background-size: contain;
 			background-position: 0 0;
 			background-repeat: no-repeat;
 			@include media-query(tabl) { 
 				float: left;
-				margin-top: 0;
 				width: 50%;
 				height: 80px;
 			}

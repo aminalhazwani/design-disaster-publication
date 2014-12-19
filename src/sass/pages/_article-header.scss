@@ -46,6 +46,7 @@
 			line-height: .9;
 			font-family: $din-cond;
 			font-size: 3em;
+			word-break: break-word;
 			@include media-query(tabl) {
 				font-size: 4em;
 				margin-bottom: 2rem;
