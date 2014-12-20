@@ -1,45 +1,5 @@
-// $('article').find('blockquote').addClass('donthyphenate');
-// $('article').find('pullquote').addClass('donthyphenate');
-// $('article').find('h2').addClass('donthyphenate');
-// $('article').find('ul').addClass('donthyphenate');
-// $('article').find('ol').addClass('donthyphenate');
-// Hyphenator.config({
-//     donthyphenateclassname : 'donthyphenate'
-// });
-// Hyphenator.run();
-
-$(document).ready(function() {
-$('article').magnificPopup({
-	delegate: '> section > div > figure > a',
-	type:'image',
-	image: {
-		markup: '<div class="mfp-figure">'+
-		    '<div class="mfp-close"></div>'+
-		    '<div class="mfp-img"></div>'+
-		    '<div class="mfp-bottom-bar">'+
-		      '<div class="mfp-title"></div>'+
-		      '<div class="mfp-counter"></div>'+
-		    '</div>'+
-		  '</div>', 
-		cursor: 'mfp-zoom-out-cur', 
-		titleSrc: 'title', 
-		verticalFit: true, 
-		tError: '<a href="%url%">The image</a> could not be loaded.' 
-	},
-	mainClass: 'mfp-fade', 
-	zoom: {
-		enabled: true, 
-		duration: 300, 
-		easing: 'ease-in-out', 
-		opener: function(openerElement) {
-		  return openerElement.is('img') ? openerElement : openerElement.find('img');
-		}
-	},
-	closeOnContentClick: true
-});
-
+// Lazy loading
 ;(function($) {
-
   $.fn.unveil = function(threshold, callback) {
 
     var $w = $(window),
@@ -74,21 +34,66 @@ $('article').magnificPopup({
       loaded = inview.trigger("unveil");
       images = images.not(loaded);
     }
-
     $w.on("scroll.unveil resize.unveil lookup.unveil", unveil);
-
     unveil();
-
     return this;
+};
 
-  };
-
-})(window.jQuery || window.Zepto);
+})(window.jQuery);
 
 $('img').unveil(0, function() {
-  $(this).load(function() {
-    this.style.opacity = 1;
-  });
+    $(this).load(function() {
+        this.style.opacity = 1;
+    });
+});
+
+// Smoothstate
+;(function ($) {
+    'use strict';
+    var $body    = $('html, body'),
+        content  = $('#main').smoothState({
+            prefetch: true,
+            pageCacheSize: 4,
+            onStart: {
+                duration: 600,
+                render: function () {
+                    content.toggleAnimationClass('is-exiting');
+                    $body.scrollTop({
+                        scrollTop: 0
+                    });
+                }
+            }
+        }).data('smoothState');
+})(jQuery);
+
+// Magnific Popup
+$('article').magnificPopup({
+	delegate: '> section > div > figure > a',
+	type:'image',
+	image: {
+		markup: '<div class="mfp-figure">'+
+		    '<div class="mfp-close"></div>'+
+		    '<div class="mfp-img"></div>'+
+		    '<div class="mfp-bottom-bar">'+
+		      '<div class="mfp-title"></div>'+
+		      '<div class="mfp-counter"></div>'+
+		    '</div>'+
+		  '</div>', 
+		cursor: 'mfp-zoom-out-cur', 
+		titleSrc: 'title', 
+		verticalFit: true, 
+		tError: '<a href="%url%">The image</a> could not be loaded.' 
+	},
+	mainClass: 'mfp-fade', 
+	zoom: {
+		enabled: true, 
+		duration: 300, 
+		easing: 'ease-in-out', 
+		opener: function(openerElement) {
+		  return openerElement.is('img') ? openerElement : openerElement.find('img');
+		}
+	},
+	closeOnContentClick: true
 });
 
 // $('.article__content').flowtype({
@@ -98,14 +103,7 @@ $('img').unveil(0, function() {
 //    maxFont   : 32
 // });
 
-});
-
-/*
-* Vanilla Hypher 0.1.0
-* Based on https://github.com/bramstein/hypher
-* @author Kyle Foster (@hkfoster)
-* @license MIT
-*/
+// Hyphenation
 (function () {
 
 var module = {

@@ -1,10 +1,13 @@
 <?php snippet('header') ?>
 
-<main class="article" role="main">
-    <?php snippet('article-header') ?>
-    <?php snippet('article-content') ?>
-    <?php snippet('article-bottom-navigation') ?>
+<main id="main" class="article m-scene" role="main">
+	<div class="scene_element scene_element--slideinup">
+	    <?php snippet('article-header') ?>
+	    <?php snippet('article-content') ?>
+	    <?php snippet('article-bottom-navigation') ?>
+	    <?php snippet('footer') ?>
+	</div>
 </main>
 
-<?php echo js('assets/scripts/article.min.js') ?>
-<?php snippet('footer') ?>
+</body>
+</html>
