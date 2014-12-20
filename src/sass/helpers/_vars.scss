@@ -20,3 +20,6 @@ $desk-super-wide-start:   2000px;
 $palm-end:     		$tabl-start - 1px;
 $tabl-end:     		$lap-start - 1px;
 $lap-end:      		$desk-start;
+
+// Transition
+$bezier: cubic-bezier(.55, 0, .1, 1);

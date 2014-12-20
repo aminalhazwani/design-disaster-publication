@@ -1,5 +1,5 @@
 <nav class="article__nav--top">
-	<a href="#" class="article__nav--top--index">INDEX</a>
+	<a href="<?php echo $site->url()?>/index" class="article__nav--top--index">INDEX</a>
 	<div class="article__nav--top--arrows">
 		<?php if($prev = $page->prevVisible()): ?>
 	    	<a class="article__nav--top--arrows--prev" href="<?php echo $prev->url() ?>">PREV</a>

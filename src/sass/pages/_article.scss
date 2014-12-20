@@ -1,24 +1,3 @@
-// Article animations
-.m-scene {
-  .scene_element {
-    animation-duration: .6s;
-    transition-timing-function: ease-in;
-    animation-fill-mode: both;
-
-  }
-
-  .scene_element--slideinup {
-    animation-name: slideInUp;
-  }
-
-  /** Reverse "exit" animations */
-  &.is-exiting {
-	.scene_element {
-		animation-direction: alternate-reverse;
-	}
-  }
-}
-
 // Article content font-sizes and paddings
 article {
 	section {

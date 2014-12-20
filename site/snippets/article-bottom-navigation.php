@@ -9,7 +9,7 @@
 	    	</div>
     	</a>
     <?php else: ?>
-    	<a href="#" class="article__nav--bottom--index-next">
+    	<a href="<?php echo $site->url()?>/index" class="article__nav--bottom--index-next">
     		<h2>BACK TO THE INDEX</h2>
     		<span></span>
     	</a>
@@ -23,7 +23,7 @@
     		</div>
     	</a>
     <?php else: ?>
-    	<a href="#" class="article__nav--bottom--index-prev">
+    	<a href="<?php echo $site->url()?>/index" class="article__nav--bottom--index-prev">
     		<h2>BACK TO THE INDEX</h2>
     		<span></span>
     	</a>

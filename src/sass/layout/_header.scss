@@ -69,28 +69,28 @@
 			width: 20px;
 			height: 3px;
 			background-color: $rich-black;
-			transition: all .3s ease-in-out;
+			transition: all .3s $bezier;
 
 			&:after {
 				position: absolute;
-				top: 7px;
+				top: 8px;
 				right: 0;
 				width: 20px;
 				height: 3px;
 				background-color: $rich-black;
 				content: " ";
-				transition: all .5s ease-in-out;
+				transition: all .5s $bezier;
 			}
 
 			&:before {
 				position: absolute;
-				top: -7px;
+				top: -8px;
 				right: 0;
 				width: 20px;
 				height: 3px;
 				background-color: $rich-black;
 				content: " ";
-				transition: all .5s ease-in-out;
+				transition: all .7s $bezier;
 			}
 		}
 
@@ -117,7 +117,7 @@
 	@include e(navigation) {
 		position: fixed;
 		top: -100%;
-		transition: top .5s ease-in-out;
+		transition: top .7s $bezier;
 		&.is-open {
 			top: 56px;
 			@include media-query(tabl-and-up) {

@@ -3156,3 +3156,27 @@ Copyright (c) 2014 Daniel Eden
   -webkit-animation-name: slideOutUp;
           animation-name: slideOutUp;
 }
+
+// Animations
+.m-scene {
+  .scene_element {
+    animation-duration: .7s;
+    transition-timing-function: $bezier;
+    animation-fill-mode: both;
+  }
+
+  .scene_element--fadeinup {
+    animation-name: fadeInUp;
+  }
+
+  .scene_element--fadeindown {
+    animation-name: fadeInDown;
+  }
+
+  /** Reverse "exit" animations */
+  &.is-exiting {
+  .scene_element {
+    animation-direction: alternate-reverse;
+  }
+  }
+}

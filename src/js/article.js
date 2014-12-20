@@ -47,25 +47,6 @@ $('img').unveil(0, function() {
     });
 });
 
-// Smoothstate
-;(function ($) {
-    'use strict';
-    var $body    = $('html, body'),
-        content  = $('#main').smoothState({
-            prefetch: true,
-            pageCacheSize: 4,
-            onStart: {
-                duration: 600,
-                render: function () {
-                    content.toggleAnimationClass('is-exiting');
-                    $body.scrollTop({
-                        scrollTop: 0
-                    });
-                }
-            }
-        }).data('smoothState');
-})(jQuery);
-
 // Magnific Popup
 $('article').magnificPopup({
 	delegate: '> section > div > figure > a',
@@ -96,6 +77,26 @@ $('article').magnificPopup({
 	closeOnContentClick: true
 });
 
+// Smoothstate
+;(function ($) {
+    'use strict';
+    var $body    = $('html, body'),
+        content  = $('#main').smoothState({
+            prefetch: true,
+            pageCacheSize: 4,
+            blacklist: '.article__content > figure > a, .header',
+            onStart: {
+                duration: 600,
+                render: function () {
+                    content.toggleAnimationClass('is-exiting');
+                    $body.scrollTop({
+                        scrollTop: 0
+                    });
+                }
+            }
+        }).data('smoothState');
+})(jQuery);
+
 // $('.article__content').flowtype({
 //    minimum   : 320,
 //    maximum   : 2560,
@@ -104,6 +105,12 @@ $('article').magnificPopup({
 // });
 
 // Hyphenation
+/*
+* Vanilla Hypher 0.1.0
+* Based on https://github.com/bramstein/hypher
+* @author Kyle Foster (@hkfoster)
+* @license MIT
+*/
 (function () {
 
 var module = {
@@ -404,4 +411,4 @@ for (var i = 0; i < module.exports.id.length; i += 1) {
 }());
 
 // Hyphenate paragraph text
-new hyphenate( 'h1.hyphenate, .article__content > p', 'en-us' );
+new hyphenate( 'h1, .article__content > p, .article__header--abstract > p', 'en-us' );
