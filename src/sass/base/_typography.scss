@@ -103,6 +103,14 @@ pullquote {
 		font-size: smaller;
 		li > p {
 			margin-bottom: .5rem;
+			&:first-of-type::first-letter {
+				float: none;
+				font-family: $utopia;
+				font-weight: 400;
+				font-size: 1em;
+				padding-right: 0;
+				line-height: 1.6;
+			}
 		}
 	}
 }

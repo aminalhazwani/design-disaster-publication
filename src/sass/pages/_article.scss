@@ -152,6 +152,27 @@ article {
 			&:last-of-type {
 				margin-bottom: 0;
 			}
+
+			&:first-of-type {
+				&::first-letter {
+					float: left;
+					font-family: $din;
+					font-weight: 700;
+					font-size: 3.3em;
+					padding-right: .5rem;
+					line-height: .9;
+				}
+			}
+		}
+		blockquote {
+			p:first-of-type::first-letter {
+				float: none;
+				font-family: $utopia;
+				font-weight: 400;
+				font-size: 1em;
+				padding-right: 0;
+				line-height: 1.6;
+			}
 		}
 		ol, ul {
 			text-align: left;
