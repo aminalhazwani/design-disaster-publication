@@ -23,7 +23,9 @@
 	<!-- Vendor Scripts -->
 	<?php echo js('assets/scripts/vendor/vendor.min.js') ?>
 	<!-- Page Scripts -->
-	<?php echo js('assets/scripts/article.min.js') ?>
+	<?php if($page->template() == 'article'): ?>
+		<?php echo js('assets/scripts/article.min.js') ?>
+	<?php endif ?>
 	<!-- Main Scripts -->
 	<?php echo js('assets/scripts/main.min.js') ?>
 
