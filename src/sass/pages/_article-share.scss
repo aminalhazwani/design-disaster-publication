@@ -11,14 +11,9 @@
 			padding: 30px;
 		}
 		p {
-			margin-bottom: 1rem;
+			display: inline-block;
+			margin-bottom: 0;
 			line-height: 1.4;
-		}
-		@include media-query(desk) {
-			p {
-				display: inline-block;
-				margin-right: 2rem;
-			}
 		}
 		a {
 			width: 3rem;

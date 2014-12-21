@@ -34,6 +34,7 @@
 
       // class
       $class = 'lazy';
+      $imgMode = $file->measure();
 
       // alt text
       if($file->caption() != '') {
@@ -60,7 +61,7 @@
       ));
 
       $figure = new Brick('figure');
-      $figure->addClass($tag->attr('class'));
+      $figure->addClass(html($imgMode));
       $figure->append($img);
 
       if($file->caption() != '') {

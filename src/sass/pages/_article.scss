@@ -153,34 +153,55 @@ article {
 				margin-bottom: 0;
 			}
 		}
-		figure {
-			line-height: 0;
-			margin: 2.6rem 0;
-			@include media-query(desk) {
-				position: absolute;
-				left: -100%;
-				max-width: 100%;
-				margin-top: .6rem;
-				padding-right: 3.9rem;
-				box-sizing: border-box
-			}
-			figcaption {
-				line-height: 1;
-				font-family: $din;
-				font-size: smaller;
-				margin-top: .5rem;
-			}
-			img {
-			  opacity: 0;
-			  transition: opacity .5s ease-in;
-			}
-		}
 		ol, ul {
 			text-align: left;
 			margin-left: .3rem;
 			@include media-query (tabl-and-up) {
 				margin-left: 2.6rem;
 				padding: 0 0 0 2rem;
+			}
+		}
+	}
+}
+
+// Article Images handling
+.article {
+	@include e(content) {
+		figure {
+			line-height: 0;
+			margin: 2.6rem 0;
+			&.left {
+				@include media-query(desk) {
+					position: absolute;
+					left: -100%;
+					max-width: 100%;
+					margin-top: .6rem;
+					padding-right: 3.9rem;
+					box-sizing: border-box
+				}
+			}
+			&.inline {}
+			&.full {
+				@include media-query(desk) {
+					width: 200%;
+					margin-left: -100%;
+
+					img {
+						width: 100%;
+					}
+				}
+			}
+
+			img {
+			  opacity: 0;
+			  transition: opacity .5s ease-in;
+			}
+
+			figcaption {
+				line-height: 1;
+				font-family: $din;
+				font-size: smaller;
+				margin-top: .5rem;
 			}
 		}
 	}

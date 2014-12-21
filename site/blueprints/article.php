@@ -12,6 +12,14 @@ files:
       label: Cover Image
       type: checkbox
       text: Is this the cover image?
+    measure:
+      label: Image size
+      type: radio
+      default: left
+      options:
+        left: Left
+        inline: Inline
+        full: Full
 fields:
   title:
     label: Title

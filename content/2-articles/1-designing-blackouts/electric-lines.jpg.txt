@@ -3,3 +3,7 @@ Caption: I am a traliccio elettrico
 ----
 
 Cover: 1
+
+----
+
+Measure: inline

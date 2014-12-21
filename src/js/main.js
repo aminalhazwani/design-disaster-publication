@@ -8,6 +8,17 @@ $('.header__navigation').find('a').click(function(){
     $('.header__menu').removeClass('is-active');
 });
 
+$( document ).on( 'keydown', function ( e ) {
+    if ( e.keyCode === 27 ) { // ESC
+        if ( $('.header__navigation').hasClass('is-open') )  {
+			$('.header__navigation').removeClass('is-open');
+		}
+		if ( $('.header__menu').hasClass('is-active') ) {
+			$('.header__menu').removeClass('is-active');
+		}
+    }
+});
+
 $(window).scroll(function() {
 	if ( $('.header__navigation').hasClass('is-open') )  {
 		$('.header__navigation').removeClass('is-open');

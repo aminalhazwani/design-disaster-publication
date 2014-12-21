@@ -84,7 +84,7 @@ $('article').magnificPopup({
         content  = $('#main').smoothState({
             prefetch: true,
             pageCacheSize: 4,
-            blacklist: '.article__content > figure > a, .header',
+            blacklist: '.article__content > figure > a, .header__menu',
             onStart: {
                 duration: 600,
                 render: function () {
