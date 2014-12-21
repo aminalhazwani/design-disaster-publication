@@ -8,29 +8,44 @@
 		text-align: center;
 		overflow: hidden;
 		@include media-query(tabl-and-up) {
-			padding: 30px;
+			padding: 30px 45px;
 		}
 		p {
 			display: inline-block;
+			margin-right: 1rem;
 			margin-bottom: 0;
 			line-height: 1.4;
+
+			&:before {
+				content: "Share it!";
+
+				@include media-query(tabl) {
+					content: "Enjoying? Share it!";
+				}
+
+				@include media-query(lap-and-up) {
+					content: "It looks like you’re enjoying this publication... share it!";
+				}
+			}
 		}
 		a {
 			width: 3rem;
 			height: 3rem;
-			@include media-query(tabl-and-up) {
+			@include media-query(desk) {
 				width: 4rem;
 				height: 4rem;
 			}
 			display: inline-block;
 			vertical-align: middle;
-			&:nth-child(3) {
-				margin: 0 2rem 0 1.5rem;
-				@include media-query(desk) {
-					margin: 0 1rem 0 .5rem;
-				}
-			}
 		}
+	}
+}
+
+.article {
+	@include e(share) {
+		@include m(icons) {
+			display: inline-block;
+		} 
 	}
 }
 
