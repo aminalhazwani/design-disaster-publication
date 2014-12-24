@@ -26,6 +26,10 @@
 	<?php if($page->template() == 'article'): ?>
 		<?php echo js('assets/scripts/article.min.js') ?>
 	<?php endif ?>
+	<!-- Page Scripts -->
+	<?php if($page->template() == 'index'): ?>
+		<?php echo js('assets/scripts/index.min.js') ?>
+	<?php endif ?>
 	<!-- Main Scripts -->
 	<?php echo js('assets/scripts/main.min.js') ?>
 

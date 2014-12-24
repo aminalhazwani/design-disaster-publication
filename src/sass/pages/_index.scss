@@ -10,12 +10,12 @@
 .index {
 	@include e(item) {
 		list-style-type: none;
-		margin-bottom: -2px;
-
+		@include media-query(tabl-and-up) {
+			width: 50%;
+		}
 		a {
 			display: block;
 			width: 100%;
-
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -70,10 +70,6 @@
 				position: relative;
 				color: $white;
 				@include font-smooth();
-
-				@include media-query(lap-and-up) {
-					column-count: 2;
-				}
 			}
 		}
 	}
