@@ -1,6 +1,6 @@
 var container = document.querySelector('.index__navigation--list');
-var msnry = new Masonry( container, {
-  itemSelector: '.index__item',
-  width: '.index__item',
-  gutter: 0
+$container.masonry({
+	columnWidth: function( containerWidth ) {
+		return containerWidth / 2
+	}
 });

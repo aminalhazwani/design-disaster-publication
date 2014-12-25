@@ -1,3 +1,9 @@
+// .grid-sizer {
+// 	width: 50%;
+// 	visibility: hidden;
+// }
+
+
 .index {
 	@include e(navigation) {
 		@include m(list) {
@@ -12,6 +18,7 @@
 		list-style-type: none;
 		@include media-query(tabl-and-up) {
 			width: 50%;
+			float: left;
 		}
 		a {
 			display: block;
