@@ -10,6 +10,19 @@
 			margin: 0;
 			padding: 0;
 			clear: both;
+
+			@include media-query(tabl) {
+				font-size: 1.25em;	
+			}
+			@include media-query(lap) {
+				font-size: 1.25em;				
+			}
+			@include media-query(desk) {
+				font-size: 1.25em;				
+			}
+			@include media-query(desk-super-wide) {
+				font-size: 1.5em;				
+			}
 		}
 	}
 }
@@ -49,7 +62,6 @@
 				padding: 60px 60px 90px 60px;
 			}
 			@include media-query(desk-super-wide) {
-				font-size: 1.25em;
 				padding: 90px 90px 120px 90px;
 			}
 		}
@@ -74,6 +86,7 @@
 			font-family: $din;
 			color: $white;
 			@include font-smooth();
+			margin-bottom: .5rem;
 		}
 
 		@include m(description) {
