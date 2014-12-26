@@ -9,6 +9,7 @@
 		@include m(list) {
 			margin: 0;
 			padding: 0;
+			clear: both;
 		}
 	}
 }
@@ -16,8 +17,12 @@
 .index {
 	@include e(item) {
 		list-style-type: none;
-		@include media-query(tabl-and-up) {
+		@include media-query(lap-and-up) {
 			width: 50%;
+			float: left;
+		}
+		@include media-query(desk-wide) {
+			width: 33.33333%;
 			float: left;
 		}
 		a {
