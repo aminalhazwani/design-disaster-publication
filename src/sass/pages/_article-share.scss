@@ -1,42 +1,44 @@
 // Article share 
 .article {
 	@include e(share) {
-		padding: 15px;
+		padding: 15px 0;
+		@include media-query(tabl) {
+			padding: 30px 0;
+		}
+		@include media-query(lap) {
+			padding: 45px 0;
+		}
+		@include media-query(desk) {
+			padding: 60px 0;
+		}
 		font-family: $din;
-		font-weight: 600;
-		background-color: $yellow;
+		font-size: 1em;
+		font-weight: 700;
 		text-align: center;
 		overflow: hidden;
-		@include media-query(tabl-and-up) {
-			padding: 30px 45px;
-		}
 		p {
 			display: inline-block;
-			margin-right: 1rem;
+			margin-right: .5rem;
+			@include media-query(tabl-and-up) {
+				margin-right: 1rem;
+			}
 			margin-bottom: 0;
 			line-height: 1.4;
 
 			&:before {
 				content: "Share it!";
 
-				@include media-query(tabl) {
+				@include media-query(tabl-and-up) {
 					content: "Enjoying? Share it!";
 				}
 
-				@include media-query(lap-and-up) {
+				@include media-query(desk) {
 					content: "It looks like you’re enjoying this publication... share it!";
 				}
 			}
 		}
 		a {
-			width: 3rem;
-			height: 3rem;
-			@include media-query(desk) {
-				width: 4rem;
-				height: 4rem;
-			}
 			display: inline-block;
-			vertical-align: middle;
 		}
 	}
 }
@@ -52,22 +54,32 @@
 .article {
 	@include e(share) {
 		@include m(fbk) {
-			background-image: url('/assets/images/share-fbk.svg');
-			background-size: contain;
-			background-position: 50% 50%;
-			background-repeat: no-repeat;
+			&:before {
+				content: "Facebook";
+				@include media-query(lap-and-up) {
+					content: "on Facebook";
+				}
+			}
 		}
 		@include m(bird) {
-			background-image: url('/assets/images/share-twt.svg');
-			background-size: contain;
-			background-position: 50% 50%;
-			background-repeat: no-repeat;
+			&:before {
+				content: "Twitter";
+				@include media-query(lap-and-up) {
+					content: "on Twitter";
+				}
+			}
+			margin: 0 .25rem;
+			@include media-query(tabl-and-up) {
+				margin: 0 1rem;
+			}
 		}
 		@include m(mail) {
-			background-image: url('/assets/images/share-email.svg');
-			background-size: contain;
-			background-position: 50% 50%;
-			background-repeat: no-repeat;
+			&:before {
+				content: "E-mail";
+				@include media-query(tabl-and-up) {
+					content: "via E-mail";
+				}
+			}
 		}
 	}
 }

@@ -6,8 +6,8 @@
             <h2><?php echo $page->introtitle() ?></h2>
             <?php echo $page->intro()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chone() != ''): ?> 
@@ -17,8 +17,8 @@
             <h2><?php echo $page->chonetitle() ?></h2>
             <?php echo $page->chone()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chtwo() != ''): ?>
@@ -28,8 +28,8 @@
             <h2><?php echo $page->chtwotitle() ?></h2>
             <?php echo $page->chtwo()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chthree() != ''): ?>
@@ -39,8 +39,8 @@
             <h2><?php echo $page->chthreetitle() ?></h2>
             <?php echo $page->chthree()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chfour() != ''): ?>
@@ -50,8 +50,8 @@
             <h2><?php echo $page->chfourtitle() ?></h2>
             <?php echo $page->chfour()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chfive() != ''): ?>
@@ -61,8 +61,8 @@
             <h2><?php echo $page->chfivetitle() ?></h2>
             <?php echo $page->chfive()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chsix() != ''): ?>
@@ -72,8 +72,8 @@
             <h2><?php echo $page->chsixtitle() ?></h2>
             <?php echo $page->chsix()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chseven() != ''): ?>
@@ -83,8 +83,8 @@
             <h2><?php echo $page->chseventitle() ?></h2>
             <?php echo $page->chseven()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->cheight() != ''): ?>
@@ -94,8 +94,8 @@
             <h2><?php echo $page->cheighttitle() ?></h2>
             <?php echo $page->cheight()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chnine() != ''): ?>
@@ -105,8 +105,8 @@
             <h2><?php echo $page->chninetitle() ?></h2>
             <?php echo $page->chnine()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->chten() != ''): ?>
@@ -116,8 +116,8 @@
             <h2><?php echo $page->chtentitle() ?></h2>
             <?php echo $page->chten()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->conclusion() != ''): ?>
@@ -127,8 +127,8 @@
             <h2><?php echo $page->conclusiontitle() ?></h2>
             <?php echo $page->conclusion()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 
     <?php if($page->appendix() != ''): ?>
@@ -138,7 +138,7 @@
             <h2><?php echo $page->appendixtitle() ?></h2>
             <?php echo $page->appendix()->kirbytext() ?>
         </div>
+        <?php snippet('article-share') ?> 
     </section>
-    <?php snippet('article-share') ?> 
     <?php endif ?>
 </article>
