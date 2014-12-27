@@ -1,18 +1,23 @@
 .footer {
-	background-color: $yellow;
+	background-color: $rich-black;
 	overflow: hidden;
 	clear: both;
+	max-width: 1200px;
+	margin: 0 auto;
 
 	h4 {
 		font-size: smaller;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		color: $red;
+		color: $white;
+		@include font-smooth();
 	}
 
 	p {
+		color: $white;
+		@include font-smooth();
 		a {
-			border-bottom: 1px solid $black;
+			border-bottom: 1px solid $white;
 		}
 	}
 }
