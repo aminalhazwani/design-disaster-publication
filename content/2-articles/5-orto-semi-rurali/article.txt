@@ -1,0 +1,241 @@
+Title: L'orto Semi-Rurali
+
+----
+
+Keywords: 
+
+----
+
+Description: Donec sed odio dui. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Aenean lacinia bibendum nulla sed consectetur. Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
+
+----
+
+Author: Cecilia Palmer
+
+----
+
+Authoraffilation: Designer
+
+----
+
+Authormail: 
+
+----
+
+Designer: Anja Salzer
+
+----
+
+Designeraffilation: Sociologist
+
+----
+
+Designermail: 
+
+----
+
+Introtitle: 
+
+----
+
+Introbkcolor: white
+
+----
+
+Introtextcolor: black
+
+----
+
+Intro: 
+
+----
+
+Chonetitle: 
+
+----
+
+Chonebkcolor: white
+
+----
+
+Chonetextcolor: black
+
+----
+
+Chone: 
+
+----
+
+Chtwotitle: 
+
+----
+
+Chtwobkcolor: white
+
+----
+
+Chtwotextcolor: black
+
+----
+
+Chtwo: 
+
+----
+
+Chthreetitle: 
+
+----
+
+Chthreebkcolor: white
+
+----
+
+Chthreetextcolor: black
+
+----
+
+Chthree: 
+
+----
+
+Chfourtitle: 
+
+----
+
+Chfourbkcolor: white
+
+----
+
+Chfourtextcolor: black
+
+----
+
+Chfour: 
+
+----
+
+Chfivetitle: 
+
+----
+
+Chfivebkcolor: white
+
+----
+
+Chfivetextcolor: black
+
+----
+
+Chfive: 
+
+----
+
+Chsixtitle: 
+
+----
+
+Chsixbkcolor: white
+
+----
+
+Chsixtextcolor: black
+
+----
+
+Chsix: 
+
+----
+
+Chseventitle: 
+
+----
+
+Chsevenbkcolor: white
+
+----
+
+Chseventextcolor: black
+
+----
+
+Chseven: 
+
+----
+
+Cheighttitle: 
+
+----
+
+Cheightbkcolor: white
+
+----
+
+Cheighttextcolor: black
+
+----
+
+Cheight: 
+
+----
+
+Chninetitle: 
+
+----
+
+Chninebkcolor: white
+
+----
+
+Chninetextcolor: black
+
+----
+
+Chnine: 
+
+----
+
+Chtentitle: 
+
+----
+
+Chtenbkcolor: white
+
+----
+
+Chtentextcolor: black
+
+----
+
+Chten: 
+
+----
+
+Conclusiontitle: 
+
+----
+
+Conclusionbkcolor: white
+
+----
+
+Conclusiontextcolor: black
+
+----
+
+Conclusion: 
+
+----
+
+Appendixtitle: 
+
+----
+
+Appendixbkcolor: white
+
+----
+
+Appendixtextcolor: black
+
+----
+
+Appendix: 

@@ -38,7 +38,7 @@ Introtitle: Introduction
 
 ----
 
-Introbkcolor: white
+Introbkcolor: black
 
 ----
 
@@ -277,4 +277,4 @@ Appendix:
 
 ----
 
-Introtextcolor: black
+Introtextcolor: white
