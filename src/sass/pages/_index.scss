@@ -5,17 +5,8 @@
 			padding: 0;
 			clear: both;
 
-			@include media-query(tabl) {
+			@include media-query(tabl-and-up) {
 				font-size: 1.25em;	
-			}
-			@include media-query(lap) {
-				font-size: 1.25em;				
-			}
-			@include media-query(desk) {
-				font-size: 1.25em;				
-			}
-			@include media-query(desk-super-wide) {
-				font-size: 1.5em;				
 			}
 		}
 	}
@@ -26,10 +17,6 @@
 		list-style-type: none;
 		@include media-query(desk) {
 			width: 50%;
-			float: left;
-		}
-		@include media-query(desk-wide) {
-			width: 33.33333%;
 			float: left;
 		}
 		a {
@@ -58,9 +45,6 @@
 			}
 			@include media-query(desk) {
 				padding: 60px 60px 90px 60px;
-			}
-			@include media-query(desk-super-wide) {
-				padding: 90px 90px 120px 90px;
 			}
 		}
 	}
