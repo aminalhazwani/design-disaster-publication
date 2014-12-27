@@ -13,9 +13,6 @@
 			@include media-query(desk) {
 				font-size: 1.25em;
 			}
-			@include media-query(desk-wide) {
-				font-size: 1.5em;
-			}
 		}
 	}
 }

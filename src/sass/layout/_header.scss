@@ -7,6 +7,7 @@
 	margin: 0 auto;
 	z-index: 3;
 	box-sizing: border-box;
+	transition: all .3s $bezier;
 	background-color: $yellow;
 	font-size: 1.25em;
 	padding: 15px;
@@ -21,6 +22,10 @@
 	@include media-query(desk) {
 		font-size: 1.75em;
 		padding: 15px 60px;
+	}
+	@include media-query(desk-wide) {
+		font-size: 1.75em;
+		padding: 15px 0;
 	}
 }
 
@@ -62,6 +67,9 @@
 			@include media-query(desk) {
 				font-size: 1.5em;
 				margin-right: 60px;
+			}
+			@include media-query(desk-wide) {
+				margin-right: 0;
 			}
 			transform: translateY(-50%);
 			display: block;

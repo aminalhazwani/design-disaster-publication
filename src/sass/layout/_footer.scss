@@ -41,12 +41,7 @@
 				padding: 45px 60px;
 			}
 			@include media-query(desk-wide) { 	
-				font-size: 1.25em;	
 				padding: 60px 60px;
-			}
-			@include media-query(desk-super-wide) { 
-				font-size: 1.25em;
-				padding: 60px 90px;
 			}
 		}
 
@@ -67,12 +62,7 @@
 				padding: 45px 60px;
 			}
 			@include media-query(desk-wide) { 	
-				font-size: 1.25em;	
 				padding: 60px 60px;
-			}
-			@include media-query(desk-super-wide) { 
-				font-size: 1.25em;
-				padding: 60px 90px;
 			}
 		}
 	}
