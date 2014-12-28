@@ -9,11 +9,13 @@
                 <h3 class="article__header--author--name"><a href="mailto:<?php echo $page->authormail()->html() ?>"><?php echo $page->author()->html() ?></a></h3>
                 <p class="article__header--author--field"><?php echo $page->authoraffilation()->html() ?></p>
             </div>
+            <?php if($page->designer() != ''): ?>
             <div class="article__header--designer">
                 <span>Design by</span>
                 <h3 class="article__header--designer--name"><a href="mailto:<?php echo $page->designeremail()->html() ?>"><?php echo $page->designer()->html() ?></a></h3>
                 <p class="article__header--designer--field"><?php echo $page->designeraffilation()->html() ?></p>
             </div>
+            <?php endif ?>
         </div>
 
         <div class="article__header--abstract">

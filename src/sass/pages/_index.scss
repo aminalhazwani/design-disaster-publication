@@ -15,17 +15,9 @@
 .index {
 	@include e(item) {
 		list-style-type: none;
-		@include media-query(desk) {
-			width: 50%;
-			float: left;
-		}
 		a {
 			display: block;
 			width: 100%;
-			height: auto;
-			@include media-query(desk) {
-				height: 660px;
-			}
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;

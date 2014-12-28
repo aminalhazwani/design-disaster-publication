@@ -29,6 +29,7 @@ main {
 	@include media-query(desk) {
 		margin-top: 62px;
 	}
+	padding: 0 1rem;
 }
 
 a {

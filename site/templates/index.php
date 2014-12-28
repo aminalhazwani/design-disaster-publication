@@ -12,7 +12,9 @@
 						        <h1 class="index__item--title"><?php echo $article->title()->html() ?></h1>
 						        <div class="index__item--authors">
 						            by <strong><?php echo $article->author()->html() ?></strong>
+						            <?php if($article->designer() != ''): ?>
 						            with <strong><?php echo $article->designer()->html() ?></strong>
+						        	<?php endif ?>
 						        </div>
 	        				</div>
 
