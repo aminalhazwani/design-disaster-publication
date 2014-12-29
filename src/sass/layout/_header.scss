@@ -126,10 +126,10 @@
 .header {
 	@include e(navigation) {
 		position: fixed;
-		left: 0;
-		right: 0;
-		max-width: 1200px;
-		margin: 0 auto;
+		// left: 0;
+		// right: 0;
+		// max-width: 1200px;
+		// margin: 0 auto;
 		top: -100%;
 		transition: top .7s $bezier;
 		&.is-open {
