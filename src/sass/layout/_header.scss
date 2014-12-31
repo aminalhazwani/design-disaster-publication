@@ -13,6 +13,11 @@
 	font-size: 1.25em;
 	padding: 15px;
 	overflow: hidden;
+
+	&.nav-up {
+		top: -56px;	
+	}
+
 	@include media-query(tabl-and-up) {
 		padding: 15px 30px;
 		font-size: 1.5em;
