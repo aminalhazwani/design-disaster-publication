@@ -19,7 +19,7 @@
 
 		p {
 			@include media-query(lap-and-up) {
-				font-size: 1.25em;	
+				font-size: 1.15em;	
 			}
 		}
 	}
@@ -106,7 +106,7 @@
 
 		@include m(description) {
 			p {
-				text-align: justify;
+				// text-align: justify;
 				position: relative;
 				line-height: 1.4;
 				color: $white;

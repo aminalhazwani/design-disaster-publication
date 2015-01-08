@@ -132,7 +132,7 @@ article {
 // Article content floating
 .article {
 	@include e(content) {
-		text-align: justify;
+		// text-align: justify;
 		@include media-query(desk) { 
 			position: relative;
 			width: 50%;

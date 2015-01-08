@@ -395,4 +395,5 @@ for (var i = 0; i < module.exports.id.length; i += 1) {
 }());
 
 // Hyphenate paragraph text
-new hyphenate( 'h1, .article__content > p, .article__header--abstract > p, .index__item--description > p', 'en-us' );
+new hyphenate( 'h1', 'en-us' );
+// new hyphenate( 'h1, .article__content > p, .article__header--abstract > p, .index__item--description > p', 'en-us' );
