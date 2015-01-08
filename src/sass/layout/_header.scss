@@ -16,6 +16,12 @@
 
 	&.nav-up {
 		top: -56px;	
+		@include media-query(tabl-and-up) {
+			top: -58px;	
+		}
+		@include media-query(desk) {
+			top: -62px;	
+		}
 	}
 
 	@include media-query(tabl-and-up) {
