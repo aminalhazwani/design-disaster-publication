@@ -1,7 +1,11 @@
 <?php snippet('header') ?>
 
 	<main class="index" role="main">
-		<nav class="index__navation" role="navigation">
+		<div class="index__intro scene_element scene_element--fadeinup">
+			<h1><?php echo $page->title() ?></h1>
+			<p><?php echo $page->text()->kirbytext() ?></p>
+		</div>
+		<nav class="index__navigation" role="navigation">
 			<ul class="index__navigation--list">
 				<?php foreach($pages->find('articles')->children()->visible() as $article): ?>
 				<li class="scene_element scene_element--fadeinup index__item">

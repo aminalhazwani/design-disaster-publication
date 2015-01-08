@@ -77,9 +77,16 @@ $('article').magnificPopup({
 	closeOnContentClick: true
 });
 
-// $('.article__content').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 16,
-//    maxFont   : 32
-// });
+$('.article__content > p').flowtype({
+   minimum   : 320,
+   maximum   : 2560,
+   minFont   : 18,
+   maxFont   : 32
+});
+
+$('.article__header--abstract > p').flowtype({
+   minimum   : 320,
+   maximum   : 2560,
+   minFont   : 20,
+   maxFont   : 32
+});
