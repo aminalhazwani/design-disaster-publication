@@ -20,15 +20,19 @@
 		</div>
 	</footer>
 
-	<!-- Vendor Scripts -->
+	<!-- Vendor scripts -->
 	<?php echo js('assets/scripts/vendor/vendor.min.js') ?>
-	<!-- Page Scripts -->
+	<!-- Article page scripts -->
 	<?php if($page->template() == 'article'): ?>
 		<?php echo js('assets/scripts/article.min.js') ?>
 	<?php endif ?>
-	<!-- Page Scripts -->
+	<!-- Index pafe scripts -->
 	<?php if($page->template() == 'index'): ?>
 		<?php echo js('assets/scripts/index.min.js') ?>
+	<?php endif ?>
+	<!-- About page scripts -->
+	<?php if($page->template() == 'about'): ?>
+		<?php echo js('assets/scripts/about.min.js') ?>
 	<?php endif ?>
 	<!-- Main Scripts -->
 	<?php echo js('assets/scripts/main.min.js') ?>

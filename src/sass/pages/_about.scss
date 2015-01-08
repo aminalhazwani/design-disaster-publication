@@ -1,0 +1,14 @@
+.about {
+	div {
+		padding: 30px 15px;
+		@include media-query(tabl-and-up) {
+			padding: 45px 30px;
+		}
+		@include media-query(lap) {
+			padding: 60px 45px;
+		}
+		@include media-query(desk) {
+			padding: 90px 60px;
+		}
+	}
+}
