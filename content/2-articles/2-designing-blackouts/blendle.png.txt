@@ -6,4 +6,4 @@ Caption: I am a nice caption
 
 ----
 
-Measure: full
+Measure: left
