@@ -55,6 +55,7 @@
 
 		p {
 			margin-bottom: 1rem;
+			font-weight: bold;
 			@include media-query(tabl-and-up) {
 				position: absolute;
 				top: 50%;
@@ -141,6 +142,7 @@
 .home {
 	@include e(cover) {
 		overflow: hidden;
+		position: relative;
 		img {
 			position: relative;
 			max-width: 180%;
@@ -151,5 +153,34 @@
 				left: -20%;
 			}
 		}
+
+		p {
+			position: absolute;
+			z-index: 1;
+			width: 100%;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -60%);
+			text-align: center;
+			font-family: $din-cond;
+			text-transform: uppercase;
+			font-weight: bold;
+
+			font-size: 2.4em;
+			@include media-query(tabl) {
+				font-size: 4em;
+			}
+			@include media-query(lap) {
+				font-size: 5em;
+			}
+			@include media-query(desk) {
+				font-size: 6em;
+			}
+		}
+
+		// background-image: url("/assets/images/dod-lettering.png");
+		// background-size: 150%;
+		// background-repeat: no-repeat;
+		// background-position: 50% 50%;
 	}
 }

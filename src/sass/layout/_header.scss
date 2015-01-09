@@ -13,6 +13,7 @@
 	font-size: 1.25em;
 	padding: 15px;
 	overflow: hidden;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 
 	&.nav-up {
 		top: -56px;	
@@ -143,6 +144,7 @@
 		// margin: 0 auto;
 		top: -100%;
 		transition: top .7s $bezier;
+		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 		&.is-open {
 			top: 56px;
 			@include media-query(tabl-and-up) {
@@ -167,7 +169,7 @@
 			font-size: 1.25em;
 		}
 
-		@include media-query(desk) {
+		@include media-query(desk-super-wide) {
 			font-size: 1.5em;
 		}
 
