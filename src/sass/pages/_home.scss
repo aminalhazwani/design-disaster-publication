@@ -1,0 +1,155 @@
+.home {
+	section {
+		padding: 15px;
+		@include media-query(tabl) {
+			padding: 30px 30px 15px 30px;
+		}
+		@include media-query(lap) {
+			padding: 45px 45px 0 45px;
+		}
+		@include media-query(desk) {
+			padding: 60px 60px 0 60px;
+		}
+	}
+}
+
+.home {
+	@include e(header) {
+		overflow: hidden;
+		position: relative;
+
+		div {
+			@include media-query(tabl-and-up) {
+				width: 50%;
+
+				&:first-of-type {
+					position: relative;
+					height: 90px;
+					float: left;
+					padding-right: 1rem;
+					box-sizing: border-box;
+				}
+
+				&:last-of-type {
+					position: relative;
+					float: right;
+					height: 90px;
+					padding-left: 1rem;
+					box-sizing: border-box;
+				}
+			}
+			@include media-query(desk) {
+				width: auto;
+
+				&:first-of-type {
+					float: left;
+					height: auto;
+				}
+
+				&:last-of-type {
+					float: right;
+					height: auto;
+				}
+			}
+		}
+
+		p {
+			margin-bottom: 1rem;
+			@include media-query(tabl-and-up) {
+				position: absolute;
+				top: 50%;
+				transform: translateY(-50%);
+				font-size: 1.15rem;
+				margin-bottom: 0;
+			}
+			@include media-query(desk) {
+				position: relative;
+				margin-bottom: 0;
+				top: 0;
+				transform: translateY(0);
+				padding-top: 1rem;
+			}
+		}
+
+		a {
+			float: right;
+			width: calc(50% - .5rem);
+			padding: .5rem;
+			box-sizing: border-box;
+			background-color: $red;
+			color: $white;
+
+			@include font-smooth();
+			font-family: $din;
+			font-weight: bold;
+			// text-transform: uppercase;
+			text-align: center;
+
+			&:first-of-type {
+				margin-left: .5rem;
+			}
+
+			&:last-of-type {
+				margin-right: .5rem;
+			}
+
+			@include media-query(tabl-and-up) {
+				float: none;
+				display: block;
+				width: 100%;
+				padding: .5rem;
+				box-sizing: border-box;
+
+				&:first-of-type {
+					margin-left: 0;
+					margin-bottom: 1rem;
+				}
+
+				&:last-of-type {
+					margin-right: 0;
+				}
+			}
+
+			@include media-query(lap) {
+				width: 80%;
+				&:first-of-type {
+					margin-left: 20%;
+					margin-bottom: 1rem;
+				}
+
+				&:last-of-type {
+					margin-left: 20%;
+					margin-right: 0;
+				}
+			}
+
+			@include media-query(desk) {
+				display: inline-block;
+				float: right;
+				width: 180px;
+				padding: 1rem;
+
+				&:first-of-type {
+					margin-left: 1rem;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+.home {
+	@include e(cover) {
+		overflow: hidden;
+		img {
+			position: relative;
+			max-width: 180%;
+			left: -40%;
+
+			@include media-query(desk) {
+				max-width: 140%;
+				left: -20%;
+			}
+		}
+	}
+}
