@@ -27,7 +27,7 @@
       $file    = $tag->file($url);
 
       // use the file url if available and otherwise the given url
-      $url = '../images/1px.png';
+      $url = '/assets/images/1px.png';
 
       // data-src
       $src = $file ? $file->url() : url($url);
