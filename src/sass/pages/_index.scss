@@ -72,6 +72,36 @@
 			@include media-query(desk) {
 				padding: 60px 60px 90px 60px;
 			}
+
+			&:before {
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				content: "";
+				background-color: rgba(5,5,5,0.25);
+				z-index: 2;
+			}
+
+			&:after {
+				z-index: 3;
+				background-image: url("/assets/images/3px.png");
+				background-color: transparent;
+				background-position: center;
+				background-repeat: repeat;
+
+				position: absolute;
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				content: "";
+			}
 		}
 	}
 }
@@ -81,6 +111,7 @@
 		@include m(meta) {
 			position: relative;
 			margin-bottom: .25rem;
+			z-index: 4;
 
 			@include media-query (desk-super-wide) {
 				width: 50%;
@@ -95,6 +126,7 @@
 			text-transform: uppercase;
 			color: $white;
 			@include font-smooth();
+			margin-bottom: 0;
 		}
 
 		@include m(authors) {
@@ -107,9 +139,11 @@
 		@include m(description) {
 			p {
 				// text-align: justify;
+				z-index: 4;
 				position: relative;
 				line-height: 1.4;
 				color: $white;
+				font-weight: bold;
 				@include font-smooth();
 			}
 

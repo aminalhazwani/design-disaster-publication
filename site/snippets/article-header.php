@@ -1,5 +1,4 @@
 <header class="article__header" style="background-image:url(<?php foreach($page->images() as $image): ?><?php if($image->cover() != ''): ?><?php echo $image->url() ?><?php endif ?><?php endforeach?>)">
-    <div class="article__header--overlay"></div>
     <div class="article__header--info">
         <?php snippet('article-top-navigation') ?>
         <div class="article__header--meta">
