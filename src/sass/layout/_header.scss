@@ -6,7 +6,7 @@
 	// right: 0;
 	// max-width: 1200px;
 	// margin: 0 auto;
-	z-index: 3;
+	z-index: 6;
 	box-sizing: border-box;
 	transition: all .3s $bezier;
 	background-color: $yellow;
@@ -154,7 +154,7 @@
 				top: 62px;
 			}
 		}
-		z-index: 2;
+		z-index: 5;
 		background-color: $red;
 		color: $white;
 		@include font-smooth();

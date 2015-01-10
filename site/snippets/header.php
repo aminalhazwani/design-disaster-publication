@@ -70,7 +70,7 @@
 
     <header class="header">
         <div class="header__logo">
-            <a href="<?php echo $site->url() ?>">
+            <a href="<?php echo $site->url() ?>/">
                 By <span>design</span> or by <span>disaster</span>
             </a>
         </div>

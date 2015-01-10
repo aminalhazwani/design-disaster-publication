@@ -48,6 +48,7 @@
 	@include e(item) {
 		list-style-type: none;
 		a {
+			position: relative;
 			display: block;
 			width: 100%;
 			margin-bottom: -1px;
@@ -88,7 +89,7 @@
 
 			&:after {
 				z-index: 3;
-				background-image: url("/assets/images/3px.png");
+				background-image: url("../images/3px.png");
 				background-color: transparent;
 				background-position: center;
 				background-repeat: repeat;

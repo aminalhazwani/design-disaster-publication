@@ -1,4 +1,10 @@
 .home {
+	a {
+		border-bottom: 1px solid $black;
+	}
+}
+
+.home {
 	section {
 		padding: 15px;
 		@include media-query(tabl) {
@@ -73,6 +79,7 @@
 		}
 
 		a {
+									border-bottom: none;
 			float: right;
 			width: calc(50% - .5rem);
 			padding: .5rem;
@@ -179,10 +186,5 @@
 				font-size: 6em;
 			}
 		}
-
-		// background-image: url("/assets/images/dod-lettering.png");
-		// background-size: 150%;
-		// background-repeat: no-repeat;
-		// background-position: 50% 50%;
 	}
 }

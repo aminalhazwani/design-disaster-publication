@@ -13,7 +13,7 @@
 
 	<div class="home__cover scene_element scene_element--fadeinup">
 		<p>The Publication</p>
-		<img src="/assets/images/dod-lettering.png" />
+		<img src="assets/images/dod-lettering.png" />
 	</div>
 
   	<section class="scene_element scene_element--fadeinup"> 
@@ -29,19 +29,19 @@
 		  	</p>
   		</div>
 	  	<a href="#">Read online</a>
-
+	  	<br><br>
 	  	or
-
-	  	<p>for iphone, ipad, and nook</p>
+		<br><br>
+	  	<span>for iphone, ipad, and nook</span>
 	  	<a href="#">download epub</a>
-
-	  	<p>for kindle (or kindle app on ipad)</p>
+	  	<br><br>
+	  	<span>for kindle (or kindle app on ipad)</span>
 	  	<a href="#">download mobi</a>
-
-	  	<p>other devices</p>
+	  	<br><br>
+	  	<span>other devices</span>
 	  	<a href="#">download pdf</a>
-
-	  	<p>all files for all devices</p>
+	  	<br><br>
+	  	<span>all files for all devices</span>
 	  	<a href="#">download zip</a>
   	</section>
   </main>
