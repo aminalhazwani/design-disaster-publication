@@ -97,29 +97,27 @@
 			@include media-query(tabl-and-up) {
 				float: none;
 				display: block;
-				width: 100%;
+				width: 80%;
 				padding: .5rem;
 				box-sizing: border-box;
-
 				&:first-of-type {
-					margin-left: 0;
+					margin-left: 20%;
 					margin-bottom: 1rem;
 				}
-
 				&:last-of-type {
+					margin-left: 20%;
 					margin-right: 0;
 				}
 			}
 
 			@include media-query(lap) {
-				width: 80%;
+				width: 70%;
 				&:first-of-type {
-					margin-left: 20%;
+					margin-left: 30%;
 					margin-bottom: 1rem;
 				}
-
 				&:last-of-type {
-					margin-left: 20%;
+					margin-left: 30%;
 					margin-right: 0;
 				}
 			}
@@ -133,6 +131,10 @@
 				&:first-of-type {
 					margin-left: 1rem;
 					margin-bottom: 0;
+				}
+				&:last-of-type {
+					margin-left: 0;
+					margin-right: 0;
 				}
 			}
 		}
