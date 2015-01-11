@@ -6,8 +6,8 @@
 	  		<p>Proceedings of the conference By Design or By Disaster 2013</p>
 	  	</div>
 	  	<div>
-		  	<a href="#">Read</a>
-		  	<a href="#">Download</a>
+		  	<a href="<?php $site->url() ?>/index">Read</a>
+		  	<a class="home__header--download" href="#download">Download</a>
 		</div>
 	</section>
 
@@ -16,33 +16,40 @@
 		<img src="assets/images/dod-lettering.png" />
 	</div>
 
-  	<section class="scene_element scene_element--fadeinup"> 
-  		<a href="#">Facebook</a>
-  		<a href="#">Twitter</a>
-  		<a href="#">E-Mail</a>
+  	<section class="home__share scene_element scene_element--fadeinup"> 
+  		<p>Please, share this publication!</p>
+  		<a href="#">on Facebook</a>
+  		<a href="#">on Twitter</a>
+  		<a href="#">via E-Mail</a>
   	</section>
 
-  	<section class="scene_element scene_element--fadeinup">
-  		<div>
+  	<section class="home__read scene_element scene_element--fadeinup">
+  		<div class="home__read--online">
+  			<h3>Online reading</h3>
 	  		<p>
 		  		Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 		  	</p>
+		  	<a href="#">Read online</a>
   		</div>
-	  	<a href="#">Read online</a>
-	  	<br><br>
-	  	or
-		<br><br>
-	  	<span>for iphone, ipad, and nook</span>
-	  	<a href="#">download epub</a>
-	  	<br><br>
-	  	<span>for kindle (or kindle app on ipad)</span>
-	  	<a href="#">download mobi</a>
-	  	<br><br>
-	  	<span>other devices</span>
-	  	<a href="#">download pdf</a>
-	  	<br><br>
-	  	<span>all files for all devices</span>
-	  	<a href="#">download zip</a>
+
+  		<div id="download" class="home__read--offline">
+  			<h3>Offline digital reading</h3>
+  			<p>
+		  		Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
+		  	</p>
+		  	<div>
+		  		<span>iPhone, iPad, and Nook</span>
+		  		<a href="#">Download ePub</a>
+		  	</div>
+		  	<div>
+		  		<span>Kindle</span>
+		  		<a href="#">Download Mobi</a>
+		  	</div>
+		  	<div>
+		  		<span>Other devices</span>
+		  		<a href="#">Download PDF</a>
+		  	</div>
+  		</div>
   	</section>
   </main>
 

@@ -5,7 +5,7 @@
         content  = $('#main').smoothState({
             prefetch: true,
             pageCacheSize: 4,
-            blacklist: '.article__content > figure > a, .header__menu',
+            blacklist: '.article__content > figure > a, .header__menu, .home__header--download',
             onStart: {
                 duration: 600,
                 render: function () {

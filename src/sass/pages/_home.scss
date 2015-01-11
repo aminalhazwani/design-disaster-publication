@@ -1,10 +1,4 @@
 .home {
-	a {
-		border-bottom: 1px solid $black;
-	}
-}
-
-.home {
 	section {
 		padding: 15px;
 		@include media-query(tabl) {
@@ -79,7 +73,6 @@
 		}
 
 		a {
-									border-bottom: none;
 			float: right;
 			width: calc(50% - .5rem);
 			padding: .5rem;
@@ -89,8 +82,7 @@
 
 			@include font-smooth();
 			font-family: $din;
-			font-weight: bold;
-			// text-transform: uppercase;
+			font-weight: 600;
 			text-align: center;
 
 			&:first-of-type {
@@ -132,7 +124,7 @@
 			@include media-query(desk) {
 				display: inline-block;
 				float: right;
-				width: 180px;
+				width: 160px;
 				padding: 1rem;
 
 				&:first-of-type {
@@ -171,6 +163,7 @@
 			left: 50%;
 			transform: translate(-50%, -60%);
 			text-align: center;
+			color: $rich-black;
 			font-family: $din-cond;
 			text-transform: uppercase;
 			font-weight: bold;
@@ -184,6 +177,116 @@
 			}
 			@include media-query(desk) {
 				font-size: 6em;
+			}
+		}
+	}
+}
+
+.home {
+	@include e(share) {
+		font-family: $din;
+		font-weight: bold;
+		text-align: center;
+		color: $black;
+		margin-bottom: 3rem;
+		p {
+			margin-bottom: 0.25rem;
+			@include media-query(lap-and-up) {
+				display: inline-block;
+			}
+		}
+		a {
+			border-bottom: 1px solid $black;
+			&:nth-child(2n) {
+				margin: 0 .5rem;
+			}
+			@include media-query(tabl-and-up) {
+				margin: 0 1rem;			
+			}
+		}
+		@include media-query(tabl) {
+			font-size: 1.15em;
+		}
+		@include media-query(lap-and-up) {
+			font-size: 1.25em;
+		}
+	}
+}
+
+.home {
+	@include e(read) {
+		overflow: hidden;
+
+		@include m(online) {
+			margin-bottom: 4rem;
+
+			p {
+				margin-bottom: 0.5rem;
+			}
+
+			a {
+				display: block;
+				padding: 1rem;
+				box-sizing: border-box;
+				max-width: 160px;
+				text-align: center;
+				background-color: $red;
+				@include font-smooth();
+				color: $white;
+				font-family: $din;
+				font-weight: 600;
+			}
+
+			@include media-query(lap-and-up) {
+				float: left;
+				width: 50%;
+				padding-right: 1rem;
+				box-sizing: border-box;
+			}
+		}
+	}
+}
+
+.home {
+	@include e(read) {
+		@include m(offline) {
+			margin-bottom: 4rem;
+
+			p {
+				margin-bottom: 1rem;
+			}
+
+			div {
+				@include media-query(desk-wide) {
+					float: left;
+					width: 33%;
+				}
+			}
+
+			span {
+				display: block;
+				margin-bottom: .25rem;
+			}
+
+			a {
+				text-align: center;
+				display: block;
+				max-width: 160px;
+				margin-bottom: 1rem;
+				padding: .5rem;
+				box-sizing: border-box;
+				background-color: $red;
+				@include font-smooth();
+				color: $white;
+				font-family: $din;
+				font-weight: 600;
+			}
+
+			@include media-query(lap-and-up) {
+				float: left;
+				width: 50%;
+				padding-left: 1rem;
+				box-sizing: border-box;
 			}
 		}
 	}

@@ -22,6 +22,10 @@
 
 	<!-- Vendor scripts -->
 	<?php echo js('assets/scripts/vendor/vendor.min.js') ?>
+	<!-- Homepage scripts -->
+	<?php if($page->template() == 'home'): ?>
+		<?php echo js('assets/scripts/home.min.js') ?>
+	<?php endif ?>
 	<!-- Article page scripts -->
 	<?php if($page->template() == 'article'): ?>
 		<?php echo js('assets/scripts/article.min.js') ?>
