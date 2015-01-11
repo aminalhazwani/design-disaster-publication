@@ -1,6 +1,6 @@
 .footer {
-	// background-color: $rich-black;
-	   background-color: $yellow;
+	background-color: $rich-black;
+	// background-color: $yellow;
 	overflow: hidden;
 	clear: both;
 	// clear: both;
@@ -11,17 +11,16 @@
 		font-size: smaller;
 		text-transform: uppercase;
 		letter-spacing: 1px;
-		// color: $white;
-		   color: $red;
-		@include font-smooth();
+		color: $yellow;
+		// @include font-smooth();
 	}
 
 	p {
-		// color: $white;
+		color: $white;
 		@include font-smooth();
 		a {
-			// border-bottom: 1px solid $white;
-			   border-bottom: 1px solid $black;
+			font-weight: bold;
+			border-bottom: 2px solid $white;
 		}
 	}
 }
