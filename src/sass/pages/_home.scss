@@ -257,6 +257,10 @@
 			}
 
 			div {
+				overflow: hidden;
+				@include media-query(tabl-and-up) {
+					margin-bottom: 1rem;
+				}
 				@include media-query(desk-wide) {
 					float: left;
 					width: 33%;
@@ -266,20 +270,32 @@
 			span {
 				display: block;
 				margin-bottom: .25rem;
+				@include media-query(tabl-and-up) {
+					padding-top: 1.15rem;
+					float: left;
+				}
 			}
 
 			a {
-				text-align: center;
 				display: block;
-				max-width: 160px;
+				text-align: center;
+				width: 160px;
 				margin-bottom: 1rem;
-				padding: .5rem;
+				padding: 1rem;
 				box-sizing: border-box;
 				background-color: $red;
 				@include font-smooth();
 				color: $white;
 				font-family: $din;
 				font-weight: 600;
+
+				@include media-query(tabl-and-up) {
+					display: inline-block;
+					float: right;
+				}
+				@include media-query(desk-wide) {
+					float: none;
+				}
 			}
 
 			@include media-query(lap-and-up) {
