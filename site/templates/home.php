@@ -2,6 +2,10 @@
 
   <main class="home" role="main">
 	<section class="home__header scene_element scene_element--fadeinup">
+		<p>
+			Proceedings of the conference By Design or By Disaster 2013 → <a href="<?php $site->url() ?>/index">read</a> or <a class="home__header--download" href="#download">download</a> ↓
+		</p>
+		<!--
 		<div>
 	  		<p>Proceedings of the conference By Design or By Disaster 2013</p>
 	  	</div>
@@ -9,6 +13,7 @@
 		  	<a href="<?php $site->url() ?>/index">Read</a>
 		  	<a class="home__header--download" href="#download">Download</a>
 		</div>
+		-->
 	</section>
 
 	<div class="home__cover scene_element scene_element--fadeinup">
