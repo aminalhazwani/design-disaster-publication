@@ -55,8 +55,8 @@
 		position: relative;
 		img {
 			position: relative;
-			max-width: 180%;
-			left: -40%;
+			max-width: 200%;
+			left: -50%;
 			@include media-query(desk) {
 				width: 140%;
 				left: -20%;
