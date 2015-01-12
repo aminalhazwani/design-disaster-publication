@@ -1,6 +1,9 @@
 .footer {
 	background-color: $rich-black;
 	margin-top: 4rem;
+	@include media-query(desk-wide) {
+		margin-top: 8rem;
+	}
 	overflow: hidden;
 	clear: both;
 

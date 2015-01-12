@@ -173,6 +173,14 @@
 
 				}
 			}
+
+			@include media-query(desk-wide) {	
+				padding-right: 5%;
+				padding-left: 5%;
+			}
+			@include media-query(desk-super-wide) {
+				font-size: 1.25em;
+			}
 		}
 	}
 }
@@ -226,6 +234,14 @@
 					display: inline-block;
 					vertical-align: middle;
 				}
+			}
+
+			@include media-query(desk-wide) {	
+				padding-right: 5%;
+				padding-left: 5%;
+			}
+			@include media-query(desk-super-wide) {
+				font-size: 1.25em;
 			}
 		}
 	}
