@@ -18,6 +18,8 @@
 		  		<?php echo $site->imprint()->kirbytext() ?>
 		  	</div>
 		</div>
+
+		<p></p>
 	</footer>
 
 	<!-- Vendor scripts -->
