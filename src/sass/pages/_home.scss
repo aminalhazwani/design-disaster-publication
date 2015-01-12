@@ -42,6 +42,11 @@
 
 			br {
 				@include media-query(tabl-and-up) {
+					&:first-of-type {
+						display: none;
+					}
+				}
+				@include media-query(lap-and-up) {
 					display: none;
 				}
 			}
@@ -124,6 +129,10 @@
 .home {
 	@include e(read) {
 		overflow: hidden;
+		margin-bottom: 4rem;
+		@include media-query(desk-wide) {
+			margin-bottom: 8rem;
+		}
 		@include m(online) {
 			margin-bottom: 4rem;
 			overflow: hidden;
