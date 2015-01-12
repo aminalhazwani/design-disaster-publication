@@ -3,7 +3,7 @@
   <main class="home" role="main">
 	<section class="home__header scene_element scene_element--fadeinup">
 		<p>
-			Proceedings of the conference <br>By Design or By Disaster 2013 <br>→ <a href="<?php $site->url() ?>/index">read</a> or <a class="home__header--download" href="#download">download</a> ↓
+			Proceedings of the conference <br>By Design or By Disaster 2013 <br>→ <a href="<?php echo $site->url() ?>/index">read</a> or <a class="home__header--download" href="#download">download</a> ↓
 		</p>
 		<!--
 		<div>
