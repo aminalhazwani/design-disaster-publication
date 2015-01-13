@@ -3,7 +3,8 @@
 	<main class="index" role="main">
 		<div class="index__intro scene_element scene_element--fadeinup">
 			<h1><?php echo $page->title() ?></h1>
-			<p><?php echo $page->text()->kirbytext() ?></p>
+  			<img src="assets/images/read-placeholder.png" />
+			<?php echo $page->text()->kirbytext() ?>
 		</div>
 		<nav class="index__navigation" role="navigation">
 			<ul class="index__navigation--list">

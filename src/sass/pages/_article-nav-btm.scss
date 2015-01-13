@@ -160,13 +160,13 @@
 					width: 100%;
 					height: 100%;
 					content: "";
-					background-color: rgba(5,5,5,0.3);
+					background-color: rgba(5,5,5,0.25);
 					z-index: 2;
 				}
 
 				&:after {
 					z-index: 3;
-					background-image: url("../images/3px.png");
+					// background-image: url("../images/3px.png");
 					background-color: transparent;
 					background-position: center;
 					background-repeat: repeat;
@@ -254,13 +254,13 @@
 					width: 100%;
 					height: 100%;
 					content: "";
-					background-color: rgba(5,5,5,0.3);
+					background-color: rgba(5,5,5,0.25);
 					z-index: 2;
 				}
 
 				&:after {
 					z-index: 3;
-					background-image: url("../images/3px.png");
+					// background-image: url("../images/3px.png");
 					background-color: transparent;
 					background-position: center;
 					background-repeat: repeat;

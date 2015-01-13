@@ -37,7 +37,7 @@
 
 		&:after {
 			z-index: 3;
-			background-image: url("../images/3px.png");
+			// background-image: url("../images/3px.png");
 			background-color: transparent;
 			background-position: center;
 			background-repeat: repeat;
@@ -51,6 +51,7 @@
 			height: 100%;
 			content: "";
 		}
+
 		@include m(meta) {
 			@include media-query(desk) {
 				width: 50%;
