@@ -201,6 +201,7 @@
 .home {
 	@include e(read) {
 		@include m(offline) {
+			padding-top: 5%;
 			margin-bottom: 4rem;
 			overflow: hidden;
 

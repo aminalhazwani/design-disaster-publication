@@ -97,6 +97,15 @@
 					display: block;
 				}
 			}
+
+			@include m(long) {
+				@include media-query(desk) {
+					font-size: 4em;
+				}
+				@include media-query(desk-super-wide) {
+					font-size: 5em;
+				}
+			}
 		}
 	}
 }
