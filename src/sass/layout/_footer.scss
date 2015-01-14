@@ -3,6 +3,17 @@
 	overflow: hidden;
 	clear: both;
 
+	// position: absolute;
+	// bottom: 0;
+	// width: 100%;
+	// height: 840px;
+	// @include media-query(tabl) {
+	// 	height: 650px;
+	// }
+	// @include media-query(lap-and-up) {
+	// 	height: 460px;
+	// }
+
 	h4 {
 		font-size: smaller;
 		text-transform: uppercase;
@@ -24,12 +35,12 @@
 	@include e(col) {
 		&:first-of-type {
 			margin-bottom: 3rem;
-			padding: 15px 15px 0 15px;
+			padding: 20px 15px 0 15px;
 			@include media-query(tabl) { 
-				padding: 30px 30px 0 30px;
+				padding: 40px 30px 0 30px;
 			}
 			@include media-query(lap) { 
-				padding: 30px 45px;
+				padding: 40px 45px;
 			}
 			@include media-query(lap-and-up) {
 				width: 40%;
@@ -70,23 +81,25 @@
 .footer {
 	@include e(logos) {
 		overflow: hidden;
+		margin-top: 2rem;
 		@include m(uni) {
-			width: 100%;
-			height: 100px;
-			margin-bottom: 1rem;
-			background-image: url('../images/logo-sidebarleft-unibz.png');
+			width: 80%;
+			height: 60px;
+			margin-bottom: 2rem;
+			background-image: url('../images/unibz__trilingual--white.svg');
 			background-size: contain;
 			background-position: 0 0;
 			background-repeat: no-repeat;
 			@include media-query(tabl) { 
 				float: left;
-				width: 240px;
-				height: 80px;
+				max-width: 300px;
+				margin-right: 2rem;
+				margin-bottom: 0;
 			}
-			@include media-query(desk) {
+			@include media-query(lap-and-up) {
 				float: left;
-				width: 240px;
-				height: 80px;
+				max-width: 260px;
+				height: 60px;
 			}
 		}
 		@include m(press) {
@@ -98,14 +111,14 @@
 			background-repeat: no-repeat;
 			@include media-query(tabl) { 
 				float: left;
-				width: 50%;
-				height: 80px;
+				width: 30%;
+				height: 60px;
 			}
-			@include media-query(desk) {
+			@include media-query(lap-and-up) {
 				float: left;
 				margin-top: 0;
 				width: 50%;
-				height: 80px;
+				height: 60px;
 			}
 		}
 

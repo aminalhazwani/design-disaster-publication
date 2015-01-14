@@ -1,6 +1,12 @@
 html {
 	background-color: $yellow;
+	// height: 100%;
 }
+
+// body {
+// 	min-height: 100%;
+// 	position: relative;
+// }
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: $din;
@@ -19,9 +25,6 @@ span {
 }
 
 main {
-	// max-width: 1200px;
-	// margin-left: auto;
-	// margin-right: auto;
 	padding-top: 56px;
 	@include media-query(tabl-and-up) {
 		padding-top: 58px;
@@ -29,7 +32,14 @@ main {
 	@include media-query(desk) {
 		padding-top: 62px;
 	}
-	// padding: 0 1rem;
+
+	// padding-bottom: 840px;
+	// @include media-query(tabl) {
+	// 	padding-bottom: 650px;
+	// }
+	// @include media-query(lap-and-up) {
+	// 	padding-bottom: 460px;
+	// }
 }
 
 a {
