@@ -18,6 +18,7 @@
         }).data('smoothState');
 })(jQuery);
 
+// Navigation
 $('.header__menu').click(function(){
     $('.header__navigation').toggleClass('is-open');
     $('.header__menu').toggleClass('is-active');
@@ -37,6 +38,13 @@ $( document ).on( 'keydown', function ( e ) {
 			$('.header__menu').removeClass('is-active');
 		}
     }
+});
+
+$('main').click(function() {
+  if ( $('.header__menu').hasClass('is-active') ) {
+    $('.header__navigation').removeClass('is-open');
+    $('.header__menu').removeClass('is-active');
+  }
 });
 
 $(window).scroll(function() {
