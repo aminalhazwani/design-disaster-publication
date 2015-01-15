@@ -163,10 +163,22 @@ article {
 					font-family: $din;
 					font-weight: 700;
 					font-size: 305%; 
-					margin: 12px 0 -1px;
+					margin: 9px 0 -1px;
 					padding: 0 .2em 0 0; 
 					height: .7em; 
 					line-height: .6em; 
+					@include media-query(tabl){
+						margin-top: 10px;
+					}
+					@include media-query(lap){
+						margin-top: 13px;
+					}
+					@include media-query(desk-wide){
+						margin-top: 12px;
+					}
+					@include media-query(desk-super-wide){
+						margin-top: 15px;
+					}
 				}
 			}
 		}

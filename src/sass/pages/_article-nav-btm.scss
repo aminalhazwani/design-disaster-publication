@@ -3,6 +3,7 @@
 	@include e(nav) {
 		@include m(bottom) {
 			overflow: hidden;
+			margin-bottom: -1px;
 			@include font-smooth();
 			@include media-query(tabl) {
 				font-size: 1.25em;
