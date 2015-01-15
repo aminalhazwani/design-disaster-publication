@@ -1,22 +1,22 @@
 // Smoothstate
-;(function ($) {
-    'use strict';
-    var $body    = $('html, body'),
-        content  = $('#main').smoothState({
-            prefetch: true,
-            pageCacheSize: 4,
-            blacklist: '.article__content > figure > a, .header__menu, .home__header--download',
-            onStart: {
-                duration: 600,
-                render: function () {
-                    content.toggleAnimationClass('is-exiting');
-                    $body.scrollTop({
-                        scrollTop: 0
-                    });
-                }
-            }
-        }).data('smoothState');
-})(jQuery);
+// ;(function ($) {
+//     'use strict';
+//     var $body    = $('html, body'),
+//         content  = $('main').smoothState({
+//             prefetch: true,
+//             pageCacheSize: 4,
+//             blacklist: '.article__content > figure > a, .header__menu, .home__header--download',
+//             onStart: {
+//                 duration: 600,
+//                 render: function () {
+//                     content.toggleAnimationClass('is-exiting');
+//                     $body.scrollTop({
+//                         scrollTop: 0
+//                     });
+//                 }
+//             }
+//         }).data('smoothState');
+// })(jQuery);
 
 // Navigation
 $('.header__menu').click(function(){

@@ -112,9 +112,14 @@ pullquote {
 	margin-top: 1rem;
 	hr {
 		border-style: solid;
+		margin: 0;
 	}
 	ol {
+		margin: 0;
 		font-size: smaller;
+		li {
+			padding-top: 1rem;
+		}
 		li > p {
 			margin-bottom: .5rem;
 			&:first-of-type::first-letter {
@@ -127,4 +132,8 @@ pullquote {
 			}
 		}
 	}
+}
+
+.footnote-ref {
+	padding-top: 4rem;
 }
