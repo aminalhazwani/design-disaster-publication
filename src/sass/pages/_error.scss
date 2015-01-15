@@ -15,6 +15,15 @@
 
 .error {
 	section {
-		
+		margin-bottom: 50%;
+		@include media-query(lap) {
+			margin-bottom: 70%;
+		}
+		@include media-query(desk-wide) {
+			margin-bottom: 40%;
+		}
+		@include media-query(desk-super-wide) {
+			margin-bottom: 30%;
+		}
 	}
 }
