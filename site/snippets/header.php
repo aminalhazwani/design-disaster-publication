@@ -52,12 +52,16 @@
         <meta property="og:description" content="<?php echo $site->description()->html() ?>">
     <?php endif ?>
 
-    <meta property="og:url" content="<?php echo $page->url() ?>" />
+    <meta property="og:url" content="<?php echo $page->url() ?>/" />
   
     <?php if($page->template() == 'article'): ?>
-        <meta property="og:image" content="<?php foreach($page->images() as $image): ?><?php if($image->cover() != ''): ?><?php echo $image->url() ?><?php endif ?><?php endforeach?>" />
+        <meta property="og:image" content="<?php foreach($page->images() as $image): ?><?php if($image->cover() != ''): ?><?php echo $image->url() ?><?php endif ?><?php endforeach ?>" />
     <?php else: ?>
-        <meta property="og:image" content="#" />
+        <link rel="image_src" type="image/jpeg" href="<?php echo $site->url() ?>/assets/images/og-image.png" />
+        <meta property="og:image" content="<?php echo $site->url() ?>/assets/images/og-image.png" />
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="1200">
+        <meta property="og:image:height" content="630">
     <?php endif ?>
 
     <!-- Stylesheets -->
