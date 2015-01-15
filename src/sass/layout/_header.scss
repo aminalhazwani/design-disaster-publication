@@ -1,11 +1,7 @@
 .header {
 	position: fixed;
 	top: 0;
-	   width: 100%;
-	// left: 0;
-	// right: 0;
-	// max-width: 1200px;
-	// margin: 0 auto;
+	width: 100%;
 	z-index: 6;
 	box-sizing: border-box;
 	transition: top .3s $bezier;
@@ -38,8 +34,7 @@
 	}
 	@include media-query(desk-wide) {
 		font-size: 1.75em;
-		// padding: 15px;
-		   padding: 15px 60px;
+		padding: 15px 60px;
 	}
 }
 
@@ -83,8 +78,7 @@
 				margin-right: 60px;
 			}
 			@include media-query(desk-wide) {
-				// margin-right: 15px;
-				   margin-right: 60px;
+				margin-right: 60px;
 			}
 			transform: translateY(-50%);
 			display: block;
@@ -138,10 +132,6 @@
 .header {
 	@include e(navigation) {
 		position: fixed;
-		// left: 0;
-		// right: 0;
-		// max-width: 1200px;
-		// margin: 0 auto;
 		top: -100%;
 		transition: top .7s $bezier;
 		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
