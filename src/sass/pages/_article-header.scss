@@ -81,9 +81,12 @@
 				margin-left: -3px;
 			}
 			@include media-query(desk) {
-				font-size: 6em;
+				font-size: 5em;
 				margin-bottom: 3rem;
 				margin-left: -3px;
+			}
+			@include media-query(desk-wide) {
+				font-size: 6em;
 			}
 
 			@include m(left) {
