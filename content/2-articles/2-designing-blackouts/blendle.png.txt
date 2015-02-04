@@ -1,9 +1,0 @@
-Cover: 
-
-----
-
-Caption: I am a nice caption
-
-----
-
-Measure: left
