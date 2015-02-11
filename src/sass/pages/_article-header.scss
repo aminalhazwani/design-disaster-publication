@@ -174,8 +174,11 @@
 .article {
 	@include e(header) {
 		@include m(abstract) {
-			// text-align: justify;
 			margin-top: 2.6rem;
+			h1, h2, h3 {
+				color: $white;
+				@include font-smooth();
+			}
 			p {
 				color: $white;
 				letter-spacing: 0.02rem;
