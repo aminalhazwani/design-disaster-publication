@@ -2,7 +2,7 @@
 	section {
 		padding: 15px;
 		@include media-query(tabl) {
-			padding: 30px 30px 0 30px;
+			padding: 45px 30px 0 30px;
 		}
 		@include media-query(lap) {
 			padding: 45px 45px 0 45px;
@@ -15,9 +15,6 @@
 
 .home {
 	@include e(header) {
-		@include media-query(tabl-and-down) {
-			margin-top: 15px;
-		}
 		p {
 			font-weight: bold;
 			margin-bottom: 0;
@@ -60,8 +57,12 @@
 		position: relative;
 		img {
 			position: relative;
-			max-width: 200%;
-			left: -50%;
+			max-width: 300%;
+			left: -90%;
+			@include media-query(tabl-and-up) {
+				max-width: 200%;
+				left: -50%;
+			}
 			@include media-query(desk) {
 				width: 180%;
 				left: -40%;

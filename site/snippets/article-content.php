@@ -5,9 +5,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->introtitle() ?></h2>
             <?php echo $page->intro()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chone() != ''): ?> 
@@ -16,9 +16,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chonetitle() ?></h2>
             <?php echo $page->chone()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chtwo() != ''): ?>
@@ -27,9 +27,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chtwotitle() ?></h2>
             <?php echo $page->chtwo()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chthree() != ''): ?>
@@ -38,9 +38,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chthreetitle() ?></h2>
             <?php echo $page->chthree()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chfour() != ''): ?>
@@ -49,9 +49,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chfourtitle() ?></h2>
             <?php echo $page->chfour()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chfive() != ''): ?>
@@ -60,9 +60,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chfivetitle() ?></h2>
             <?php echo $page->chfive()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chsix() != ''): ?>
@@ -71,9 +71,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chsixtitle() ?></h2>
             <?php echo $page->chsix()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chseven() != ''): ?>
@@ -82,9 +82,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chseventitle() ?></h2>
             <?php echo $page->chseven()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->cheight() != ''): ?>
@@ -93,9 +93,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->cheighttitle() ?></h2>
             <?php echo $page->cheight()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chnine() != ''): ?>
@@ -104,9 +104,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chninetitle() ?></h2>
             <?php echo $page->chnine()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chten() != ''): ?>
@@ -115,9 +115,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->chtentitle() ?></h2>
             <?php echo $page->chten()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->conclusion() != ''): ?>
@@ -126,9 +126,9 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->conclusiontitle() ?></h2>
             <?php echo $page->conclusion()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
+    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->appendix() != ''): ?>
@@ -137,8 +137,7 @@
         <div class="article__content hyphenate">
             <h2><?php echo $page->appendixtitle() ?></h2>
             <?php echo $page->appendix()->kirbytext() ?>
-        </div>
-        <?php snippet('article-share') ?> 
+        </div> 
     </section>
     <?php endif ?>
 </article>

@@ -2,10 +2,7 @@
 .article {
 	@include e(nav) {
 		@include m(top) {
-			padding-bottom: 15px;
-			@include media-query(tabl) {
-				padding-bottom: 30px;
-			}
+			padding-bottom: 30px;
 			@include media-query(lap) {
 				padding-bottom: 3rem;
 			}

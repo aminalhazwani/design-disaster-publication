@@ -146,14 +146,14 @@
 		}
 		z-index: 5;
 		background-color: $red;
-		color: $white;
+		color: $black;
 		@include font-smooth();
 
 		width: 100%;
 		text-align: center;
 
 		font-family: $din;
-		font-weight: 600;
+		font-weight: 700;
 
 		@include media-query(tabl-and-up) {
 			font-size: 1.25em;

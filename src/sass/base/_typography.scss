@@ -32,14 +32,6 @@ main {
 	@include media-query(desk) {
 		padding-top: 62px;
 	}
-
-	// padding-bottom: 840px;
-	// @include media-query(tabl) {
-	// 	padding-bottom: 650px;
-	// }
-	// @include media-query(lap-and-up) {
-	// 	padding-bottom: 460px;
-	// }
 }
 
 a {
@@ -116,20 +108,11 @@ pullquote {
 	}
 	ol {
 		margin: 0;
-		font-size: smaller;
 		li {
 			padding-top: 1rem;
 		}
 		li > p {
 			margin-bottom: .5rem;
-			&:first-of-type::first-letter {
-				float: none;
-				font-family: $utopia;
-				font-weight: 400;
-				font-size: 1em;
-				padding-right: 0;
-				line-height: 1.6;
-			}
 		}
 	}
 }

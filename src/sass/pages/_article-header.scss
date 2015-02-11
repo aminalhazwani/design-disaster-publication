@@ -10,9 +10,9 @@
 			overflow: hidden;
 			position: relative;
 			z-index: 4;
-			padding: 15px 15px 30px 15px;
+			padding: 15px 15px 45px 15px;
 			@include media-query(tabl) {
-				padding: 30px 30px 45px 30px;
+				padding: 30px 30px 60px 30px;
 			}
 			@include media-query(lap) {
 				padding: 45px 45px 60px 45px;
@@ -54,6 +54,7 @@
 		}
 
 		@include m(meta) {
+			margin-bottom: 6rem;
 			@include media-query(desk) {
 				width: 50%;
 				float: left;
@@ -63,7 +64,6 @@
 		}
 		@include m(title) {
 			color: $white;
-			margin-bottom: 1.3rem;
 			margin-left: -1px;
 			text-transform: uppercase;
 			line-height: .9;
@@ -89,18 +89,6 @@
 				font-size: 6em;
 			}
 
-			@include m(left) {
-				@include media-query(desk) {
-					display: none;
-				}
-			}
-			@include m(right) {
-				display: none;
-				@include media-query(desk) {
-					display: block;
-				}
-			}
-
 			@include m(long) {
 				@include media-query(desk) {
 					font-size: 4em;
@@ -117,10 +105,11 @@
 .article {
 	@include e(header) {
 		@include m(author) {
-			margin-bottom: 1.3rem;
 			line-height: 1.45;
+			margin-bottom: 2rem;
 			span {
 				display: block;
+				margin-bottom: .25rem;
 				font-family: $din;
 				font-weight: 600;
 				color: $white;
@@ -128,6 +117,7 @@
 			}
 			@include m(name) {
 				font-family: $din;
+				margin-bottom: .5rem;
 				a {
 					@include font-smooth();
 					color: $white;
@@ -148,6 +138,7 @@
 			@include m(field) {
 				font-family: $din;
 				font-weight: 600;
+				margin-bottom: 1rem;
 				line-height: 1.3;
 				@include font-smooth();
 				color: $white;
@@ -186,9 +177,10 @@
 			// text-align: justify;
 			margin-top: 2.6rem;
 			p {
-				@include font-smooth();
 				color: $white;
+				letter-spacing: 0.02rem;
 				font-weight: bold;
+				@include font-smooth();
 				margin-bottom: 0;
 				@include media-query(tabl-and-down) {
 					line-height: 1.4;

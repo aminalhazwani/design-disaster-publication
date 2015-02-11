@@ -1,11 +1,11 @@
 <?php snippet('header') ?>
 
 	<main class="index" role="main">
-		<div class="index__intro scene_element scene_element--fadeinup">
+		<!-- <div class="index__intro scene_element scene_element--fadeinup">
 			<h1><?php echo $page->title() ?></h1>
   			<img src="assets/images/read-placeholder.png" />
 			<?php echo $page->text()->kirbytext() ?>
-		</div>
+		</div> -->
 		<nav class="index__navigation" role="navigation">
 			<ul class="index__navigation--list">
 				<?php foreach($pages->find('articles')->children()->visible() as $article): ?>

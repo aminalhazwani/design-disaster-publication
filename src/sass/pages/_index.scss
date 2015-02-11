@@ -64,10 +64,10 @@
 			}
 		}
 
-		@include media-query(desk-wide) {
-			float: left;
-			width: 60%;
-		}
+		// @include media-query(desk-wide) {
+		// 	float: left;
+		// 	width: 60%;
+		// }
 	}
 }
 
@@ -99,6 +99,12 @@
 			}
 			@include media-query(desk) {
 				padding: 60px 60px 90px 60px;
+				max-width: 1200px;
+			}
+			@include media-query(desk-super-wide) {
+				font-size: 1.25em;
+				padding: 90px 90px 120px 60px;
+				max-width: 1600px;
 			}
 
 			&:before {
@@ -139,11 +145,11 @@
 	@include e(item) {
 		@include m(meta) {
 			position: relative;
-			margin-bottom: .25rem;
+			margin-bottom: 3rem;
 			z-index: 4;
 
-			@include media-query (desk-super-wide) {
-				width: 50%;
+			@include media-query (desk) {
+				width: 40%;
 				float: left;
 				padding-right: 2.6rem;
 				box-sizing: border-box;
@@ -176,8 +182,8 @@
 				@include font-smooth();
 			}
 
-			@include media-query (desk-super-wide) {
-				width: 50%;
+			@include media-query (desk) {
+				width: 60%;
 				float: left;
 			}
 		}

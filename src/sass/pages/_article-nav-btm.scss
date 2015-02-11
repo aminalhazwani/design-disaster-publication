@@ -207,7 +207,9 @@
 					}
 					p {
 						color: $white;
-						line-height: 1.6;
+						@include font-smooth();
+						line-height: 1.4;
+						letter-spacing: 0.02rem;
 						font-weight: bold;
 					}
 					span {

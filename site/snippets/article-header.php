@@ -2,7 +2,7 @@
     <div class="article__header--info">
         <?php snippet('article-top-navigation') ?>
         <div class="article__header--meta">
-            <h1 class="article__header--title article__header--title--left <?php if(strlen($page->title()) > 24): ?>article__header--title--long<?php endif ?>">
+            <h1 class="article__header--title <?php if(strlen($page->title()) > 24): ?>article__header--title--long<?php endif ?>">
             <?php echo $page->title()->html() ?></h1>
             <div class="article__header--author">
                 <span>Article by</span>
@@ -19,7 +19,6 @@
         </div>
 
         <div class="article__header--abstract">
-            <h1 class="article__header--title article__header--title--right <?php if(strlen($page->title()) > 24): ?>article__header--title--long<?php endif ?>"><?php echo $page->title()->html() ?></h1>
             <?php echo $page->description()->kirbytext() ?>
         </div>
     </div>

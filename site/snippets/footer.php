@@ -24,20 +24,20 @@
 
 	<!-- Vendor scripts -->
 	<?php echo js('assets/scripts/vendor/vendor.min.js') ?>
-	<!-- Homepage scripts -->
 	<?php if($page->template() == 'home'): ?>
+	<!-- Homepage scripts -->
 		<?php echo js('assets/scripts/home.min.js') ?>
 	<?php endif ?>
-	<!-- Article page scripts -->
 	<?php if($page->template() == 'article'): ?>
+	<!-- Article page scripts -->
 		<?php echo js('assets/scripts/article.min.js') ?>
 	<?php endif ?>
-	<!-- Index pafe scripts -->
 	<?php if($page->template() == 'index'): ?>
+	<!-- Index pafe scripts -->
 		<?php echo js('assets/scripts/index.min.js') ?>
 	<?php endif ?>
-	<!-- About page scripts -->
 	<?php if($page->template() == 'about'): ?>
+	<!-- About page scripts -->
 		<?php echo js('assets/scripts/about.min.js') ?>
 	<?php endif ?>
 	<!-- Main Scripts -->

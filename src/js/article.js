@@ -104,3 +104,17 @@ $('.article__header--abstract > p').flowtype({
    minFont   : 20,
    maxFont   : 32
 });
+
+$('.article__share').flowtype({
+   minimum   : 320,
+   maximum   : 2560,
+   minFont   : 16,
+   maxFont   : 20
+});
+
+$('.footnotes > ol').flowtype({
+   minimum   : 320,
+   maximum   : 2560,
+   minFont   : 14,
+   maxFont   : 20
+});

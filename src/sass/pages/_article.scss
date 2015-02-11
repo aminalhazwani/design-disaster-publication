@@ -1,18 +1,18 @@
 // Article content font-sizes and paddings
 article {
 	section {
-		padding: 30px 15px 0;
+		padding: 45px 15px;
 		@include media-query(tabl) {
 			font-size: 1.25em;
-			padding: 45px 30px 0;
+			padding: 45px 30px;
 		}
 		@include media-query(lap) {
 			font-size: 1.25em;
-			padding: 60px 45px 0;
+			padding: 60px 45px;
 		}
 		@include media-query(desk) {
 			font-size: 1.25em;
-			padding: 90px 60px 0;
+			padding: 90px 60px;
 		}
 	}
 }
@@ -140,6 +140,7 @@ article {
 		}
 		h2 {
 			text-align: left;
+			margin-bottom: 1rem;
 			@include media-query(desk) {
 				position: absolute;
 				max-width: 100%;
@@ -151,38 +152,16 @@ article {
 		h3 {
 			text-align: left;
 			margin-top: 2.6rem;
+			margin-bottom: .5rem;
 		}
 		p {
+			margin-bottom: 2rem;
 			&:last-of-type {
 				margin-bottom: 0;
 			}
-
-			&:first-of-type {
-				&::first-letter {
-					float: left;
-					font-family: $din;
-					font-weight: 700;
-					font-size: 305%; 
-					margin: 9px 0 -1px;
-					padding: 0 .2em 0 0; 
-					height: .7em; 
-					line-height: .6em; 
-					@include media-query(tabl){
-						margin-top: 10px;
-					}
-					@include media-query(lap){
-						margin-top: 13px;
-					}
-					@include media-query(desk-wide){
-						margin-top: 12px;
-					}
-					@include media-query(desk-super-wide){
-						margin-top: 15px;
-					}
-				}
-			}
 		}
 		blockquote {
+			margin: 0 0 2rem 0;
 			p:first-of-type::first-letter {
 				float: none;
 				font-family: $utopia;
@@ -194,7 +173,7 @@ article {
 		}
 		ol, ul {
 			text-align: left;
-			margin-left: .3rem;
+			margin: 0 0 2rem .3rem;
 			@include media-query (tabl-and-up) {
 				margin-left: 2.6rem;
 				padding: 0 0 0 2rem;
@@ -239,7 +218,6 @@ article {
 			figcaption {
 				line-height: 1;
 				font-family: $din;
-				font-size: smaller;
 				margin-top: .5rem;
 			}
 			a {
