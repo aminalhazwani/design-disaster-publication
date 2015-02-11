@@ -162,14 +162,6 @@ article {
 		}
 		blockquote {
 			margin: 0 0 2rem 0;
-			p:first-of-type::first-letter {
-				float: none;
-				font-family: $utopia;
-				font-weight: 400;
-				font-size: 1em;
-				padding-right: 0;
-				line-height: 1.6;
-			}
 		}
 		ol, ul {
 			text-align: left;
