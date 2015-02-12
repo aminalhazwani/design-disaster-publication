@@ -37,8 +37,7 @@
     $w.on("scroll.unveil resize.unveil lookup.unveil", unveil);
     unveil();
     return this;
-};
-
+  };
 })(window.jQuery);
 
 // FitVids
