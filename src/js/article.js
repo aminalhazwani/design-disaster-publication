@@ -93,6 +93,13 @@ $('.article__content > ul').flowtype({
    maxFont   : 32
 });
 
+$('.article__content > blockquote').flowtype({
+   minimum   : 320,
+   maximum   : 2560,
+   minFont   : 18,
+   maxFont   : 32
+});
+
 $('.article__content > ol').flowtype({
    minimum   : 320,
    maximum   : 2560,

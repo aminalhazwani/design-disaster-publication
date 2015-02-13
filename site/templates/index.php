@@ -13,7 +13,7 @@
 			  		<a href="<?php echo $article->url() ?>" style="background-image:url(<?php foreach($article->images() as $image): ?><?php if($image->cover() != ''): ?><?php echo $image->url() ?><?php endif ?><?php endforeach?>)">
 			  			<div class="index__item--info">
 				  			<div class="index__item--meta">
-						        <h1 class="index__item--title"><?php echo $article->title()->html() ?></h1>
+						        <h1 class="index__item--title<?php if(strlen($article->title()) > 24): ?> article__header--title--long<?php endif ?>"><?php echo $article->title()->html() ?></h1>
 						        <div class="index__item--authors">
 						            by <strong><?php echo $article->author()->html() ?></strong>
 						            <?php if($article->designer() != ''): ?>

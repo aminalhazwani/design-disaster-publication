@@ -33,9 +33,6 @@
 			@include media-query (desk) {
 				padding-left: 1rem;
 			}
-			@include media-query(lap-and-up) {
-				font-size: 1.15em;	
-			}
 		}
 
 		img {
@@ -58,10 +55,6 @@
 			margin: 0;
 			padding: 0;
 			clear: both;
-
-			@include media-query(lap-and-up) {
-				font-size: 1.25em;	
-			}
 		}
 
 		// @include media-query(desk-wide) {
@@ -99,12 +92,9 @@
 			}
 			@include media-query(desk) {
 				padding: 60px 60px 90px 60px;
-				max-width: 1200px;
 			}
 			@include media-query(desk-super-wide) {
-				font-size: 1.25em;
 				padding: 90px 90px 120px 60px;
-				max-width: 1600px;
 			}
 
 			&:before {
@@ -149,7 +139,7 @@
 			z-index: 4;
 
 			@include media-query (desk) {
-				width: 40%;
+				width: 50%;
 				float: left;
 				padding-right: 2.6rem;
 				box-sizing: border-box;
@@ -157,11 +147,8 @@
 		}
 
 		@include m(title) {
-			font-family: $din-cond;
-			text-transform: uppercase;
-			color: $white;
-			@include font-smooth();
-			margin-bottom: 0;
+			@extend .article__header--title;
+			margin-bottom: 2rem;
 		}
 
 		@include m(authors) {
@@ -169,22 +156,20 @@
 			color: $white;
 			@include font-smooth();
 			margin-bottom: .5rem;
+			@include media-query(desk-wide) {
+				font-size: 1.15em;
+			}
+
+			@include media-query(desk-super-wide) {
+				font-size: 1.25em;
+			}
 		}
 
 		@include m(description) {
+			@extend .article__header--abstract;
 			p {
-				// text-align: justify;
 				z-index: 4;
 				position: relative;
-				line-height: 1.6;
-				color: $white;
-				font-weight: bold;
-				@include font-smooth();
-			}
-
-			@include media-query (desk) {
-				width: 60%;
-				float: left;
 			}
 		}
 	}

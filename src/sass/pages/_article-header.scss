@@ -20,6 +20,9 @@
 			@include media-query(desk) {
 				padding: 60px 60px 90px 60px;
 			}
+			@include media-query(desk-super-wide) {
+				padding-bottom: 16rem;
+			}
 		}
 
 		&:before {
@@ -87,15 +90,7 @@
 			}
 			@include media-query(desk-wide) {
 				font-size: 6em;
-			}
-
-			@include m(long) {
-				@include media-query(desk) {
-					font-size: 4em;
-				}
-				@include media-query(desk-super-wide) {
-					font-size: 5em;
-				}
+				padding-right: 2rem;
 			}
 		}
 	}
