@@ -1,17 +1,8 @@
-html {
-	background-color: $yellow;
-	// height: 100%;
-}
-
-// body {
-// 	min-height: 100%;
-// 	position: relative;
-// }
-
 h1, h2, h3, h4, h5, h6 {
 	font-family: $din;
 	color: $black;
 	line-height: 1.1;
+	@include font-kern;
 }
 
 h2 {
@@ -24,10 +15,12 @@ p {
 	margin: 0 0 1.3rem 0;
 	color: $black;
 	line-height: 1.6;
+	@include font-kern;
 }
 
 span {
 	color: $black;
+	@include font-kern;
 }
 
 main {
@@ -44,6 +37,7 @@ a {
 	text-decoration: none;
 	color: inherit;
 	border-bottom: 1px solid transparent;
+	@include font-kern;
 }
 
 blockquote {
@@ -53,6 +47,7 @@ blockquote {
 	font-weight: bold;
 	font-size: 1.25em;
 	border-left: 4px solid transparent;
+	@include font-kern;
 
 	@include media-query(desk) {
 		padding-left: 2.6rem;
@@ -67,6 +62,7 @@ blockquote {
 ol, ul {
 	li {
 		line-height: 1.6;
+		@include font-kern;
 	}
 }
 
@@ -79,6 +75,7 @@ pullquote {
 	font-size: 2em;
 	font-family: $din-cond;
 	line-height: 1;
+	@include font-kern;
 
 	&:before {
 		content: "";
@@ -120,6 +117,7 @@ pullquote {
 		li > p {
 			margin-bottom: .5rem;
 			word-wrap: break-word;
+			@include font-kern;
 		}
 	}
 }

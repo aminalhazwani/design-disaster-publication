@@ -100,7 +100,6 @@ html {
     }
     -webkit-text-size-adjust: 100%; // 2
     -ms-text-size-adjust: 100%; // 2
-    @include font-kern;
 }
 
 // Addresses font-family inconsistency between 'textarea' and other form elements.
@@ -109,7 +108,8 @@ html,
 button,
 input,
 select,
-textarea {
+textarea,
+{
     font-family: $normalized_font_family;
 }
 
