@@ -8,6 +8,7 @@ var gulp = require('gulp'),
     livereload = require('gulp-livereload'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify');
+    // gzip = require('gulp-gzip');
 
 // gulp styles task
 gulp.task('styles', function() {
@@ -22,6 +23,7 @@ gulp.task('styles', function() {
     }))
     .pipe(rename({suffix: '.min'}))
     .pipe(minifycss())
+    // .pipe(gzip())
     .pipe(gulp.dest('assets/styles'))
     .pipe(notify({ message: 'Styles task completed' }));
 });
@@ -32,6 +34,7 @@ gulp.task('vendor', function() {
     .pipe(concat('vendor.js'))
     .pipe(rename({ suffix: '.min' }))
     .pipe(uglify())
+    // .pipe(gzip())
     .pipe(gulp.dest('assets/scripts/vendor'))
     .pipe(notify({ message: 'Vendor task completed' }));
 });
@@ -41,6 +44,7 @@ gulp.task('scripts', function() {
   return gulp.src('src/js/*.js')
     .pipe(rename({ suffix: '.min' }))
     .pipe(uglify())
+    // .pipe(gzip())
     .pipe(gulp.dest('assets/scripts'))
     .pipe(notify({ message: 'Scripts task completed' }));
 });
