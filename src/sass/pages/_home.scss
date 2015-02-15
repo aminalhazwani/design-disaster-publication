@@ -15,6 +15,9 @@
 
 .home {
 	@include e(header) {
+		@include media-query(palm) {
+			margin-top: 15px;
+		}
 		p {
 			font-weight: bold;
 			margin-bottom: 0;
