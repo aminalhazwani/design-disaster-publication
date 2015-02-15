@@ -1,0 +1,373 @@
+Title: Eco-Social Transformation
+
+----
+
+Keywords: eco-social transformation,transformation,transformation design,sustainability
+
+----
+
+Description: 
+
+Eco-social Transformation (est) is a process of planned change
+
+→ to recover the sense of living and a good life for all.
+→ to re-reclaim and defend commons and lifegoods against expropriation .
+→ to re-embed economy in the context of society and nature.
+→ to respect and protect livelihood for future generations.
+
+----
+
+Author: Prof. Susanne Elsen
+
+----
+
+Authoraffilation: Sociologist
+
+----
+
+Authormail: Susanne.Elsen@unibz.it
+
+----
+
+Designer: Raphael Volkmer
+
+----
+
+Designeraffilation: Conceptual Designer
+
+----
+
+Designermail: ahoi@raphaelvolkmer.com
+
+----
+
+Introtitle: 
+
+----
+
+Introbkcolor: white
+
+----
+
+Introtextcolor: black
+
+----
+
+Intro: 
+
+----
+
+Chonetitle: Key issues: Bic picture of interrelated global problems
+
+----
+
+Chonebkcolor: white
+
+----
+
+Chonetextcolor: black
+
+----
+
+Chone: 
+
+**a. Water Scarcity**
+
+**b. Desertification**
+
+**c. Destruction of the Ocean's Ecosystem**
+
+**d. Extreme Weather Phenomena**
+
+**e. Populationgrowth Increasing**
+
+**f. Migration**
+
+**g. Disembedded Financial Sector**
+
+**h. Land Grabbing**
+
+----
+
+Chtwotitle: Appropriate steps towards an Eco-Social Transformation
+
+----
+
+Chtwobkcolor: white
+
+----
+
+Chtwotextcolor: black
+
+----
+
+Chtwo: 
+
+**a. The Great Transformation**
+
+(img: est_icon_01_01.png)
+
+>The historical process of western societies shows a sucsessive disembedding of the economic sector out of its social and natural context and a successive incorporation of society and nature in the economic system and the logic of capital.
+
+**b. Downscaling: The only path to a sustainable future**
+
+1. Reduction of ressource consumption (on the level of enterprizes, public area and individual life)
+↓
+2. Re-use of material (gradle to gradle)
+↓
+3. More efficient use of ressources ( 80% of energy gets lost)
+↓
+4. Keeping the carrying capacity and ressource basis for future life.
+
+**c. Threefolding: The Transformative Power of Civil Society**
+
+The surprizing phenomenon of the 21. century is the raising power of civil society (CS) as corrective, complement and alternative to shoreless worldmarket and powerless political systems. (Nicanor Perlas)
+
+CS represents social-cultural values versus those of capital.
+↓
+Introduction to the economic and political sector
+↓
+Creation of new collaborative solutions following the needs of life
+↓
+New balance of interests between the market state and civil society
+
+**d. Paradigme Shift for Eco-Social Transformation**
+
+----
+
+Chthreetitle: Practical Approaches to Eco-Social Transformation
+
+----
+
+Chthreebkcolor: white
+
+----
+
+Chthreetextcolor: black
+
+----
+
+Chthree: 
+
+**a. Alternative Currencies (e.g. Local-Regional Currencies)**
+
+Advantages:
+1. No speculative effect (free money)
+2. Avoiding outflow of local ressources
+3. Democratic control
+4. Activating of local transactions
+5. Awareness for local-regional consumtion and investment
+6. Fostering of local-regional creation of value and productive circles
+7. Production and investment of social capital
+
+**b. Community/Time Banking**
+
+Advantages:
+1. Radical alternative to the monetary system
+2. New mutual form of solidarity (espacially in cooperatives of and for elderly people)
+3. All people have competences
+4. All people have the power to give! Time does not lose value
+5. Values grows by sharing > **Timebanking creates community**
+
+(img: est_icon_01.png)
+
+**c. (New) Cooperatives – the classical alternative to capitalist enterprizes**
+
+Areas:
+1. Production: Bundling of ressources, sharing profit and property
+2. Consumption: Avoiding intermediate trade and controlling quality
+3. Money: Beeing independet from global financial market and controlling cash flow locally
+4. Social, cultural & healthcare services: Keeping services under control of civil society and avoid commercialization  
+5. Commons & lifegoods: Re-claim and manage commons democratically and give access for all (community cooperatives)
+6. Housing: Avoid speculation and ensure affordable housing
+7. Sustainable Development: Cooperatives are most important for localized and sustainable development (creating small circuits)
+
+**d. Urban Agriculture**
+
+Eco-social effects.
+1. Relative autonomy from world market in food production
+2. New subsistence
+3. Reclaiming productive space for citizens selforganization
+4. Co2–Reduction
+5. Commoning
+6. Fostering biological food
+7. Cooperative learning
+8. Inclusion of disadvantaged
+9. Intercultural & inter-
+10. Generational coproduction
+11. Production of social capital
+
+**e. Sustainable Commons Management**
+
+1. Re-claiming commons (knowledge, lifegoods, services etc) and access for all are the most important preconditions of ecosocial transformation.
+2. Design Rules
+3. Distinct difference between legitimated user and not-users
+4. Sanctions in the case of offenses against stipulated rules
+5. Precise monitoring of ressources by the users
+6. Local arenas for a fast confict management
+7. The right of local communities to define their own rules
+8. Recondition: Learning to cooperate
+
+**f. Transformative Science**
+
+>Sciences have to open the ivory tower
+
+The mode 3 research:
+1. Based on the theory of reflexive moderinzation (Beck, Giddens)
+2. Focus on the interrelations of dimensions of complex social problems (sustainability)
+3. Transdisciplinary approach integrating knowledge of civil society actors (local people are the experts)
+
+**g. Politics for Transformation**
+
+Breakup of people‘s power against deprivation of right
+Integrative democracy and eco-social rights
+1. Enlargement of political rights
+2. New balance between parliamentary and direct democracy
+3. Citizens participation in all lifeworld questions
+4. Selforganization on local level
+5. Citizens budget (modell Porto Allegre)
+6. Community Development and Community Control
+
+----
+
+Chfourtitle: 
+
+----
+
+Chfourbkcolor: white
+
+----
+
+Chfourtextcolor: black
+
+----
+
+Chfour: 
+
+----
+
+Chfivetitle: 
+
+----
+
+Chfivebkcolor: white
+
+----
+
+Chfivetextcolor: black
+
+----
+
+Chfive: 
+
+----
+
+Chsixtitle: 
+
+----
+
+Chsixbkcolor: white
+
+----
+
+Chsixtextcolor: black
+
+----
+
+Chsix: 
+
+----
+
+Chseventitle: 
+
+----
+
+Chsevenbkcolor: white
+
+----
+
+Chseventextcolor: black
+
+----
+
+Chseven: 
+
+----
+
+Cheighttitle: 
+
+----
+
+Cheightbkcolor: white
+
+----
+
+Cheighttextcolor: black
+
+----
+
+Cheight: 
+
+----
+
+Chninetitle: 
+
+----
+
+Chninebkcolor: white
+
+----
+
+Chninetextcolor: black
+
+----
+
+Chnine: 
+
+----
+
+Chtentitle: 
+
+----
+
+Chtenbkcolor: white
+
+----
+
+Chtentextcolor: black
+
+----
+
+Chten: 
+
+----
+
+Conclusiontitle: 
+
+----
+
+Conclusionbkcolor: white
+
+----
+
+Conclusiontextcolor: black
+
+----
+
+Conclusion: 
+
+----
+
+Appendixtitle: 
+
+----
+
+Appendixbkcolor: white
+
+----
+
+Appendixtextcolor: black
+
+----
+
+Appendix: 

@@ -1,0 +1,311 @@
+Title: Emergency Entrance to Tomorrow
+
+----
+
+Keywords: 
+
+----
+
+Description: 
+
+»Um den Kollaps zu verhindern, muss unsere globale Gesellschaft dramatisch umsteuern. Wir können einen neuen Kurs einschlagen und die Zukunft gestalten. Ändern wir nichts, wird sie uns überrollen«, sagen die 18 Gewinner des Blue Planet Awards, des inoffiziellen Umwelt-Nobelpreises.
+<br/>
+Ein Gespräch mit Daniel Kruse und Dominik Wind von OPEN STATE.
+
+----
+
+Author: Dominik Wind, Daniel Kruse
+
+----
+
+Authoraffilation: OPEN STATE
+
+----
+
+Authormail: dominik@openstate.cc
+
+----
+
+Designer: 
+
+----
+
+Designeraffilation: 
+
+----
+
+Designermail: 
+
+----
+
+Introtitle: Introduction
+
+----
+
+Introbkcolor: white
+
+----
+
+Introtextcolor: black
+
+----
+
+Intro: 
+
+Schauen wir uns also zunächst die Fakten an:
+>Die Welt schluckt täglich 13 Milliarden Liter Erdöl, pro Tag sterben 200 Arten aus, das sind 73.000 im Jahr. Im Pazifik schwimmt ein 35 Meter tiefer Strudel aus 3,5 Millionen Tonnen Plastikmüll, und jeden Tag sterben 24.000 Menschen an Hunger, während 1,5 Milliarden an übergewicht leiden.
+
+Tatsächlich aber sind viele Akteure bereits unterwegs in diese bessere Zukunft: **Sozialunternehmer, gemeinnützige Initiativen, die Maker-Bewegung und viele andere** basteln an neuen Modellen für eine **nachhaltigere Gesellschaft**. Doch die Uhr tickt, und es ist höchste Zeit aus diesen Nischen eine starke Bewegung zu formen. Eine Initiative, die es wissen will und eine Vorreiterrolle einnehmen könnte, ist OPEN STATE. Gegründet von fünf Anfang-Dreißigern, bauen sie seit gut zwei Jahren an einer Idee, die mit einem fünfwöchigen Eventformat in diesem Sommer ihren Auftakt finden wird:
+>In einem Camp irgendwo in Brandenburg sollen Berater, Designer und Handwerker zusammenkommen, um ausgewählten Projekten, die an dieser besseren Zukunft arbeiten, den Weg in den Mainstream zu ebnen.
+
+**Open Source ist das Stichwort**, das die Chance erhöhen soll, die vielen richtigen Initiativen in ausreichender Masse zu replizieren, um die eingangs geforderte dringende Kurskorrektur vielleicht doch noch zu schaffen. Das ursprünglich aus der Softwareentwicklung kommende Prinzip der Offenlegung der zum Bau der Produkte nötigen »Quellen«, der Codes und Baupläne, wird in zunehmendem Maße auch auf physische Produkte übertragen und kann nach überzeugung der OPEN STATE-Gründer dazu dienen, »Verantwortung und Gestaltungsmacht zurück in die Hände von Bürgern, Machern, Bewussten« zu geben.
+
+Dass man zumindest in Deutschland bisher wenig Vergleichbares findet, hat verschiedene Gründe, wie uns die Mitgründer Daniel Kruse und Dominik Wind im Gespräch erklären:
+
+----
+
+Chonetitle: Interview
+
+----
+
+Chonebkcolor: white
+
+----
+
+Chonetextcolor: black
+
+----
+
+Chone: 
+
+**Was sind für euch die Ressourcen der Zukunft, losgelöst vom Materiellen?**
+
+***Kruse***  Empathie. ***Wind***  Mut.
+
+**Und woran liegt es, dass in Deutschland bisher so wenig Projekte wie Eures umgesetzt wurden? Liegt es an der Knappheit dieser Ressourcen?**
+
+**Kruse**  Wir müssen aus einer materiell geprägten Welt in eine immateriell geprägte hinüber. Große Worte wie Kooperation, Vertrauen oder Solidarität sind aus der Mode, müssen aber wieder in den Vordergrund. Neben der Herstellung, dem Stofflichen, muss sich der Geist verändern. Erst wenn mehr Menschen wirklich empathisch verstehen, dass sie von der Natur abhängig sind – oder besser: mit ihr verbunden sind – kann sich Verhalten entsprechend anpassen. Es passiert ja emotional erst einmal nichts, wenn ich zum Beispiel CO2 einspare, deswegen ist die Kommunikation des Klimawandels auch so schwierig. CO2 zu sparen ist einfach extrem unerotisch. Immer, wenn ich mir Vorträge über die Energiewende anhöre, ist nichts daran geil. Keine Emotion, kein Aufruf, nichts, was im Bauch ankommt. Aber wenn ich gemeinsam mit anderen Aspekte des Themas erlebe, Lösungen ausprobiere, mentale Belohnungen erhalte und dergleichen – dann überzeugt mich das, ich passe mein Verhalten an und ich erzähle auch anderen davon.
+Wir müssen aus einer materiell geprägten Welt in eine immateriell geprägte hinüber.
+
+**Welche Lücke füllt OPEN STATE?**
+
+***Kruse***  Wir sind seit einigen Jahren schon als Agenturmenschen unterwegs, in einem Kontext der üblichen gesellschaftlichen Akteure, haben aber immer nur aus der Rolle der Dienstleister die Welt der NGOs besser gemacht oder deren Kampagnen unterstützt. Wir kannten also die Szene der Weltretter, aber wir wollten auch dank dieser Erfahrungen nun einen eigenen Ansatz vorlegen. Das Problem an der Utopie ist ja, dass man den Leuten dieses nervige »Eine andere Welt ist möglich« vermitteln muss. Gleichzeitig gibt es schon viele Akteure, die nicht wissen, dass sie zusammengehören. Ob jetzt Permakultur geiler ist oder urbanes Gärtnern spielt doch am Ende keine Rolle. Wichtig ist, dass Leute grundlegende Werte teilen und die Dinge ganz neu angehen. Das alles müssen wir in die Mitte der Gesellschaft tragen – denn das ist weder »öko« noch »eso«, sondern der einzig gangbare Weg in eine zukunftstaugliche Gesellschaft.
+
+***Wind***  Die Frage ist doch viel mehr: Warum ist da überhaupt eine Lücke? Alleine ein Blick in den aktuellen IPCC Bericht sollte eigentlich genügen, um uns kollektiv das Blut in den Adern gefrieren zu lassen. Tut es aber nicht. Wir leben global weit über unsere Verhältnisse und sägen mit Höchstgeschwindigkeit am Ast, auf dem wir sitzen. Wie es besser gehen könnte, ist in der Theorie zuhauf beschrie- ben. Wir wollen jetzt Räume schaffen, in denen das konkret ausgetestet und von dort weitergetragen werden kann.
+Welche Grundidee hat OPEN STATE?
+
+***Wind***  Ein anderer Lebensstil ist möglich. Einer, der sich nicht nach »zurück auf den Baum« oder Verzicht anfühlt. Es gilt, einen alternativen Lebensentwurf zu füllen, der Spaß macht. Der erste Schritt ist das Camp für circa 50 Leute, die in Open-Source-Logik an diesen Lösungen arbeiten. Das Camp soll sein eigener Prototyp sein, der zeigt, wie ein gutes Leben auf dieser Basis aussehen kann. Vom Herstellen des eigenen Stroms über die Ernährung bis hin zum Hausbau – es geht um exemplarische Umsetzungen. Wir wollen zeigen: Das ist alles noch nicht fertig, aber es gibt einen Weg, den man gehen könnte, und so sieht er aus. Beispiel patentfreie Solarkonzentratoren: Man kann die Bauanleitungen anpassen, das Produktdesign, die Quellcodes, Zeichnungen offenlegen und weiterentwickeln. Reparatur wird vereinfacht, was die Produktlebenszyklen verlängert, den Konsumrhythmus verändert und so Ressourcen spart. Dabei geht es vor allem auch darum, Menschen dabei zu unterstützen, sich aus ihrer passiven Konsumentenrolle zu emanzipieren: Weniger kaufen, mehr selber machen und manches vielleicht sogar ganz weglassen.
+Ihr verkauft das große Glück in euren Slogans. Was aber unterscheidet Euch vom kapitalistischen Hintergrund, wie ihn zum Beispiel die Dienstleister von Airbnb oder von Carsharing-Firmen haben?
+
+***Wind***  Airbnb stellt den Marktplatz zur Verfügung. Sie haben mehr oder weniger Couchsurfing kommerzialisiert. Das kann in begrenztem Rahmen Teil einer Lösung sein, aber bei uns geht es darum, grundsätzlichere Prozesse zu gestalten; Prozesse der politischen Mitgestaltung und der Produktion. OPEN STATE ist der Versuch einer Lebensphilosophie, nicht der einer Dienstleistung. Ein »Weiter so!« ist keine Option.
+
+**Tolle Idee aber – alles zu früh ...?**
+
+***Wind***  Ein großer deutscher Werkzeughersteller war zuerst sehr begeistert, als wir um Unterstützung baten. Aber am Ende hatte er Angst, sich seinen aktuellen Markt durch offene Produkte zu kannibalisieren. Die Idee war zu heiß. Viele potenzielle Sponsoren oder Investoren haben einfach Angst, andere Denklogiken auszuprobieren. Zugleich gibt es aber eine Suchbewegung in unserer Gesellschaft und die braucht Zukunftstester. Dieses Wagnis müssen einzelne eingehen. Man kann ja nicht mit der ganzen Gesellschaft direkt dorthin steuern. Die Ressource Mut ist enorm wichtig, um die Gesellschaft voranzubringen.
+Ist es die Aufgabe unserer Generation, diesen Wandel endlich voranzutreiben?
+
+***Kruse***  Man sagt unserer Generation immer nach, dass wir vor lauter Möglichkeiten gar nicht mehr durchblicken. Der Handlungsdruck ist eigentlich enorm, aber wenig davon ist in meinem persönlichen Umfeld spürbar und konkret.
+
+**Die narzistische Gesellschaft bleibt so das vorherrschende Modell: Wie werde ich unter vielen ein Besonderer, anstatt: Wie helfe ich meinem Nachbarn?**
+
+***Wind***  Dabei haben wir eine Verpflichtung, mehr zu tun, als nur das nächste Haus neben das Reihenhaus der Eltern zu bauen. Wir müssen hinterfragen, was die vorherige Generation getan hat, gerade weil wir selbst mit wenig echten Problemen aufwachsen durften. The Guardian brachte vor Kurzem den Titel *Capitalism doesn’t work! — and here is why*. Das ist also inzwischen eine mainstreammedientaugliche und keine linksradikale Aussage mehr. Nur die Ideen, was man mit dieser Erkenntnis anfängt, die divergieren. Es wurden viele kluge Bücher geschrieben, es ist vieles angedacht, alles geil – aber man muss sich jetzt dringend an die Umsetzung der Ideen machen. Wir verbringen circa 95 Prozent unseres Tages mit Routinen und Gewohnheiten – Informationen allein ändern an diesen leider kaum etwas. Wir müssen ins Tun kommen und insofern sind wir auch unsere eigene Ziel- und Testgruppe.
+
+**Ist das ein deutsches Problem – dass immer erst diskutiert wird, anstatt zu machen?**
+
+***Wind***  Wir haben viel zu verlieren. In Spanien oder Griechenland gab es Gesellschaften, die auf unserem Konsumniveau gelebt haben. Durch finanzpolitische Effekte, deren bloße Bezeichnungen die große Mehrheit der Be- troffenen noch nie gehört hat, geschweige denn versteht, ist denen ihr bisheriges normales Leben in kürzester Zeit unter dem Hintern weggebrochen. Diese Menschen sind gezwungen, aktiv zu werden. Bei uns ist es eher so, dass viele denken: Irgendwie geht’s schon, Mutti Merkel mit ihrem Powerdreieck wird’s schon richten. Es erscheint alles um uns herum sehr gefährlich, die ganze Welt, also lieber nicht bewegen, dann geht der Kelch vielleicht an uns vorüber. – Das ist eine sehr gefährliche Grundhaltung.
+
+***Kruse***  Wir müssen verstehen, dass wir in einer nicht mehr zukunftsfähigen Gesellschaft leben. Aus dem Haus zu gehen und direkt ins Auto zu steigen, Plastikverpackungen um alles Essen drum, Easyjetten – man soll das nicht ver- bieten, aber im Grunde ist das alles nicht ok. Wir möchten mit OPEN STATE also neue Erfahrungsräume aufmachen, in denen man austesten kann, ob es anders geht.
+
+***Wind***  Das hört sich erst mal leicht an. Das Verrückte daran ist aber, dass so etwas noch nie in der Menschheitsgeschichte konsequent unternommen wurde. Wir setzen auf die Vernunft des Menschen, aber bisher haben die wirklich großen Shifts immer nur über Naturkatastrophen oder Kriege funktioniert. Der Unterschied dieses Mal ist, dass die Probleme absolut global und untrennbar miteinander verflochten sind: Wir haben keinen Ersatzplaneten und wenn wir die Klimakatastrophe nicht abwenden, wird es nicht »nur« vereinzelte Kulturen wie in der Vergangenheit vielleicht die Maya, Inka oder Römer betreffen.
+
+**Müssen wir also »Krise« neu definieren?**
+
+***Kruse***  Leider werden wir derzeit sogar noch immer krisenlernresistenter. Fukushima: In Deutschland hat sich etwas verändert, aber andere Länder bauen weiter munter Atomkraftwerke. Finanzkrise: Das Casinospiel geht fast unberührt so weiter. Klimakrise: Deutsche Politiker feiern sich ab und bringen das Totschlagargument, dass wir ja nur für 2–3 Prozent der weltweiten Emissionen verantwortlich sind. Statt angemessen zu reagieren, gibt es ein bisschen Make-up, Handshakes und das war’s. Contanze Kurz vom Chaos Computer Club fragte sich neulich auf einer Konferenz auch zu Recht, in was für einer Welt wir da eigentlich leben, in der jeder, der mit Snowden in Kontakt ist, durch staatliche Gewalt bedroht ist ...
+
+***Wind***  In der Natur gibt es für Dauerwachstum nur ein Beispiel – Krebs. Wir sind also momentan eine Art Krebs dieses Planeten. Das endet meist unschön. Wir müssen also unsere zivilisatorischen Prozesse in Einklang bringen mit denen des Planeten, von dem wir leben.
+
+**Seid Ihr das Vorzeigetool einer Next Society?**
+
+***Wind*** Ich möchte niemandem neue Ideologien vorschreiben, sondern nach Wegen suchen, um ökonomische, ökologische und soziale Prozesse in Einklang zu bringen. Ein engeres Miteinander, ein gemeinsames Verantwortungs- gefühl für das direkte Lebensumfeld, bewusste Entscheidungen.
+
+***Kruse***  Die Vorbilder sind ja schon da. Mit OPEN STATE wollen wir diese noch weiter nach vorne und in die Mitte der Gesellschaft bringen. Wenn wir also im Camp ein fassbares Bild bekommen von den Leuten, die aus den derzeitigen Logiken ausbrechen und dabei sogar Spaß zu haben scheinen, dann kann das eine befreiende Welle für viele werden. Wie leben wir eigentlich morgen? Das sollte man doch mal dringend austesten.
+
+*Das Interview erschien in:
+REVUE – Magazine for the Next Society. Heft 15 – Frühjahr / Sommer 2015
+Das Gespräch führte Rabea Edel.*
+
+----
+
+Chtwotitle: 
+
+----
+
+Chtwobkcolor: white
+
+----
+
+Chtwotextcolor: black
+
+----
+
+Chtwo: 
+
+----
+
+Chthreetitle: 
+
+----
+
+Chthreebkcolor: white
+
+----
+
+Chthreetextcolor: black
+
+----
+
+Chthree: 
+
+----
+
+Chfourtitle: 
+
+----
+
+Chfourbkcolor: white
+
+----
+
+Chfourtextcolor: black
+
+----
+
+Chfour: 
+
+----
+
+Chfivetitle: 
+
+----
+
+Chfivebkcolor: white
+
+----
+
+Chfivetextcolor: black
+
+----
+
+Chfive: 
+
+----
+
+Chsixtitle: 
+
+----
+
+Chsixbkcolor: white
+
+----
+
+Chsixtextcolor: black
+
+----
+
+Chsix: 
+
+----
+
+Chseventitle: 
+
+----
+
+Chsevenbkcolor: white
+
+----
+
+Chseventextcolor: black
+
+----
+
+Chseven: 
+
+----
+
+Cheighttitle: 
+
+----
+
+Cheightbkcolor: white
+
+----
+
+Cheighttextcolor: black
+
+----
+
+Cheight: 
+
+----
+
+Chninetitle: 
+
+----
+
+Chninebkcolor: white
+
+----
+
+Chninetextcolor: black
+
+----
+
+Chnine: 
+
+----
+
+Chtentitle: 
+
+----
+
+Chtenbkcolor: white
+
+----
+
+Chtentextcolor: black
+
+----
+
+Chten: 
+
+----
+
+Conclusiontitle: 
+
+----
+
+Conclusionbkcolor: white
+
+----
+
+Conclusiontextcolor: black
+
+----
+
+Conclusion: 
+
+----
+
+Appendixtitle: 
+
+----
+
+Appendixbkcolor: white
+
+----
+
+Appendixtextcolor: black
+
+----
+
+Appendix: 

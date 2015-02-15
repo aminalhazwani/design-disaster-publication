@@ -1,4 +1,4 @@
-Title: MA in Glocal Design
+Title: Design for Sustainability
 
 ----
 
@@ -8,16 +8,19 @@ Keywords:
 
 Description: 
 
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Sed posuere consectetur est at lobortis. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas sed diam eget risus varius blandit sit amet non magna. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
+
+Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Curabitur blandit tempus porttitor. Maecenas sed diam eget risus varius blandit sit amet non magna.
 
 ----
 
-Author: Kris Krois, Alvise Mattozzi, Kuno Prey
+Author: Ursula Tischner
 
 ----
 
-Authoraffilation: 
+Authoraffilation: Tischner & Co.
 
 ----
 
@@ -25,11 +28,11 @@ Authormail:
 
 ----
 
-Designer: 
+Designer: Matteo Maria Moretti
 
 ----
 
-Designeraffilation: 
+Designeraffilation: Interaction Designer
 
 ----
 
