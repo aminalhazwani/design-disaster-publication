@@ -1,11 +1,6 @@
 <?php snippet('header') ?>
 
 	<main class="index" role="main">
-		<!-- <div class="index__intro scene_element scene_element--fadeinup">
-			<h1><?php echo $page->title() ?></h1>
-  			<img src="assets/images/read-placeholder.png" />
-			<?php echo $page->text()->kirbytext() ?>
-		</div> -->
 		<nav class="index__navigation" role="navigation">
 			<ul class="index__navigation--list">
 				<?php foreach($pages->find('articles')->children()->visible() as $article): ?>
@@ -21,7 +16,6 @@
 						        	<?php endif ?>
 						        </div>
 	        				</div>
-
 	        				<div class="index__item--description">
 					            <?php echo $article->description()->kirbytext() ?>
 					        </div>
