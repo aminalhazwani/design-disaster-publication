@@ -1,55 +1,4 @@
 .index {
-	@include e(intro) {
-		padding: 15px 15px 30px 15px;
-		@include media-query(tabl) {
-			padding: 30px 30px 45px 30px;
-		}
-		@include media-query(lap) {
-			padding: 45px 45px 60px 45px;
-		}
-		@include media-query(desk) {
-			padding: 60px 60px 90px 60px;
-		}
-		@include media-query(desk-wide) {
-			float: left;
-			width: 40%;
-			padding: 60px;
-			box-sizing: border-box;
-		}
-
-		h1, h2, h3 {
-			@include media-query (tabl-and-down) {
-				padding-left: 1rem;
-			}
-			@include media-query (desk) {
-				padding-left: 1rem;
-			}
-		}
-
-		p {
-			@include media-query (tabl-and-down) {
-				padding-left: 1rem;
-			}
-			@include media-query (desk) {
-				padding-left: 1rem;
-			}
-		}
-
-		img {
-			float: left;
-			max-width: 40%;
-			padding: 1rem 2rem 1rem 0;
-			@include media-query(lap-and-up) {
-				max-width: 20%;
-			}
-			@include media-query(desk-wide) {
-				max-width: 40%;
-			}
-		}
-	}
-}
-
-.index {
 	@include e(navigation) {
 		@include m(list) {
 			margin: 0;
@@ -78,18 +27,21 @@
 	@include e(item) {
 		@include m(info) {
 			overflow: hidden;
-			padding: 15px 15px 30px 15px;
+			padding: 30px 15px 30px 15px;
 			@include media-query(tabl) {
-				padding: 30px 30px 45px 30px;
+				padding: 30px 30px 90px 30px;
 			}
 			@include media-query(lap) {
-				padding: 45px 45px 60px 45px;
+				padding: 45px 45px 90px 45px;
 			}
 			@include media-query(desk) {
 				padding: 60px 60px 90px 60px;
 			}
+			@include media-query(desk-wide) {
+				padding-bottom: 120px;
+			}
 			@include media-query(desk-super-wide) {
-				padding: 90px 90px 120px 60px;
+				padding-bottom: 240px;
 			}
 
 			&:before {
@@ -154,6 +106,7 @@
 			font-family: $din;
 			color: $white;
 			@include font-smooth();
+			line-height: 1.4;
 			margin-bottom: .5rem;
 			@include media-query(tabl-and-up) {
 				font-size: 1.15em;
@@ -173,6 +126,9 @@
 			p {
 				z-index: 4;
 				position: relative;
+			}
+			@include media-query(palm) {
+				display: none;
 			}
 		}
 	}
