@@ -119,6 +119,7 @@ pullquote {
 		}
 		li > p {
 			margin-bottom: .5rem;
+			word-wrap: break-word;
 		}
 	}
 }
