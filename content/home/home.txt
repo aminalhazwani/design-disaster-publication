@@ -14,7 +14,7 @@ Onlinetitle: Online reading
 
 ----
 
-Onlinetext: Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur so, what are you waiting for → (link: /index text: read online)
+Onlinetext: Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum so, what are you waiting for (link: /index text: read online)
 
 ----
 
@@ -22,4 +22,4 @@ Offlinetitle: Offline digital reading
 
 ----
 
-Offlinetext: We offer digital version of our puclication as well. You can download an (link: # text: ePub) ↓ for your iPhone, iPad or Nook e-Reader. You can download a (link: # text: Mobi) ↓ for your Kindle or if you have another device you can download the standard (link: # text: PDF) ↓
+Offlinetext: We offer digital version of our puclication as well. You can download an (link: # text: ePub) for your iPhone, iPad or Nook e-Reader. You can download a (link: # text: Mobi) for your Kindle or if you have another device you can download the standard (link: # text: PDF)

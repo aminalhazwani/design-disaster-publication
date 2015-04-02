@@ -15,7 +15,13 @@
 
 		<div class="footer__col">
 		  	<div class="footer__imprint">
-		  		<?php echo $site->imprint()->kirbytext() ?>
+		  		<?php echo $site->colophon()->kirbytext() ?>
+		  	</div>
+		</div>
+
+		<div class="footer__col">
+		  	<div class="footer__contacts">
+		  		<?php echo $site->contacts()->kirbytext() ?>
 		  	</div>
 		</div>
 

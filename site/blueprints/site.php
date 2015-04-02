@@ -18,9 +18,12 @@ fields:
   navigation:
     label: Navigation
     type: textarea
-  imprint:
-    label: Imprint
-    type: textarea
   copyright:
     label: Copyright
     type:  textarea
+  colophon:
+    label: Colophon
+    type: textarea
+  contacts:
+    label: Contacts
+    type: textarea
