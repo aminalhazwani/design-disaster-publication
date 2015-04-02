@@ -33,7 +33,7 @@
     <?php endif ?>
 
     <!-- Favicon and Touch icons -->
-    <link rel="icon" type="image/png" href="#">
+    <link rel="icon" href="<?php echo $site->url() ?>/assets/images/favicon.ico">
     <link href="#" rel="apple-touch-icon" />
     <link href="#" rel="apple-touch-icon" sizes="76x76" />
     <link href="#" rel="apple-touch-icon" sizes="120x120" />
