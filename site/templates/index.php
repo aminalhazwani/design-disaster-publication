@@ -4,7 +4,7 @@
 		<nav class="index__navigation" role="navigation">
 			<ul class="index__navigation--list">
 				<?php foreach($pages->find('articles')->children()->visible() as $article): ?>
-				<li class="scene_element scene_element--fadeinup index__item">
+				<li class="index__item">
 			  		<a href="<?php echo $article->url() ?>" style="background-image:url(<?php foreach($article->images() as $image): ?><?php if($image->cover() != ''): ?><?php echo $image->url() ?><?php endif ?><?php endforeach?>)">
 			  			<div class="index__item--info">
 				  			<div class="index__item--meta">

@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
   <main class="home" role="main">
-	<section class="home__header scene_element scene_element--fadeinup">
+	<section class="home__header">
 		<?php echo $page->introtext()->kirbytext() ?>
 		<!--
 		<div>
@@ -14,13 +14,13 @@
 		-->
 	</section>
 
-	<div class="home__cover scene_element scene_element--fadeinup">
+	<div class="home__cover">
 		<?php echo $page->covertext()->kirbytext() ?>
 		<img src="assets/images/dod-lettering.png" />
 	</div>
 
 	<!--
-  	<section class="home__share scene_element scene_element--fadeinup"> 
+  	<section class="home__share"> 
   		<p>Please, share this publication!</p>
   		<a href="#">on Facebook</a>
   		<a href="#">on Twitter</a>
@@ -28,7 +28,7 @@
   	</section>
 	-->
 
-  	<section class="home__read scene_element scene_element--fadeinup">
+  	<section class="home__read">
   		<div class="home__read--online">
   			<div>
 	  			<h3><?php echo $page->onlinetitle() ?></h3>

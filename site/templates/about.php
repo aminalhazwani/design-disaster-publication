@@ -2,7 +2,7 @@
 
   <main class="about" role="main">
 
-    <div class="scene_element scene_element--fadeinup">
+    <div>
       <h1><?php echo $page->title()->html() ?></h1>
       <?php echo $page->text()->kirbytext() ?>
     </div>
