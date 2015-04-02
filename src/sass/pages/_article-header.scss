@@ -57,7 +57,7 @@
 		}
 
 		@include m(meta) {
-			margin-bottom: 6rem;
+			margin-bottom: 2rem;
 			@include media-query(desk) {
 				width: 50%;
 				float: left;
@@ -164,6 +164,7 @@
 	@include e(header) {
 		@include m(designer) {
 			@extend .article__header--author;
+			margin-bottom: 0;				
 			@include m(name) {
 				@extend .article__header--author--name;
 			}
@@ -178,6 +179,8 @@
 .article {
 	@include e(header) {
 		@include m(abstract) {
+			padding-top: 2rem;
+			border-top: 2px solid $white;
 			h1, h2, h3 {
 				color: $white;
 				@include font-smooth();
@@ -202,6 +205,8 @@
 				float: left;
 				width: 50%;
 				margin: 0;
+				padding-top: 0;
+				border: none;
 			}
 		}
 	}

@@ -11,6 +11,7 @@
 .index {
 	@include e(item) {
 		list-style-type: none;
+		margin-bottom: 3px;
 		a {
 			position: relative;
 			display: block;
