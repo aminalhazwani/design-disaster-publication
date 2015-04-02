@@ -132,7 +132,6 @@ article {
 // Article content floating
 .article {
 	@include e(content) {
-		// text-align: justify;
 		@include media-query(desk) { 
 			position: relative;
 			width: 50%;
@@ -155,8 +154,6 @@ article {
 			margin-bottom: .5rem;
 		}
 		p {
-			margin-bottom: 2rem;
-
 			&:last-of-type {
 				margin-bottom: 0;
 			}
@@ -180,7 +177,7 @@ article {
 	@include e(content) {
 		figure {
 			line-height: 0;
-			margin: 2.6rem 0;
+			margin: 1.3rem 0;
 			&.left {
 				@include media-query(desk) {
 					position: absolute;
@@ -191,7 +188,9 @@ article {
 					box-sizing: border-box
 				}
 			}
-			&.inline {}
+			&.inline {
+				margin: 0;
+			}
 			&.full {
 				@include media-query(desk) {
 					width: 200%;

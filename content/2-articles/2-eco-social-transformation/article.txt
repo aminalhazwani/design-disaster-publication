@@ -78,7 +78,13 @@ Chonetextcolor: black
 
 Chone: 
 
-**a. Water Scarcity**(img: est_icon_04.png)(img: est_icon_01_01_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+**a. Water Scarcity**
+
+(img: est_icon_04.png)
+
+(img: est_icon_01_01_100x100.png)
+
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
 
 **b. Desertification**(img: est_icon_01_02_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
 
