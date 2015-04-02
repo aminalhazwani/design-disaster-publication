@@ -147,7 +147,6 @@
 		z-index: 5;
 		background-color: $red;
 		color: $black;
-		@include font-smooth();
 
 		width: 100%;
 		text-align: center;
