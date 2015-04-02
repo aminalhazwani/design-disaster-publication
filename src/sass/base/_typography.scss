@@ -97,7 +97,8 @@ pullquote {
 
 	@include media-query(desk) {
 		position: absolute;
-		left: -100%;
+		left: -50%;
+  		transform: translateX(-50%);
 		max-width: calc(100% - 2.6rem);
 		margin-top: .6rem;
 	}
