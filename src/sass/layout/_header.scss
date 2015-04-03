@@ -2,9 +2,9 @@
 	position: fixed;
 	top: 0;
 	width: 100%;
-	z-index: 6;
+	z-index: 10;
 	box-sizing: border-box;
-	transition: top .3s $bezier;
+	transition: top .5s $bezier;
 	background-color: $yellow;
 	font-size: 1.25em;
 	padding: 15px;
@@ -85,7 +85,7 @@
 			width: 20px;
 			height: 3px;
 			background-color: $rich-black;
-			transition: all .3s $bezier;
+			transition: all .5s $bezier;
 
 			&:after {
 				position: absolute;
@@ -106,7 +106,7 @@
 				height: 3px;
 				background-color: $rich-black;
 				content: " ";
-				transition: all .7s $bezier;
+				transition: all .5s $bezier;
 			}
 		}
 
@@ -133,7 +133,7 @@
 	@include e(navigation) {
 		position: fixed;
 		top: -100%;
-		transition: top .7s $bezier;
+		transition: top .5s $bezier;
 		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 		&.is-open {
 			top: 56px;
@@ -144,7 +144,7 @@
 				top: 62px;
 			}
 		}
-		z-index: 5;
+		z-index: 9;
 		background-color: $red;
 		color: $black;
 

@@ -48,6 +48,19 @@
 	}
 }
 
+// &:first-child { 
+// 	padding-top: calc(30px + 56px);
+// 	@include media-query(tabl) {
+// 		padding-top: calc(30px + 58px);
+// 	}
+// 	@include media-query(lap) {
+// 		padding-top: calc(45px + 58px);
+// 	}
+// 	@include media-query(desk) {
+// 		padding-top: calc(60px + 62px);
+// 	}
+// }
+
 .index {
 	@include e(item) {
 		@include m(meta) {
@@ -74,7 +87,7 @@
 
 		@include m(authors) {
 			font-family: $din;
-			color: $white;
+			color: $yellow;
 			@include font-smooth();
 			line-height: 1.4;
 			margin-bottom: .5rem;
