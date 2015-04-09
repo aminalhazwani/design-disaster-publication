@@ -9,7 +9,8 @@
 	font-size: 1.25em;
 	padding: 15px;
 	overflow: hidden;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	// box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	border-bottom: 2px solid $red;
 
 	&.nav-up {
 		top: -56px;	
@@ -136,7 +137,7 @@
 		position: fixed;
 		top: -100%;
 		transition: top .5s $bezier;
-		box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+		// box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
 		&.is-open {
 			top: 56px;
 			@include media-query(tabl-and-up) {
