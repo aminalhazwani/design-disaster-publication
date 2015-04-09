@@ -5,55 +5,27 @@
 		background-size: cover;
 		background-position: center;
 		background-repeat: no-repeat;
+		background-color: $red;
 		clear: both;
 		@include m(info) {
 			overflow: hidden;
 			position: relative;
 			z-index: 4;
-			padding: 15px 15px 45px 15px;
+			padding: calc(15px + 56px) 15px 45px 15px;
 			@include media-query(tabl) {
-				padding: 30px 30px 60px 30px;
+				padding: calc(30px + 58px) 30px 60px 30px;
 			}
 			@include media-query(lap) {
-				padding: 45px 45px 60px 45px;
+				padding: calc(45px + 58px) 45px 60px 45px;
 			}
 			@include media-query(desk) {
-				padding: 60px 60px 90px 60px;
+				padding: calc(60px + 62px) 60px 90px 60px;
 			}
 			@include media-query(desk-super-wide) {
 				padding-bottom: 16rem;
+				max-width: 1600px;
+  				margin: 0 auto;
 			}
-		}
-
-		&:before {
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			content: "";
-			// background-color: rgba(5,5,5,0.25);
-			background: linear-gradient(to top, rgba(5, 5, 5, 0.5),  rgba(5, 5, 5, 0.25));
-			z-index: 2;
-		}
-
-		&:after {
-			z-index: 3;
-			// background-image: url("../images/3px.png");
-			background-color: transparent;
-			background-position: center;
-			background-repeat: repeat;
-
-			position: absolute;
-			top: 0;
-			right: 0;
-			bottom: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-			content: "";
 		}
 
 		@include m(meta) {
@@ -75,12 +47,12 @@
 			word-break: break-word;
 			@include media-query(tabl) {
 				font-size: 4em;
-				margin-bottom: 2rem;
+				margin-bottom: 1rem;
 				margin-left: -2px;
 			}
 			@include media-query(lap) {
 				font-size: 5em;
-				margin-bottom: 3rem;
+				margin-bottom: 1rem;
 				margin-left: -3px;
 			}
 			@include media-query(desk) {
@@ -101,10 +73,7 @@
 	@include e(header) {
 		@include m(author) {
 			line-height: 1.45;
-			margin-bottom: .75rem;
-			@include media-query(tabl-and-up) {
-				margin-bottom: 2rem;
-			}
+			margin-bottom: 3rem;
 			span {
 				display: block;
 				margin-bottom: 0;
@@ -118,10 +87,7 @@
 			}
 			@include m(name) {
 				font-family: $din;
-				margin-bottom: 0.25rem;
-				@include media-query(tabl-and-up) {
-					margin-bottom: .35rem;
-				}
+				line-height: 1.4;
 				a {
 					@include font-smooth();
 					color: $yellow;

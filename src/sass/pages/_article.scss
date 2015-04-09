@@ -131,6 +131,16 @@ article {
 
 // Article content floating
 .article {
+	@include e(wrapper) {
+		@include media-query(desk-super-wide) {
+			overflow: hidden;
+			max-width: 1600px;
+			margin: 0 auto;
+		}
+	}
+}
+
+.article {
 	@include e(content) {
 		@include media-query(desk) { 
 			position: relative;

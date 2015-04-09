@@ -1,31 +1,33 @@
-	<footer class="footer scene_element scene_element--fadeinup">
-	  	<div class="footer__col">
-		  	<div class="footer__copy">
-		    	<?php echo $site->copyright()->kirbytext() ?>
-		    </div>
-		  	<div class="footer__logos">
-		  		<div class="footer__logos--uni">
-		  			<a href="#"></a>
-		  		</div>
-		  		<div class="footer__logos--press">
-		  			<a href="#"></a>
-		  		</div>
-		  	</div>
-		</div>
+	<footer class="footer">
+		<div class="footer__wrapper">
+		  	<div class="footer__col">
+			  	<div class="footer__copy">
+			    	<?php echo $site->copyright()->kirbytext() ?>
+			    </div>
+			  	<div class="footer__logos">
+			  		<div class="footer__logos--uni">
+			  			<a href="#"></a>
+			  		</div>
+			  		<div class="footer__logos--press">
+			  			<a href="#"></a>
+			  		</div>
+			  	</div>
+			</div>
 
-		<div class="footer__col">
-		  	<div class="footer__imprint">
-		  		<?php echo $site->colophon()->kirbytext() ?>
-		  	</div>
-		</div>
+			<div class="footer__col">
+			  	<div class="footer__imprint">
+			  		<?php echo $site->colophon()->kirbytext() ?>
+			  	</div>
+			</div>
 
-		<div class="footer__col">
-		  	<div class="footer__contacts">
-		  		<?php echo $site->contacts()->kirbytext() ?>
-		  	</div>
-		</div>
+			<div class="footer__col">
+			  	<div class="footer__contacts">
+			  		<?php echo $site->contacts()->kirbytext() ?>
+			  	</div>
+			</div>
 
-		<p></p>
+			<p></p>
+		</div>
 	</footer>
 
 	<!-- Vendor scripts -->

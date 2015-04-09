@@ -4,6 +4,21 @@
 			margin: 0;
 			padding: 0;
 			clear: both;
+
+			li:first-of-type {
+				a > div {
+					padding-top: calc(30px + 56px);
+					@include media-query(tabl) {
+						padding-top: calc(30px + 58px);
+					}
+					@include media-query(lap) {
+						padding-top: calc(45px + 58px);
+					}
+					@include media-query(desk) {
+						padding-top: calc(60px + 62px);
+					}
+				}
+			}
 		}
 	}
 }
@@ -12,11 +27,11 @@
 	@include e(item) {
 		list-style-type: none;
 		margin-bottom: 3px;
+		background-color: $red;
 		a {
 			position: relative;
 			display: block;
 			width: 100%;
-			margin-bottom: -1px;
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -43,23 +58,12 @@
 			}
 			@include media-query(desk-super-wide) {
 				padding-bottom: 240px;
+				max-width: 1600px;
+				margin: 0 auto;
 			}
 		}
 	}
 }
-
-// &:first-child { 
-// 	padding-top: calc(30px + 56px);
-// 	@include media-query(tabl) {
-// 		padding-top: calc(30px + 58px);
-// 	}
-// 	@include media-query(lap) {
-// 		padding-top: calc(45px + 58px);
-// 	}
-// 	@include media-query(desk) {
-// 		padding-top: calc(60px + 62px);
-// 	}
-// }
 
 .index {
 	@include e(item) {

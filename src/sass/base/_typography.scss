@@ -23,16 +23,6 @@ span {
 	@include font-kern;
 }
 
-main {
-	padding-top: 56px;
-	@include media-query(tabl-and-up) {
-		padding-top: 58px;
-	}
-	@include media-query(desk) {
-		padding-top: 62px;
-	}
-}
-
 a {
 	text-decoration: none;
 	color: inherit;

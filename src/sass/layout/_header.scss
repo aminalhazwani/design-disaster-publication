@@ -39,6 +39,19 @@
 }
 
 .header {
+	@include e(wrapper) {
+		position: relative;
+		max-width: 100%;
+		width: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		@include media-query(desk-super-wide) {
+			max-width: 1600px;
+		}
+	}
+}
+
+.header {
 	@include e(logo) {
 		float: left;
 		font-family: $din-cond;
@@ -66,19 +79,8 @@
 			position: absolute;
 			top: 50%;
 			right: 0;
-			margin-right: 15px;
-			@include media-query(tabl-and-up) {
-				margin-right: 30px;
-			}
-			@include media-query(lap) {
-				margin-right: 45px;
-			}
 			@include media-query(desk) {
 				font-size: 1.5em;
-				margin-right: 60px;
-			}
-			@include media-query(desk-wide) {
-				margin-right: 60px;
 			}
 			transform: translateY(-50%);
 			display: block;

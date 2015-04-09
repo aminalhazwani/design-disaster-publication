@@ -26,6 +26,16 @@
 }
 
 .footer {
+	@include e(wrapper) {
+		@include media-query(desk-super-wide) {
+			overflow: hidden;
+			max-width: 1600px;
+			margin: 0 auto;
+		}
+	}
+}
+
+.footer {
 	@include e(col) {
 		&:first-of-type {
 			padding: 20px 15px 0 15px;
@@ -45,6 +55,9 @@
 			}
 			@include media-query(desk-wide) { 	
 				padding: 60px 30px 60px 60px;
+			}
+			@include media-query(desk-super-wide) { 	
+				padding-left: 0;
 			}
 		}
 
@@ -87,6 +100,9 @@
 			}
 			@include media-query(desk-wide) { 	
 				padding: 60px 60px 60px 30px;
+			}
+			@include media-query(desk-super-wide) { 	
+				padding-right: 0;
 			}
 		}
 	}

@@ -75,14 +75,16 @@
         <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
     <header class="header">
-        <div class="header__logo">
-            <a href="<?php echo $site->url() ?>/">
-                By <span>design</span> or by <span>disaster</span>
-            </a>
-        </div>
+        <div class="header__wrapper">
+            <div class="header__logo">
+                <a href="<?php echo $site->url() ?>/">
+                    By <span>design</span> or by <span>disaster</span>
+                </a>
+            </div>
 
-        <div class="header__menu">
-            <span></span>
+            <div class="header__menu">
+                <span></span>
+            </div>
         </div>
     </header>
 

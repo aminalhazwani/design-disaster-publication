@@ -1,3 +1,3 @@
-<div class="header__navigation scene_element scene-element__fadeindown">
+<div class="header__navigation">
 	<?php echo $site->navigation()->kirbytext() ?>
 </div>
