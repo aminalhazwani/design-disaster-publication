@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Introtext: Proceedings of the conference <br>By Design or By Disaster 2013 <br>→ <a href="/index">read</a> or <a class="home__header--download" href="#download">download</a> ↓
+Introtext: Proceedings of the conference <br>By Design or By Disaster 2013 <br><a href="/index">read</a> or <a class="home__header--download" href="#download">download</a>
 
 ----
 

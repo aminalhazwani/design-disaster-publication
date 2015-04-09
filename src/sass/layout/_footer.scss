@@ -20,15 +20,15 @@
 		}
 	}
 
-	@include media-query(desk-wide) {
+	@include media-query(desk-super-wide) {
 		font-size: 1.25em;
 	}
 }
 
 .footer {
 	@include e(wrapper) {
+		overflow: hidden;
 		@include media-query(desk-super-wide) {
-			overflow: hidden;
 			max-width: 1600px;
 			margin: 0 auto;
 		}
