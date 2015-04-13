@@ -2,8 +2,8 @@ Caption:
 
 ----
 
-Cover: 
+Cover: 1
 
 ----
 
-Measure: inline
+Measure: left

@@ -2,7 +2,7 @@ Title: Home
 
 ----
 
-Introtext: Proceedings of the conference <br>By Design or By Disaster 2013 <br><a href="/index">read</a> or <a class="home__header--download" href="#download">download</a>
+Introtext: Proceedings of the conference <br>By Design or By Disaster 2013 <br><a href="https://pro2.unibz.it/projects/blogs/glocaldesign/publication/index">read</a> or <a class="home__header--download" href="#download">download</a>
 
 ----
 
@@ -14,7 +14,7 @@ Onlinetitle: Online reading
 
 ----
 
-Onlinetext: Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum so, what are you waiting for (link: /index text: read online)
+Onlinetext: Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur so, what are you waiting for (link: https://pro2.unibz.it/projects/blogs/glocaldesign/publication/index text: read online)
 
 ----
 

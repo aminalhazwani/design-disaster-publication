@@ -1,0 +1,323 @@
+Title: Design for Sustainability
+
+----
+
+Keywords: 
+
+----
+
+Description: Prof. Ursula Tischner studierte Architektur und Produktdesign und spezialisierte sich auf ökologisch und sozial nachhaltiges Design von Produkten und Dienstleistungen. Nach dem Studium war sie im Wuppertal Institut für Klima Umwelt und Energie als Forscherin tätig. 1996 gründete sie die Agentur für nachhaltiges Design, econcept, in Köln. Hier berät sie Unternehmen, führt Forschungsprojekte durch und vertritt das Gebiet des nachhaltigen Designs in der Gestaltungspraxis und -lehre. Ab 2002 leitete sie das Sustainable Design Programm an der Design Academy Eindhoven, NL. Seit 2010 ist sie Professorin für Design for Sustainability am Savannah College of Art and Design in den USA.
+
+----
+
+Author: Prof. Ursula Tischner
+
+----
+
+Authoraffilation: econcept, Agentur für nachhaltiges Design, Köln
+
+----
+
+Authormail: u.tischner@econcept.org
+
+----
+
+Designer: 
+
+----
+
+Designeraffilation: 
+
+----
+
+Designermail: 
+
+----
+
+Introtitle: Die Welt in Krisen
+
+----
+
+Introbkcolor: white
+
+----
+
+Introtextcolor: black
+
+----
+
+Intro: 
+
+Während wir unter Klima- und Finanzkrisen ächzen, ist langsam eine leichte wirtschaftliche Erholung abzusehen und es bleibt zu hoffen, dass Regierungen Gesetze und Richtlinien erlassen und mehr Kontrollorgane installieren werden, damit leichtsinnige Spekulationen und Wirtschaften ’auf Pump‘ nicht mehr zu globalen Krisen führen können. Wenn wir jedoch unseren Planeten und das biologische Gleichgewicht destabilisieren, helfen keine Regularien mehr. Und in der Tat zweifelt heute kaum ein ernstzunehmender Wissenschaftler oder Politiker mehr daran, dass das globale Phänomen der Klimaveränderung zum Teil menschengemacht ist, dass es nicht nur zu ökologischen und sozialen Problemen führen wird sondern auch eine ökonomische Bedrohung darstellt und dass wir als internationale Staatengemeinschaft dringend handeln müssen, um den Ausstoß von Treibhausgasen zu verringern. <pullquote>Die ressourcenverschwendende Wirtschaftsweise der industrialisierten Länder taugt nicht als Modell für die ganze Weltbevölkerung.</pullquote>(img: tischner_design-for-sustainability_impact.jpg)
+
+Jedoch nicht nur der Klimawandel ist eine Bedrohung. Die knapper und teurer werdenden Ölvorräte, die Ölkatastrophe am Golf von Mexiko, Kämpfe um Ressourcenverfügbarkeit oder um Wasser und Nahrungsmittel zeigen deutlich, dass die ressourcenverschwendende Wirtschaftsweise der industrialisierten Länder nicht als Modell für die ganze Weltbevölkerung taugt und insbesondere die reicheren Länder hier deutlich umsteuern müssen, um das Überleben von bald 9 Milliarden Menschen auf der Welt zu sichern. Die Industrienationen verbrauchen immer noch ca. 70% aller Ressourcen weltweit, obwohl sie nur ca. 20% der Weltbevölkerung ausmachen mit schrumpfender Tendenz. Besonders drei Konsumfelder sind für 80% aller Umweltbelastungen der westlichen Industrienationen verantwortlich: Ernährung – Landwirtschaft, Mobilität – Tourismus und Wohnen – Energieverbrauch in Gebäuden.[^1](img: tischner_design-for-sustainability_earth-resources.jpg)
+
+[^1]:European Environment Agency. *Environmental Pressures from European consumption and production*. EEA publication TH-78-07-137-EN-D. 2007.
+
+----
+
+Chonetitle: Und was hat das mit Design zu tun?
+
+----
+
+Chonebkcolor: white
+
+----
+
+Chonetextcolor: black
+
+----
+
+Chone: 
+
+Genau diese Konsumbereiche sind mit mehr oder weniger schlecht gestalteten Gütern und Infrastruktur ausgestattet. Laut einer berühmten Faustregel, werden etwa 80% aller mit einem Produkt verbundenen Kosten in der Produktentwicklungs- und -gestaltungsphase festgelegt[^1]. Ähnliches gilt (mit Ausnahmen) für Umweltbelastungen. Wenn Gestalter im Entwurfsprozess die richtigen Informationen zur Verfügung haben,  die richtigen Tools anwenden und Fragen stellen, können sie Güter gestalten, die grüner oder sogar 'nachhaltiger' sind. 
+
+> Nachhaltige Entwicklung (Sustainable Development) zielt darauf ab, das Überleben einer wachsenden Weltbevölkerung auf lange Sicht auf einem Planeten mit begrenzten Ressourcen zu ermöglichen und die dazu nötigen ökologischen, ökonomischen und sozialen Bedingungen zu schaffen[^2].
+
+'**Design für Nachhaltigkeit**' oder '**Design for Sustainability**' (DfS) erzeugt also Lösungen, die einen gesellschaftlich sinnvollen Nutzen erbringen und die Lebensqualität insbesondere der weniger wohlhabenden Menschen verbessern, die Wertschöpfung für Anbieter und Kunden schaffen und die ökologische Schäden vermeiden oder sogar positiv auf die natürliche Umwelt einwirken. Unter den Oberbegriff des Designs für Nachhaltigkeit lassen sich alle anderen Formen des ökologisch sinnvollen (also Green) Designs oder sozialen Designs einordnen. '**EcoDesign**' z.B. (der Begriff wird gleichbedeutend mit Green Design benutzt) fokussiert vor allem darauf, ökologische und ökonomische Vorteile durch gute Gestaltungslösungen zu vereinen. '**Base Of the Pyramid**' (BOP) Design zielt darauf ab, mit den und für die Ärmsten der Armen Lösungen zur Verbesserung ihrer Lebensgrundlage zu gestalten. **Design für Recycling und Demontage** kümmert sich um die Kreislauffähigkeit der Produkte usw.
+
+[^1]:Schäppi, M. / Andreasen, M. / Kirchgeorg, M.M. / Radermacher, F.J. * Handbuch Produktentwicklung*. München/Wien: Carl Hanser Verlag. S.300. 2005.
+[^2]:United Nations. *Agenda 21: The Earth Summit Strategy to Save Our Planet*. Document E.92-38352. New York: UN. 1992.
+
+----
+
+Chtwotitle: EcoDesign und Design für Nachhaltigkeit
+
+----
+
+Chtwobkcolor: white
+
+----
+
+Chtwotextcolor: black
+
+----
+
+Chtwo: 
+
+**Es war einmal.... oder so könnte es sein**
+Stellen Sie sich vor, sie müssten nie wieder ein Mobiltelefon kaufen, sondern ein Anbieter sorgte dafür, dass Sie ihr Leben lang stets mit einem effizienten und unschädlichen Kommunikationsgerät ausgestattet sind. Sie zahlen lediglich für die Kommunikation selbst. Dieses Lebensdauerhandy ist so modular gestaltet, dass Funktionen nach Ihrem Wunsch zugefügt oder weggelassen werden können, es kann repariert werden. Auch eine optische oder modische Aktualisierung ist problemlos möglich, durch Austausch der Außenhülle. Es funktioniert mit einer Mini-Brennstoffzelle, die Sie von Zeit zu Zeit mit ein paar Tropfen Bio-Kraftstoff auffüllen müssen und besteht zu 80 Prozent aus einem natürlichen Werkstoff, der nach dem langen Leben einfach geschreddert und, in den natürlichen Kreislauf zurückgeführt, zum Nährstoff für die Natur wird. Die restlichen Komponenten des Geräts werden geprüft und weitergenutzt oder werkstofflich recycelt.(img: tischner_design-for-sustainability_eco-service.jpg)
+
+Tatsächlich wachsen die Müllberge erzeugt durch hochgradig schadstoffhaltige elektronische Geräte ins Unermessliche, was die Europäische Kommission bereits veranlasst hat, Gesetze zur größeren Produktverantwortung von Herstellern und Händlern, Produktrücknahme und Re-Use/ Recycling zu erlassen. Ähnliche Gesetze gibt es für Fahrzeuge, Verpackungen und Batterien, weitere werden folgen.
+Nach wie vor sind viele der heute gestalteten Güter weit davon entfernt, grün oder sogar nachhaltig zu sein und das trotz bereits lange vorhandener Methoden und Tools, guter praktischer Beispiele und Markterfolgen für ökologisch und sozial sinnvolle Produkte und Angebote[^1]. Insbesondere Deutsche Designer zeichnen sich im internationalen Vergleich leider durch größere Ignoranz in diesem Gebiet aus und es gibt tatsächlich immer noch lediglich eine einzige Deutsche Professur für ökologisches Design. Keine einzige Deutsche Designhochschule bietet einen Bachelor oder Master Studiengang in Eco- oder Produkt Design for Sustainability an. (Stand 2013)
+
+**Nachhaltige Güter erfüllen soweit wie möglich folgende Kriterien. Sie sind:**
+
+**Sinnvoll**:
+Erfüllen eine (gesellschaftlich und sozial) sinnvolle Funktion, lösen ein echtes Problem
+**Effizient und effektiv**:
+Im Einsatz von Ressourcen und Energie
+**Solar**:
+Nutzen erneuerbare Energien: Sonne, Wasser, Wind, Erdwärme, Muskelkraft oder auf nachhaltige Weise erzeugte Bio-Treibstoffe
+**Sicher**:
+Sind risikofrei, gesund, auch ’idiotensicher‘, ergonomisch und unschädlich für die natürliche Umwelt/ schadstofffrei
+**Angemessen dauerhaft**:
+Je nach Funktion kurz- oder langlebig, aber immer angemessen, wenn kurzlebig müssen sie besonders zyklisch sein (s.u.)
+**Zyklisch**:
+Abfall wird zum Nährstoff (waste equals food), technische oder natürliche Kreisläufe schließen 
+**So regional wie möglich und sinnvoll**:
+Mit geringem Transport- und Verpackungsaufwand
+**Sozial**:
+Gut für die sozio-kulturelle Umwelt, steigern Lebensqualität, sichern Beschäftigung, werden unter (regional) akzeptablen Arbeitsbedingungen hergestellt
+**Wertig**:
+Vernünftiges Preis-Leistungsverhältnis, erringen Wertschätzung beim Nutzer, sichern die wirtschaftliche Existenz der Anbieter
+
+Alle diese Eigenschaften müssen für den gesamten Lebensweg des Produktes betrachtet werden. Oft ist es schwierig alle Kriterien im Gestaltungs- und Entwicklungsprozess gleich gut zu erfüllen, z.B. Regionalisierung versus Effizienz – wie im richtigen Leben müssen auch hier Kompromisse gemacht werden. Zu suchen ist die beste machbare und vermarktbare Kombination von ökologischen, ökonomischen und sozialen Eigenschaften.
+
+[^1]:Tischner, U./Schmincke, E./Rubik, F. et. al. *Was ist Ecodesign*. Basel: Verlag, Frankfurt: später Birkhäuser. 2000.
+
+----
+
+Chthreetitle: Der EcoDesign Prozess
+
+----
+
+Chthreebkcolor: white
+
+----
+
+Chthreetextcolor: black
+
+----
+
+Chthree: 
+
+**Im EcoDesign hinterfragen wir zunächst die Aufgabenstellung und analysieren die Ist-Situation**. Wir sind radikaler, als es normalen Produktdesignern in der Regel möglich ist, und setzen bereits bei strategischen Unternehmensentscheidungen mit ökologischen Fragestellungen an. Außerdem betrachten wir stets den **gesamten Lebenszyklus** des Produktes von **Rohstoffgewinnung** über **Produktion**, **Vertrieb**, **Gebrauch** bis zum **Recycling** und arbeiten daher auch mit der **gesamten Wertschöpfungskette**.
+
+Für die strategische Analyse von Marktsituationen stehen Tools wie die **Sustainability-SWOT **Analyse zur Verfügung. Für die Analyse bestehender Produkte oder von Konkurrenzprodukten (Benchmarking) verwenden wir die **EcoDesign-Checkliste**. Zur tiefer gehenden Produktanalyse dient das **Life Cycle Assessment** (LCA). Nach Ermittlung der größten Schwachstellen und Probleme in der Ist-Situation werden bessere oder radikal neue Ideen, Designkonzepte und detaillierte Lösungen der gegebenen Aufgabenstellung entwickelt. Zur Eco Design Toolbox gehören auch *Kreativitätsmethoden* und *Bionik*, *Leitfäden* und *Faustregeln*, *Softwaretools* für ökologisch-ökonomische Bewertungen, *Szenariotechniken* und *Backcasting* sowie inspirierende *Beispielsammlungen* und *Materialdatenbanken*. Auch *Trendanalysen* und *Kontextrecherchen* werden eingesetzt.
+>Eco Design Projekte beinhalten normalerweise intensivere Forschungsaktivitäten als konventionelle Produktgestaltung
+
+z.B. Materialforschung, Technologieforschung, Zielgruppenforschung. Oft kooperieren wir mit Experten aus anderen Bereichen innerhalb und außerhalb des auftraggebenden Unternehmens[^1].
+
+[^1]:Tischner, U./Schmincke, E./Rubik, F. et. al. *Was ist Ecodesign*. Basel: Verlag, Frankfurt: später Birkhäuser. 2000.
+
+----
+
+Chfourtitle: Über die  ökologische Produktgestaltung hinaus
+
+----
+
+Chfourbkcolor: white
+
+----
+
+Chfourtextcolor: black
+
+----
+
+Chfour: 
+
+EcoDesign, also die Gestaltung öko-effizienterer Produkte, reicht nicht aus, um die oben genannten Krisen und Probleme zu lösen. Fast immer wird die größere Produkteffizienz, wie energiesparendere oder wassersparendere Produkte durch sogenannte **Rebound Effekte** wettgemacht, d.h. Konsumenten benutzen die Produkte weniger sparsam, da sie ja effizienter sind, oder es werden schlichtweg mehr von diesen Produkten benutzt, oder insgesamt hebt das globale Wirtschaftswachstum (und damit die Zunahme an Konsum) die Einspareffekte auf Produktebene auf.(img: tischner_design-for-sustainability_rebound-effect.jpg)<pullquote>Immer mehr Nachhaltigkeitsforsche und –Designer arbeiten an der Veränderung von gesamten Produktions- und Konsumptions-Systemen.</pullquote>
+
+Daher arbeiten immer mehr Nachhaltigkeitsforscher und -Designer an Konzepten wie **Product Service Systems** (PSS), der Gestaltung von gesamten **Produkt-Dienstleitungssystemen** (vgl. www.suspronet.org und www.mepss.nl) und **Sustainable Consumption and Production** (SCP), der Veränderung von gesamten Produktions- und Konsumptions-Systemen (vgl. www.score-network.org).
+Die Hoffnung hinter diesen Strategien ist, dass bei der nachhaltigen Gestaltung der gesamten Systeme und durch das Einwirken auf die wichtigsten Schnittstellen zwischen Produzenten, Konsumenten und Stakeholdern sehr viel weitreichendere Veränderungen in Produktionsweisen und Konsumentenverhalten erreicht und Reboundeffekte verhindert werden können[^1][^2][^3][^4][^5].(img: tischner_design-for-sustainability_relations.jpg)
+
+[^1]: Tukker, A. and Tischner, U. (eds.). *New Business for Old Europe. Product-Service Development as a means to enhance competitiveness and eco-efficiency.* Sheffield: Greenleaf Publishing. 2006. 
+[^2]: Tukker A. et al (eds.) *System Innovation for Sustainability 1. Perspectives on Radical Changes to Sustainable Consumption and Production.* Sherffield: Greenleaf Publishing. 2008.
+[^3]: Geerken, T. and Borup, M. (eds) *System Innovation for Sustainability 2: Case Studies in Sustainable Consumption and Production - Mobility.* Sherffield: Greenleaf Publishing. 2009.;
+[^4]: Lahlou, S. (ed.) *System Innovation for Sustainability 4: Case Studies in Sustainable Consumption and Production - Energy Use and the Built Environment.* Sherffield: Greenleaf Publishing. 2010.
+[^5]: Tischner, U. et al. (eds.) *System Innovation for Sustainability 3: Case Studies in Sustainable Consumption and Production - Food and Agriculture.* Sherffield: Greenleaf Publishing. 2010.
+
+----
+
+Chfivetitle: Die richtige Ästhetik für Eco Design
+
+----
+
+Chfivebkcolor: white
+
+----
+
+Chfivetextcolor: black
+
+----
+
+Chfive: 
+
+In Nordamerika und Asien spricht man von den LOHAS (Lifestyle of Health and Sustainability, siehe www.lohas.de oder www.lohas.com). Auch wenn das mehr wie ein neuer Hype im Marketing anmutet, ist der Hintergrund doch recht eindeutig: Es gibt eine immer größere Gruppe von gut (aus)gebildeten, kaufkräftigen, oft sehr selbstbestimmten und kreativen Menschen, die recht konsequent einen gesunden und nachhaltigen Lebensstil pflegen. Dabei hat das sehr viel mehr mit Genuss und Erlebnis zu tun als das noch bei den ideologisch geprägten Öko-Kunden der 70ger und 80ger Jahre der Fall war. Nicht mehr Verzicht ist das Credo, sondern das Anlegen des oft beträchtlichen Vermögens und Einkommens in Dinge, die das Leben angenehmer, genüsslicher und gesünder machen und gleichzeitig gut für die soziale und natürliche Umwelt sind. Das gilt für alle möglichen Lebensbereiche und Kaufentscheidungen: vom ethischen Investment bis zur Gesundheitsvorsorge, von Öko-Wellness und Spirituellem zu Bauökologie und effizienten Energietechniken, von gesunder fair gehandelter Ernährung zu alternativer Mobilität. In Deutschland ist das Umweltbewusstsein der Bevölkerung schon seit langem recht hoch aber auch hier gibt es Ziel- oder Stilgruppen, die mehr Interesse an nachhaltigen Gütern haben als andere.<pullquote>viele konventionelle Hersteller müssen feststellen, dass die Wachstumszahlen der nachhaltigen Angebote weit größer sind, als die der konventionellen.</pullquote>
+Dementsprechend ist das noch in den 70er und 80er Jahren vorherrschende Verständnis von Ökodesign als Jute statt Plastik und einer leicht schlabberigen Naturästhetik heute überholt. Handgestrickte Naturwollsocken und graues Altpapier sind eben weit davon entfernt, die ästhetischen Präferenzen einer breiten Bevölkerungsschicht zu treffen. Heutzutage sind ökologisch und sozial nachhaltige Güter auch ’sexy, schön und cool‘ – und funktionieren. Die ökologisch orientierten Unternehmen haben erkannt, dass auch ökologisch sinnvolle Produkte sorgfältig gestaltet und beworben werden müssen. Und viele konventionelle Hersteller müssen feststellen, dass die Wachstumszahlen der nachhaltigen Angebote weit größer sind, als die der konventionellen. 
+>Dennoch kauft kaum ein Konsument heute ein Produkt nur weil es ökologisch ist. Ein guter Mix an attraktiven Produkteigenschaften inklusive akzeptablem Preis und ökologischen und sozialen Eigenschaften als Zusatznutzen und Unterscheidungsmerkmal zur Konkurrenz sind die erfolgreichen Zutaten im Design for Sustainability. 
+
+Das Forschungsprojekt ecobiente, Nachhaltige Güter erfolgreich gestalten und vermarkten hat es gezeigt[^1]: Wenn der Dreiklang aus nachhaltiger Gestaltung des Angebots, aus richtiger Zielgruppenwahl, und richtigem Kommunikations- und Vermarktungskonzept stimmig gestaltet wird, können nachhaltige Güter auf dem Markt außerordentlich erfolgreich sein. Und das geht nicht nur mit den LOHAS sondern kann in breiteren Bevölkerungsschichten funktionieren, wenn die besonderen Qualitäten des nachhaltigen Angebots in Kundennutzen wie Energie- und damit Kostensparen, Gesundheitsaspekte und Prestige, oder Wellness und Selbstverwirklichung übersetzt werden können. Besondere Sorgfalt muss dabei auch auf die Gestaltung der Produktsprache gelegt werden, die z.B. offensichtlich oder subtil ökologisch ausgeprägt sein kann und – wie das Beispiel des süddeutschen Holzhausbauers Baufritz zeigt – damit bei gleichen hohen ökologischen Qualitäten völlig unterschiedliche Zielgruppen anspricht.
+
+[^1]: http://www.econcept.org/index.php?option=content&task=view&id=61
+
+----
+
+Chsixtitle: Alle Zeichen stehen auf grün
+
+----
+
+Chsixbkcolor: white
+
+----
+
+Chsixtextcolor: black
+
+----
+
+Chsix: 
+
+Viele **Rahmenbedingungen von Seiten der Politik** (z.B. Produktrücknahmeverordnungen oder Chemikaliengesetze), von **Seiten der Kunden** (größerer Nachfrage nach ökologischen, gesunden und fairen Produkten) und die eingangs beschriebenen globalen Krisen sprechen dafür, dass EcoDesign und Design for Sustainability profitabler und erfolgreicher als konventionelles Design und langfristig die einzig tragbaren Vorgehensweisen bei der Produktgestaltung sind.
+
+In manchen Branchen sind ökologisch und sozial sinnvolle Güter schneller auf dem Erfolgskurs als in anderen, z.B. Nahrungsmittel. Wie ist das gelungen? Nahrungsmittel sind überlebenswichtig für Verbraucher und gesundheitsrelevant, und waren von Problemen und Skandalen betroffen. Die ökologischen Anbieter wuchsen zunächst in ihren Nischen, dann erkannten die konventionellen Händler, dass auch für sie ein Einstieg in das Öko-Sortiment interessant ist und kreierten Öko-Eigenmarken. Schließlich wurden die ökologischen Anbieter professioneller, designorientierter und wagten den Schritt aus der Nische. Wunderbar gestaltete und erfolgreiche Öko-Supermärkte schossen in Deutschen Großstädten wie die Pilze aus dem Boden. Ökologische Nahrungsmittel gehören spätestens seit ihrer Aufnahme in die einschlägigen Discounter-Sortimente zum Mainstream mit zweistelligen Wachstumsraten, auch wenn sie immer noch nur gut 3% Marktanteile besitzen.
+Medien, Politik, Umwelt- und Verbraucherverbände trugen zu dieser Erfolgsstory bei durch Aufklärung der Konsumenten und glaubwürdige Kennzeichnungen (Öko-Labels), durch Subventionen und Beseitigung von Hemmnissen für Öko-Anbieter aber auch ökologieorientiertes öffentliches Beschaffungswesen. Hilfreich waren auch strategische Allianzen, z.B. in Form von Anbauverbänden oder Kooperationen von (konventionellen) Händlern mit Öko-Produzenten oder Öko-Organisationen. 
+Ähnliche **Erfolgsgeschichten** lassen sich in anderen Sektoren finden, von den **regenerativen Energietechniken**, über **Kosmetik** bis zur (wieder) aufkeimenden **Öko-Mode**. Es scheint, dass Produktbereiche, die der Konsumentenhaut nahe kommen, durch Effizienz zum Kostensparen führen können, oder zum interessanten Prestigeobjekt werden, bereits heute erfolgreiche EcoDesign Märkte sind.
+
+De facto führt die steigende Nachfrage nach nachhaltigeren Gütern derzeit zu einem unerträglichen Maß and Greenwashing in Kommunikationskampagnen. Das wiederum wirkt sich negativ auf die Glaubwürdigkeit dieser schlecht beratenen Unternehmen und die Nachhaltigkeitsbewegung insgesamt aus. Es bleibt zu hoffen, dass Designer, Kommunikations- und Marketingexperten endlich aufwachen und erst ’Gutes tun‘ und dann darüber kommunizieren. Der Fall von BP und anderen sollte doch wahrlich Warnung genug sein und der Markterfolg nachhaltiger Güter motivieren.
+
+----
+
+Chseventitle: 
+
+----
+
+Chsevenbkcolor: white
+
+----
+
+Chseventextcolor: black
+
+----
+
+Chseven: 
+
+----
+
+Cheighttitle: 
+
+----
+
+Cheightbkcolor: white
+
+----
+
+Cheighttextcolor: black
+
+----
+
+Cheight: 
+
+----
+
+Chninetitle: 
+
+----
+
+Chninebkcolor: white
+
+----
+
+Chninetextcolor: black
+
+----
+
+Chnine: 
+
+----
+
+Chtentitle: 
+
+----
+
+Chtenbkcolor: white
+
+----
+
+Chtentextcolor: black
+
+----
+
+Chten: 
+
+----
+
+Conclusiontitle: 
+
+----
+
+Conclusionbkcolor: white
+
+----
+
+Conclusiontextcolor: black
+
+----
+
+Conclusion: 
+
+----
+
+Appendixtitle: 
+
+----
+
+Appendixbkcolor: white
+
+----
+
+Appendixtextcolor: black
+
+----
+
+Appendix: 

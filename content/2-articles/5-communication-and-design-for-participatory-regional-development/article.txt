@@ -6,9 +6,9 @@ Description:
 
 **Parides by Design?
 Vorschläge für eine Diversität fördernde Regionalentwicklung**
-
+<br>
 Was würde es bedeuten, in einem paradiesischen Obervinschgau zu leben? Welche wirtschaftlichen Aktivitäten könnten eine wünschenswerte Lebensqualität im Tal sichern? Welche Möglichkeiten gibt es, um nicht nachhaltigen Versuchungen zu widerstehen? Wie können Entwicklungsprozesse partizipativ, inklusiv und propositiv gestaltet werden?
-
+<br>
 Die hier präsentierten Design-Vorschläge wurden von einer internationale Gruppe von GestalterInnen, SozialarbeiterInnen, SoziologInnen und Informatikern während eines zweitägigen Workshops zu den oben gestellten Fragen ausgearbeitet.
 
 ----
@@ -57,13 +57,13 @@ Intro:
 
 **Workshop brief**
 
-The South-Tyrolean area of Upper Vinschgau is undergoing drastic changes in agricultural practices as industrialised apple cultivation is making its way up the valley – inevitably affecting the local economy, the environment, the quality of life and cultural practices. Many farmers and landowners welcome this profitable change, while ever more local inhabitants are raising concerns about the consequences of monocultures on the ecosystem as well as on the homogenisation of the landscape.
+The South-Tyrolean area of Upper Vinschgau is undergoing drastic changes in agricultural practices as industrialised apple cultivation is making its way up the valley – inevitably affecting the local economy, the environment, the quality of life and cultural practices. Many farmers and landowners welcome this profitable change, while ever more local inhabitants are raising concerns about the consequences of monocultures on the ecosystem as well as on the homogenisation of the landscape.(img: bna-ae_image_07.jpg)
 
-In this context, the local citizen initiative Adam&Epfl, constituted in 2011, wants to foster debates around the profit-driven changes occurring in agriculture and their effects on the region. Acknowledging that the valley needs economic developments, A&E also believe that these would benefit from participatory decision making processes in order to generate proposals for developments that could simultaneously assure a strong regional economy, a healthy environment to live in and culturally diverse living-practices.
+In this context, the local citizen initiative Adam&Epfl, constituted in 2011, wants to foster debates around the profit-driven changes occurring in agriculture and their effects on the region. Acknowledging that the valley needs economic developments, A&E also believe that these would benefit from participatory decision making processes in order to generate proposals for developments that could simultaneously assure a strong regional economy, a healthy environment to live in and culturally diverse living-practices.*
 
 Thus, A&E ask, What would a paradisal upper Vinschgau look and feel like? What economic activities could sustain a desirable quality of life in the valley? By what means can unsustainable seductions be resisted? How to make the ongoing process of transformation a participatory, inclusive and pro-positive one?
 
-The aim of the workshop is to engage with these questions and to develop concrete design proposals that could contribute to sustainable developments in the area. An on-site participatory mapping of the multiplicity of actors and actants involved in the current state of affairs in the Upper Vinschgau will constitute the entry point for your design process.
+The aim of the workshop is to engage with these questions and to develop concrete design proposals that could contribute to sustainable developments in the area. An on-site participatory mapping of the multiplicity of actors and actants involved in the current state of affairs in the Upper Vinschgau will constitute the entry point for your design process.(img: bna-ae_image_06.jpg)
 
 Starting from this mapping, in groups  of two, you will identify an involved actor and actant from which to begin to design: each of them represents an entry point to the local issues and can act as a potential agent of change in the complex system of relations that is already in place. In what way could your proposal make a difference in as many fields as possible?
 
@@ -88,14 +88,14 @@ Chonetextcolor: black
 
 Chone: 
 
-di Davide Belotti, Simone Lechner, Yuwei Lin e Giovanna Zanghellini
+di Davide Belotti, Simone Lechner, Yuwei Lin e Giovanna Zanghellini(img: bna-ae_image_01.jpg)
 
 Lo scopo del progetto è di coinvolgere, informare, far discutere ed attivare il pubblico nella discussione sull’impatto ambientale, economico e sociale dell’agricoltura attraverso due giochi.
 
 Il primo è un ‘gioco a percorso’ che guida le persone – locali e non – ad entrare fisicamente, esplorare e creare una propria narrazione del luogo raccogliendo informazioni e punti di vista (ad esempio attraverso quiz, interviste, compiti e raccolte) ma anche lasciando le proprie impressioni. In premio i giocatori riceveranno prodotti locali per ogni ‘compito’ completato.
 
 Il secondo è un gioco di ruolo dove i giocatori scelgono di interpre tare uno degli ‘attori chiave’ identificati durante il worshop. Al centro, le carte annunciano possibili disastri che i giocatori dovranno superare o cercare di risolvere discutendo, formulando strategie ed eventualmente reinventando responsabilità, capacità e risorse di ogni singolo attore.
-
+<br>
 >Un disastro o un rischio può essere risolto solamente in modo collaborativo.
 
 ----
@@ -116,7 +116,7 @@ Chtwo:
 
 von Joe Shaw und Andreas Trenker
 
-Eine Reihe von historischen Ge- schehnissen haben im Unteren Vinschgau eine sozial-ökologische Katastrophe hervorgerufen. Auf Grund intensiver Konkurrenz, auf lokaler als auch globaler Ebene, sowie des Trittbrettfahrerproblems, ist keine Lösung in Aussicht:
+Eine Reihe von historischen Ge- schehnissen haben im Unteren Vinschgau eine sozial-ökologische Katastrophe hervorgerufen. Auf Grund intensiver Konkurrenz, auf lokaler als auch globaler Ebene, sowie des Trittbrettfahrerproblems, ist keine Lösung in Aussicht:(img: bna-ae_image_02.jpg)
 >»Wenn du Pestizide verwendest, warum sollte ich es dann nicht auch tun?«
 
 Wie kann sich das Obere Vinschgau solch katastrophalen Entwicklungen entziehen?
@@ -146,14 +146,14 @@ Chthree:
 
 **Über Sehnsüchte und Bedürfnisse, über Desillusionierung und Ausbeutung und den Weg der Schlange**
 
-von Michael Bockhorni und Vincenzo Del Fatto
+von Michael Bockhorni und Vincenzo Del Fatto(img: bna-ae_image_03.jpg)
 
 Die unberührte Natur ist der Traum der Städter, wirtschaftliches Reich- tum jener der Bauern. Junge vom Land zieht es in die Stadt und um- gekehrt. Der Zusammenprall beider Welten führt oft zur Zerstörung von Natur und Kultur. Aber es gibt Widerstand – nicht Asterix und Obelix sondern InterGAS und Adam & Epfl.
 
 InterGAS è un coordinamento di GAS (Gruppi di Acquisto Solidale) in Alto Adige, che rappresenta persone ‘critiche’ che cercano prodotti etici ed ecocompatibili. Adam & Epfl è un gruppo di piccoli produttori e persone che vivono in Alta Val Venosta, impegnato in un dibattito trasparente per lo sviluppo regionale.
 
 Das Ziel unseres Projekts ist eine solidarische und dauerhafte Partner- schaft zwischen beiden Welten zu gestalten, welche auf bereichernden Austauschformen durch persönliche Begegnungen – „Paradiesworkshops bzw. -praktikas“ sowie alternativen Handelsformen (SCEC bzw. Engel- hörner) – basiert.
-
+<br>
 >Design community or end in disaster!
 
 ----
@@ -172,11 +172,11 @@ Chfourtextcolor: black
 
 Chfour: 
 
-von Lisa Metzger und Lisa Stanzel
+von Lisa Metzger und Lisa Stanzel(img: bna-ae_image_04.jpg)
 
 Eine Kampagne, die die Menschen und ihre Frage nach Identität und Diversität in den Mittelpunkt setzt.
 Eine Kampagne, die den Dialog fördert und damit die Möglichkeit bietet, Meinungen zu formulieren, Stellung zu beziehen und Feedback zu sammeln.
-Eine Kampagne, die alle Men- schen aus der Region mit ihren vielfältigen Lebensgeschichten zusammenführt und ihnen eine Plattform bietet, ihre Visionen vom Zusammenleben zu kommunizieren.
+Eine Kampagne, die alle Menschen aus der Region mit ihren vielfältigen Lebensgeschichten zusammenführt und ihnen eine Plattform bietet, ihre Visionen vom Zusammenleben zu kommunizieren.
 Eine Kampagne, unter der vielfältige Aktionen zur Auseinandersetzung von Mensch und Region verwirklicht werden.
 
 ----
@@ -195,7 +195,7 @@ Chfivetextcolor: black
 
 Chfive: 
 
-di Nicola Chemotti e Damiano Fraccaro
+di Nicola Chemotti e Damiano Fraccaro(img: bna-ae_image_05.jpg)
 
 Il progetto Qui si pone come obiet- tivo quello di rendere l’approccio comunicativo di Adam & Epfl propositivo e soprattutto, inclusivo; da qui il desiderio di creare un segno sul territorio che crei un’esperienza di partecipazione attiva da parte dei cittadini e che generi quindi vicinanza tra i vari interlocutori; tale segno viene identificato attraverso un particolare oggetto che si sostiene date le condizioni che si presentano in un determinato momento e luogo: l’aquilone.
 

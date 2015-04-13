@@ -6,4 +6,8 @@ Cover:
 
 ----
 
-Measure: inline
+Measure: left
+
+----
+
+Dim: sixty

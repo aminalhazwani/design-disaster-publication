@@ -9,7 +9,8 @@ Keywords: eco-social transformation,transformation,transformation design,sustain
 Description: 
 
 Eco-social Transformation (est) is
-a process of planned change<br>
+a process of planned change
+<br>
 To recover the sense of living and a good life for all.
 To re-reclaim and defend commons and
 lifegoods against expropriation .
@@ -78,27 +79,37 @@ Chonetextcolor: black
 
 Chone: 
 
-**a. Water Scarcity**
-
-(img: est_icon_04.png)
-
-(img: est_icon_01_01_100x100.png)
+**a. Water Scarcity**(img: est_icon_04.png)(img: est_icon_01_01_100x100.png)
 
 Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
 
-**b. Desertification**(img: est_icon_01_02_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+**b. Desertification**(img: est_icon_01_02_100x100.png)
 
-**c. Destruction of the Ocean's Ecosystem**(img: est_icon_01_03_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
 
-**d. Extreme Weather Phenomena**(img: est_icon_01_04_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+**c. Destruction of the Ocean's Ecosystem**(img: est_icon_01_03_100x100.png)
 
-**e. Populationgrowth Increasing**(img: est_icon_01_05_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
 
-**f. Migration**(img: est_icon_01_06_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+**d. Extreme Weather Phenomena**(img: est_icon_01_04_100x100.png)
 
-**g. Disembedded Financial Sector**(img: est_icon_01_08_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
 
-**h. Land Grabbing**(img: est_icon_01_07_100x100.png)Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+**e. Populationgrowth Increasing**(img: est_icon_01_05_100x100.png)
+
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+
+**f. Migration**(img: est_icon_01_06_100x100.png)
+
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+
+**g. Disembedded Financial Sector**(img: est_icon_01_08_100x100.png)
+
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
+
+**h. Land Grabbing**(img: est_icon_01_07_100x100.png)
+
+Here will be a text placed stating shortly the effects of the related issue and an example showing the results in a geo-political context.
 
 ----
 
@@ -119,7 +130,6 @@ Chtwo:
 **a. The Great Transformation**(img: est_icon__02_01_final.png)(img: est_icon__02_02.png)
 
 >The historical process of western societies shows a sucsessive disembedding of the economic sector out of its social and natural context and a successive incorporation of society and nature in the economic system and the logic of capital.
-<br>
 
 **b. Downscaling: The only path to a sustainable future**
 
