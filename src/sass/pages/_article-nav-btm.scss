@@ -6,6 +6,10 @@
 	@include media-query(tabl-and-up) {
 		font-size: 1.25em;
 	}
+	@include media-query(desk-super-wide) {
+		max-width: calc(1600px + 120px);
+		margin: 0 auto;
+	}
 }
 
 .article-nav-bottom {
@@ -86,6 +90,10 @@
 			h2, span, p {
 				color: $yellow;
 			}
+
+			p {
+				font-weight: bold;
+			}
 		}
 	}
 }
@@ -154,9 +162,7 @@
 
 			@include media-query(desk-super-wide) {
 				position: relative;
-				max-width: 545px;
 				height: 100%;
-				float: right;
 			}
 		}
 	}
@@ -167,7 +173,7 @@
 		@extend .article-nav-bottom__prev-index;
 		@include m(wrapper) {
 			@extend .article-nav-bottom__prev-index--wrapper;
-			h2, span, p {
+			h2, span {
 				color: $yellow;
 			}
 		}
@@ -182,8 +188,6 @@
 				display: block;
 				overflow: hidden;
 				background-color: $red;
-
-				
 			}
 		}
 	}
