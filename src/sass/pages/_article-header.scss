@@ -158,7 +158,14 @@
 				font-size: 1.15rem;
 				@include font-smooth();
 				margin-bottom: 0;
+				@include media-query(tabl-and-down) {
+					line-height: 1.6;
+				}
+				@include media-query(tabl-and-up) {
+					font-size: 1.25em;
+				}
 				line-height: 1.75;
+
 			}
 			@include media-query(desk) {
 				float: left;

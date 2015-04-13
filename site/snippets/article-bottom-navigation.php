@@ -29,8 +29,10 @@
     <?php else: ?>
     	<a href="<?php echo $site->url()?>/index" class="article__nav--bottom--index-prev">
     		<div class="article__nav--prev--wrapper">
-                <h2>BACK TO THE INDEX</h2>
-        		<span></span>
+                <div>
+                    <h2>BACK TO THE INDEX</h2>
+            		<span></span>
+                </div>
             </div>
     	</a>
     <?php endif ?>
