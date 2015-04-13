@@ -1,110 +1,174 @@
-// Article bottom 
-.article {
-	@include e(nav) {
-		@include m(bottom) {
-			overflow: hidden;
-			margin-bottom: -1px;
-			@include font-smooth();
-			@include media-query(tabl) {
-				font-size: 1.25em;
-			}
-			@include media-query(lap) {
-				font-size: 1.25em;
-			}
-			@include media-query(desk) {
-				font-size: 1.25em;
-			}
-		}
+// Article Navigation Bottom 
+.article-nav-bottom {
+	overflow: hidden;
+	margin-bottom: -1px;
+	@include font-smooth();
+	@include media-query(tabl-and-up) {
+		font-size: 1.25em;
 	}
 }
 
-.article {
-	@include e(nav) {
-		@include m(next) {
-			@include m(wrapper) {
-				@include media-query(desk-super-wide) {
-					overflow: hidden;
-					max-width: 1060px;
-				}
-			}
+.article-nav-bottom {
+	@include e(index) {
+		position: relative;
+		display: block;
+		padding: 15px;
+		margin-bottom: -1px;
+		box-sizing: border-box;
+		height: 360px;
+		overflow: hidden;
+		background-color: $red;
+		@include media-query(tabl) {
+			padding: 30px;
 		}
-	}
-}
-
-.article {
-	@include e(nav) {
-		@include m(prev) {
-			@include m(wrapper) {
-				@include media-query(desk-super-wide) {
-					overflow: hidden;
-					width: 625px;
-					float: right;
-				}
-			}
+		@include media-query(lap-and-up) {
+			padding: 45px ;
+			float: right;
+			width: 60%;
 		}
-	}
-}
+		@include media-query(desk) {
+			padding: 60px;
+			height: 400px;
+		}
 
+		@include m(wrapper) {
+			h2 {
+				color: $black;
+				font-family: $din-cond;
+				text-transform: uppercase;
+			}
 
-// Article bottom navigation index next
-.article {
-	@include e(nav) {
-		@include m(bottom) {
-			@include m(index-next) {
-				position: relative;
-				display: block;
-				padding: 15px;
-				margin-bottom: -1px;
-				box-sizing: border-box;
-				height: 360px;
+			span {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+				margin: 0 15px 15px 0;
 				@include media-query(tabl) {
-					padding: 30px;
+					margin: 0 30px 30px 0;
 				}
-				@include media-query(lap-and-up) {
-					padding: 45px ;
-					float: right;
-					width: 60%;
+				@include media-query(lap) {
+					margin: 0 45px 45px 0;
 				}
 				@include media-query(desk) {
-					padding: 60px;
-					height: 400px;
+					margin: 0 60px 60px 0;
 				}
-				overflow: hidden;
-				background-color: $red;
-
-				h2 {
-					color: $black;
-					font-family: $din-cond;
-					text-transform: uppercase;
+				@include media-query(desk-super-wide) {
+					margin: 0;
 				}
-
-				span {
-					position: absolute;
-					right: 0;
-					bottom: 0;
-					margin: 0 15px 15px 0;
-					@include media-query(tabl) {
-						margin: 0 30px 30px 0;
-					}
-					@include media-query(lap) {
-						margin: 0 45px 45px 0;
-					}
-					@include media-query(desk) {
-						margin: 0 60px 60px 0;
-					}
-					color: $black;
+				color: $black;
+				font-family: $din;
+				font-weight: 700;
+				font-size: smaller;
+				&:after {
+					margin-left: .5rem;
+					content: "\2192";
 					font-family: $din;
-					font-weight: 700;
-					font-size: smaller;
-					&:after {
-						margin-left: .5rem;
-						content: "\2192";
-						font-family: $din;
-						display: inline-block;
-						vertical-align: middle;
-						margin-top: -0.6rem;
-					}
+					display: inline-block;
+					vertical-align: middle;
+					margin-top: -0.6rem;
 				}
+			}
+
+			@include media-query(desk-super-wide) {
+				position: relative;
+				max-width: 996px;
+				height: 100%;
+			}
+		}
+	}
+}
+
+.article-nav-bottom {
+	@include e(next) {
+		@extend .article-nav-bottom__index;
+		@include m(wrapper) {
+			@extend .article-nav-bottom__index--wrapper;
+			h2, span, p {
+				color: $yellow;
+			}
+		}
+	}
+}
+
+.article-nav-bottom {
+	@include e(prev-index) {
+		position: relative;
+		display: block;
+		padding: 15px;
+		margin-bottom: -1px;
+		box-sizing: border-box;
+		overflow: hidden;
+		background-color: $red;
+		height: 160px;
+		@include media-query(tabl) {
+			height: 200px;
+			padding: 30px;
+		}
+		@include media-query(lap-and-up) {
+			padding: 45px;
+			height: 360px;
+			float: right;
+			width: 40%;
+		}
+		@include media-query(desk) {
+			padding: 60px;
+			height: 400px
+		}
+		@include m(wrapper) {
+			h2 {
+				color: $black;
+				font-family: $din-cond;
+				text-transform: uppercase;
+			}
+
+			span {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				margin: 0 0 15px 15px;
+				@include media-query(tabl) {
+					margin: 0 0 30px 30px;
+				}
+				@include media-query(lap) {
+					margin: 0 0 45px 45px;
+				}
+				@include media-query(desk) {
+					margin: 0 0 60px 60px;
+				}
+				@include media-query(desk-super-wide) {
+					margin: 0;
+				}
+				color: $black;
+				font-family: $din;
+				font-weight: 700;
+				font-size: smaller;
+				&:before {
+					margin-right: .5rem;
+					content: "\2190";
+					font-family: $din;
+					display: inline-block;
+					vertical-align: middle;
+					margin-top: -0.6rem;
+				}
+			}
+
+			@include media-query(desk-super-wide) {
+				position: relative;
+				max-width: 545px;
+				height: 100%;
+				float: right;
+			}
+		}
+	}
+}
+
+.article-nav-bottom {
+	@include e(prev) {
+		@extend .article-nav-bottom__prev-index;
+		@include m(wrapper) {
+			@extend .article-nav-bottom__prev-index--wrapper;
+			h2, span, p {
+				color: $yellow;
 			}
 		}
 	}
@@ -115,129 +179,11 @@
 	@include e(nav) {
 		@include m(bottom) {
 			@include m(index-prev) {
-				position: relative;
 				display: block;
-				padding: 15px;
-				margin-bottom: -1px;
-				box-sizing: border-box;
-				height: 160px;
-				@include media-query(tabl) {
-					padding: 30px;
-					height: 200px;
-				}
-				@include media-query(lap-and-up) {
-					padding: 45px;
-					float: left;
-					width: 40%;
-					height: 360px;
-				}
-				@include media-query(desk) {
-					padding: 60px;
-					height: 400px;
-				}
 				overflow: hidden;
 				background-color: $red;
 
-				h2 {
-					color: $black;
-					font-family: $din-cond;
-					text-transform: uppercase;
-				}
-
-				span {
-					position: absolute;
-					bottom: 0;
-					left: 0;
-					margin: 0 0 15px 15px;
-					@include media-query(tabl) {
-						margin: 0 0 30px 30px;
-					}
-					@include media-query(lap) {
-						margin: 0 0 45px 45px;
-					}
-					@include media-query(desk) {
-						margin: 0 0 60px 60px;
-					}
-					color: $black;
-					font-family: $din;
-					font-weight: 700;
-					font-size: smaller;
-					&:before {
-						margin-right: .5rem;
-						content: "\2190";
-						font-family: $din;
-						display: inline-block;
-						vertical-align: middle;
-						margin-top: -0.6rem;
-					}
-				}
-			}
-		}
-	}
-}
-
-// Article bottom navigation next
-.article {
-	@include e(nav) {
-		@include m(bottom) {
-			@include m(next) {
-				@extend .article__nav--bottom--index-next;
-				@include m(content) {
-					position: relative;
-					z-index: 5;
-					padding: 15px;
-					box-sizing: border-box;
-					height: 360px;
-					@include media-query(tabl) {
-						padding: 30px;
-					}
-					@include media-query(lap-and-up) {
-						padding: 45px ;
-					}
-					@include media-query(desk) {
-						padding: 60px;
-						height: 400px;
-					}
-					h2 {
-						color: $yellow;
-						font-family: $din-cond;
-						text-transform: uppercase;
-					}
-					p {
-						color: $yellow;
-						@include font-smooth();
-						line-height: 1.4;
-						letter-spacing: 0.02rem;
-						font-weight: bold;
-					}
-					span {
-						position: absolute;
-						right: 0;
-						bottom: 0;
-						margin: 0 15px 15px 0;
-						@include media-query(tabl) {
-							margin: 0 30px 30px 0;
-						}
-						@include media-query(lap) {
-							margin: 0 45px 45px 0;
-						}
-						@include media-query(desk) {
-							margin: 0 60px 60px 0;
-						}
-						color: $yellow;
-						font-family: $din;
-						font-weight: 700;
-						font-size: smaller;
-						&:after {
-							margin-left: .5rem;
-							content: "\2192";
-							font-family: $din;
-							display: inline-block;
-							vertical-align: middle;
-							margin-top: -0.4rem;
-						}
-					}
-				}
+				
 			}
 		}
 	}
@@ -249,7 +195,7 @@
 		@include m(bottom) {
 			@include m(prev) {
 				@extend .article__nav--bottom--index-prev;
-				@include m(content) {
+				@include m(wrapper) {
 					position: relative;
 					z-index: 5;
 					padding: 15px;
@@ -266,6 +212,9 @@
 					@include media-query(desk) {
 						padding: 60px;
 						height: 400px
+					}
+					@include media-query(desk-super-wide) {
+						padding-left: 0;
 					}
 					h2 {
 						color: $yellow;
@@ -287,6 +236,9 @@
 						@include media-query(desk) {
 							margin: 0 0 60px 60px;
 						}
+						@include media-query(desk-super-wide) {
+							margin-left: 0;
+						}
 						color: $yellow;
 						font-family: $din;
 						font-weight: 700;
@@ -307,16 +259,11 @@
 }
 
 // Article background image class
-.article {
-	@include e(nav) {
-		@include m(bottom) {
-			@include m(background) { 
-				background-color: none;
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: 50% 50%;
-				padding: 0;
-			}
-		}
+.article-nav-bottom {
+	@include e(background) { 
+		background-color: none;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: 50% 50%;
 	}
 }
