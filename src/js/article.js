@@ -51,7 +51,7 @@ $('img').unveil(0, function() {
 
 // Magnific Popup
 $('article').magnificPopup({
-	delegate: '> section > div > figure > a',
+	delegate: '> section > div > div > figure > a',
 	type:'image',
 	image: {
 		markup: '<div class="mfp-figure">'+
@@ -78,52 +78,3 @@ $('article').magnificPopup({
 	},
 	closeOnContentClick: true
 });
-
-// $('.article__content > p').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 18,
-//    maxFont   : 32
-// });
-
-// $('.article__content > ul').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 18,
-//    maxFont   : 32
-// });
-
-// $('.article__content > blockquote').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 18,
-//    maxFont   : 32
-// });
-
-// $('.article__content > ol').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 18,
-//    maxFont   : 32
-// });
-
-// $('.article__header--abstract > p').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 20,
-//    maxFont   : 32
-// });
-
-// $('.article__share').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 16,
-//    maxFont   : 20
-// });
-
-// $('.footnotes > ol').flowtype({
-//    minimum   : 320,
-//    maximum   : 2560,
-//    minFont   : 14,
-//    maxFont   : 20
-// });
