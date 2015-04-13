@@ -13,13 +13,28 @@ files:
       type: checkbox
       text: Is this the cover image?
     measure:
-      label: Image size
+      label: Image Position
       type: radio
       default: left
       options:
         left: Left
         inline: Inline
         full: Full
+    dim: 
+      label: Image Size
+      type: select
+      default: hundred
+      options: 
+        ten: 10%
+        twenty: 20%
+        thirty: 30%
+        forty: 40%
+        fifty: 50%
+        sixty: 60%
+        seventy: 70%
+        eighty: 80%
+        ninety: 90%
+        hundred: 100%
 fields:
   title:
     label: Title

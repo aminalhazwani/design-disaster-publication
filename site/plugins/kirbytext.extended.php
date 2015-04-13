@@ -35,6 +35,7 @@
       // class
       $class = 'lazy';
       $imgMode = $file->measure();
+      $imgDim = $file->dim();
 
       // link class
       $linkclass = 'pop';
@@ -65,6 +66,7 @@
 
       $figure = new Brick('figure');
       $figure->addClass(html($imgMode));
+      $figure->addClass(html($imgDim));
       $figure->append($img);
 
       if($file->caption() != '') {

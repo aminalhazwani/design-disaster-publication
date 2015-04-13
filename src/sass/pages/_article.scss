@@ -212,6 +212,37 @@ article {
 				}
 			}
 
+			&.ten {
+				width: 10%;
+			}
+			&.twenty {
+				width: 10%;
+			}
+			&.thirty {
+				width: 10%;
+			}
+			&.forty {
+				width: 10%;
+			}
+			&.fifthy {
+				width: 10%;
+			}
+			&.sixty {
+				width: 60%;
+			}
+			&.seventy {
+				width: 60%;
+			}
+			&.eighty {
+				width: 60%;
+			}
+			&.ninety {
+				width: 60%;
+			}
+			&.hundred {
+				width: 60%;
+			}
+
 			img {
 			  opacity: 0;
 			  transition: opacity .5s ease-in;
