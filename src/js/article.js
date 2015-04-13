@@ -50,8 +50,7 @@ $('img').unveil(0, function() {
 });
 
 // Magnific Popup
-$('article').magnificPopup({
-	delegate: '> section > div > div > figure > a',
+$('a.pop').magnificPopup({
 	type:'image',
 	image: {
 		markup: '<div class="mfp-figure">'+

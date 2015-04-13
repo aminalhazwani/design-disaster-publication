@@ -22,6 +22,7 @@
       $alt     = $tag->attr('alt');
       $title   = $tag->attr('title');
       $link    = $tag->attr('link');
+      $linkclass = $tag->attr('linkclass');
       $caption = $tag->file('caption');
       $file    = $tag->file($url);
 
@@ -34,6 +35,9 @@
       // class
       $class = 'lazy';
       $imgMode = $file->measure();
+
+      // link class
+      $linkclass = 'pop';
 
       // alt text
       if($file->caption() != '') {
@@ -54,7 +58,7 @@
 
       $img = html::a(html($src), $img, array(
         'rel'    => $tag->attr('rel'),
-        'class'  => $tag->attr('linkclass'),
+        'class'  => html($linkclass),
         'title'  => html($tag->attr('title')),
         'target' => $tag->target()
       ));
