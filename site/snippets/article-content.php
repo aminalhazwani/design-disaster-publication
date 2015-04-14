@@ -9,7 +9,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chone() != ''): ?> 
@@ -22,7 +21,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chtwo() != ''): ?>
@@ -35,7 +33,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chthree() != ''): ?>
@@ -48,7 +45,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chfour() != ''): ?>
@@ -61,7 +57,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chfive() != ''): ?>
@@ -74,7 +69,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chsix() != ''): ?>
@@ -87,7 +81,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chseven() != ''): ?>
@@ -100,7 +93,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->cheight() != ''): ?>
@@ -113,7 +105,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chnine() != ''): ?>
@@ -126,7 +117,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->chten() != ''): ?>
@@ -139,7 +129,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->conclusion() != ''): ?>
@@ -152,7 +141,6 @@
             </div>
         </div> 
     </section>
-    <?php snippet('article-share') ?>
     <?php endif ?>
 
     <?php if($page->appendix() != ''): ?>
@@ -166,4 +154,5 @@
         </div> 
     </section>
     <?php endif ?>
+    <?php snippet('article-share') ?>
 </article>
