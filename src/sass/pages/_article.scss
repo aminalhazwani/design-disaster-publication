@@ -2,12 +2,11 @@
 article {
 	section {
 		padding: 45px 15px;
+		margin-bottom: 2px;
 		@include media-query(tabl) {
-			font-size: 1.25em;
 			padding: 45px 30px;
 		}
 		@include media-query(lap) {
-			font-size: 1.25em;
 			padding: 60px 45px;
 		}
 		@include media-query(desk) {
@@ -219,22 +218,22 @@ article {
 			}
 			&.twenty {
 				@include media-query(lap-and-up) {
-					width: 10%;
+					width: 20%;
 				}
 			}
 			&.thirty {
 				@include media-query(lap-and-up) {
-					width: 10%;
+					width: 30%;
 				}
 			}
 			&.forty {
 				@include media-query(lap-and-up) {
-					width: 10%;
+					width: 40%;
 				}
 			}
 			&.fifthy {
 				@include media-query(lap-and-up) {
-					width: 10%;
+					width: 50%;
 				}
 			}
 			&.sixty {
@@ -244,22 +243,22 @@ article {
 			}
 			&.seventy {
 				@include media-query(lap-and-up) {
-					width: 60%;
+					width: 70%;
 				}
 			}
 			&.eighty {
 				@include media-query(lap-and-up) {
-					width: 60%;
+					width: 80%;
 				}
 			}
 			&.ninety {
 				@include media-query(lap-and-up) {
-					width: 60%;
+					width: 90%;
 				}
 			}
 			&.hundred {
 				@include media-query(lap-and-up) {
-					width: 60%;
+					width: 100%;
 				}
 			}
 

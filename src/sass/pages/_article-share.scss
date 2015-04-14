@@ -2,12 +2,6 @@
 .article {
 	@include e(share) {
 		padding: 30px 0;
-		@include media-query(tabl-and-up) {
-			padding: 45px 0;
-		}
-		@include media-query(desk) {
-			padding: 60px 0;
-		}
 		font-family: $din;
 		font-size: 1.15em;
 		font-weight: 700;
