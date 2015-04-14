@@ -1,32 +1,16 @@
 <?php snippet('header') ?>
 
   <main class="home" role="main">
-	<section class="home__header">
+	<!-- <section class="home__header">
 		<?php echo $page->introtext()->kirbytext() ?>
-		<!--
-		<div>
-	  		<p>Proceedings of the conference By Design or By Disaster 2013</p>
-	  	</div>
-	  	<div>
-		  	<a href="<?php $site->url() ?>/index">Read</a>
-		  	<a class="home__header--download" href="#download">Download</a>
-		</div>
-		-->
-	</section>
+	</section> -->
 
 	<div class="home__cover">
-		<?php echo $page->covertext()->kirbytext() ?>
+		<div>
+			<?php echo $page->covertext()->kirbytext() ?>
+		</div>
 		<img src="assets/images/dod-lettering.png" />
 	</div>
-
-	<!--
-  	<section class="home__share"> 
-  		<p>Please, share this publication!</p>
-  		<a href="#">on Facebook</a>
-  		<a href="#">on Twitter</a>
-  		<a href="#">via E-Mail</a>
-  	</section>
-	-->
 
   	<section class="home__read">
   		<div class="home__read--online">

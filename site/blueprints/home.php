@@ -13,7 +13,7 @@ fields:
     size:  large
   covertext:
     label: Cover text
-    type:  text
+    type:  textarea
   onlinetitle:
     label: Section one title
     type:  text

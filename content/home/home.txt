@@ -6,7 +6,12 @@ Introtext: Proceedings of the conference <br>By Design or By Disaster 2013 <br><
 
 ----
 
-Covertext: The Publication
+Covertext: 
+
+# By Design or by Disaster
+Proceedings of the conference <br>By Design or By Disaster 2013
+
+Free University of Bozen-Bolzano
 
 ----
 
