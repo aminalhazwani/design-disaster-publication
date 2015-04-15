@@ -1,11 +1,16 @@
 <?php if(!defined('KIRBY')) exit ?>
 
 title: About
-pages: false
+files: false
+pages: true
+	template: 
+		- member
+		- editor
 fields:
-  title:
-    label: Title
-    type:  text
-  text:
-    label: Description
-    type: textarea
+	title:
+		label: Title
+		type:  text
+	text:
+		label: Description
+		type: textarea
+

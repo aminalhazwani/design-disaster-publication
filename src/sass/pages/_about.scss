@@ -9,16 +9,138 @@
 }
 
 .about {
-	div {
-		padding: 30px 15px;
+	section {
+		padding: 0 15px 30px 15px;
 		@include media-query(tabl-and-up) {
-			padding: 45px 30px;
+			padding: 0 30px 45px 30px;
 		}
 		@include media-query(lap) {
-			padding: 60px 45px;
+			padding: 0 45px 60px 45px;
 		}
 		@include media-query(desk) {
-			padding: 90px 60px;
+			padding: 0 60px 90px 60px;
 		}
+
+		&:first-of-type {
+			padding: 30px 15px;
+			@include media-query(tabl-and-up) {
+				padding: 45px 30px;
+			}
+			@include media-query(lap) {
+				padding: 60px 45px;
+			}
+			@include media-query(desk) {
+				padding: 90px 60px;
+			}
+		}
+	}
+}
+
+.about {
+	@include e(intro) {
+		font-size: large;
+		@include media-query(desk) {
+			font-size: x-large;
+		}
+	}
+}
+
+.about {
+	@include e(team) {
+		h3 {
+			margin-bottom: .5rem;
+		}
+		figure {
+			float: left;
+			margin: 0;
+			max-width: 100%;
+			@include media-query(tabl-and-up) {
+				margin: 1rem 2rem 0 1rem;
+				max-width: 200px;
+			}
+			@include media-query(desk-wide) {
+				max-width: 240px;
+			}
+			@include media-query(desk-super-wide) {
+				max-width: 280px;
+			}
+		}
+		p {
+			margin-bottom: 2.6rem;
+		}
+	}
+}
+
+.about {
+	@include e(team) {
+		@include m(core) {
+			overflow: hidden;
+			clear: both;
+		}
+		@include m(support) {
+			overflow: hidden;
+			clear: both;
+		}
+	}
+}
+
+.team {
+	@include e(core) {
+		@include m(member) {
+			clear: both;
+			margin-bottom: 2rem;
+			@include media-query(desk) {
+				clear: none;
+				width: 47%;
+				float: left;
+			}
+			&:first-of-type {
+				@include media-query(desk) {
+					margin-right: 3%;
+				}
+			}
+			&:last-of-type {
+				@include media-query(desk) {
+					margin-left: 3%;
+				}
+			}
+		}
+	}
+}
+
+.team {
+	@include e(support) {
+		@include m(member) {
+			clear: both;
+			margin-bottom: 2rem;
+			@include media-query(desk) {
+				clear: none;
+				width: 32%;
+				float: left;
+			}
+			&:nth-child(2n) {
+				@include media-query(desk) {
+					margin: 0 2%;
+				}
+			}
+			figure {
+				@include media-query(desk) {
+					float: none;
+				}
+				@include media-query(desk-wide) {
+					float: left;
+					max-width: 160px;
+				}
+				@include media-query(desk-super-wide) {
+					max-width: 180px;
+				}
+			}
+		}
+	}
+}
+
+.team {
+	@include e(editors) {
+
 	}
 }
