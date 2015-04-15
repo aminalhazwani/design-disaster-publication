@@ -1,3 +1,4 @@
+// Padding-top for header
 .home {
 	padding-top: 56px;
 	@include media-query(tabl-and-up) {
@@ -8,6 +9,7 @@
 	}
 }
 
+// Home section paddings
 .home {
 	section {
 		padding: 15px;
@@ -23,89 +25,76 @@
 	}
 }
 
+// Hero
 .home {
-	@include e(header) {
-		@include media-query(palm) {
-			margin-top: 15px;
+	@include e(hero) {
+		position: relative;
+		overflow: hidden;
+		margin-top: 1rem;
+		@include media-query(lap-and-up) {
+			margin-top: 2rem;
 		}
-		@include media-query(tabl) {
-			margin-bottom: 15px;
-		}
-		p {
-			font-family: $din;
-			font-weight: 700;
-			margin-bottom: 0;
-			text-align: center;
+	}
+}
 
-			a {
-				border-bottom: 2px solid $black;
-				transition: all .5s $bezier;
-				&:hover {
-					border-bottom-color: $red;
-				}
+// Hero image
+.home {
+	@include e(hero) {
+		@include m(image) {
+			position: relative;
+			left: -90%;
+			max-width: 300%;
+			@include media-query(tabl) {
+				left: -75%;
+				max-width: 250%;
 			}
-
-			@include media-query(tabl-and-up) {
-				font-size: 1.15em;
+			@include media-query(lap) {
+				left: -50%;
+				max-width: 200%;
 			}
 			@include media-query(desk) {
-				font-size: 1.25em;
+				left: -40%;
+				width: 180%;
 			}
 			@include media-query(desk-super-wide) {
-				font-size: 1.5em;
-			}
-
-			br {
-				@include media-query(tabl-and-up) {
-					&:first-of-type {
-						display: none;
-					}
-				}
-				@include media-query(lap-and-up) {
-					display: none;
-				}
+				left: -30%;
+				width: 160%;
 			}
 		}
 	}
 }
 
+// Hero title container
 .home {
-	@include e(cover) {
-		overflow: hidden;
-		position: relative;
-		img {
-			position: relative;
-			max-width: 300%;
-			left: -90%;
-			@include media-query(tabl-and-up) {
-				max-width: 200%;
-				left: -50%;
-			}
-			@include media-query(desk) {
-				width: 180%;
-				left: -40%;
-			}
-			@include media-query(desk-super-wide) {
-				width: 160%;
-				left: -30%;
-			}
-		}
-
-		div {
+	@include e(hero) {
+		@include m(title) {
 			position: absolute;
-			z-index: 1;
-			width: 100%;
 			top: 50%;
 			left: 50%;
+			z-index: 1;
+			margin-top: 1rem;
+			width: 100%;
 			transform: translate(-50%, -60%);
 			text-align: center;
+			@include media-query(lap-and-up) {
+				margin-top: 2rem;
+			}
+		}
+	}
+}
+
+// Hero title
+.home {
+	@include e(hero) {
+		@include m(title) {
 			h1 {
-				font-family: $din-cond;
-				text-transform: uppercase;
+				padding: 0 1rem;
 				@include font-kern;
-				font-size: 2.4em;
+				font-family: $din-cond;
+				font-size: 2.4rem;
+				text-transform: uppercase;
 				@include media-query(tabl-and-up) {
-					font-size: 4em;
+					font-size: 3.5em;
 					font-weight: 700;
 				}
 				@include media-query(lap) {
@@ -121,7 +110,14 @@
 					font-size: 8em;
 				}
 			}
+		}
+	}
+}
 
+// Hero subtitle
+.home {
+	@include e(hero) {
+		@include m(title) {
 			p {
 				margin: 0;
 				font-family: $din;
@@ -141,42 +137,10 @@
 				@include media-query(desk-super-wide) {
 					font-size: 2rem;
 				}
-
-				&:last-of-type {
-					margin-top: .5em;
+				&:nth-child(3n) {
+					line-height: 1;
 				}
 			}
-		}
-	}
-}
-
-.home {
-	@include e(share) {
-		font-family: $din;
-		font-weight: bold;
-		text-align: center;
-		color: $black;
-		margin-bottom: 3rem;
-		p {
-			margin-bottom: 0.25rem;
-			@include media-query(lap-and-up) {
-				display: inline-block;
-			}
-		}
-		a {
-			border-bottom: 1px solid $black;
-			&:nth-child(2n) {
-				margin: 0 .5rem;
-			}
-			@include media-query(tabl-and-up) {
-				margin: 0 1rem;			
-			}
-		}
-		@include media-query(tabl) {
-			font-size: 1.15em;
-		}
-		@include media-query(lap-and-up) {
-			font-size: 1.25em;
 		}
 	}
 }
@@ -189,156 +153,94 @@
 			margin-bottom: 8rem;
 		}
 		@include media-query(desk-super-wide) {
-			margin-bottom: 12rem;
+			margin: 0 auto 12rem auto;
+			max-width: 1600px;
 		}
+	}
+}
+
+// Read online section
+.home {
+	@include e(read) {
 		@include m(online) {
-			margin-bottom: 4rem;
 			overflow: hidden;
+			margin-bottom: 4rem;
+		}
+	}
+}
 
-			h3 {
-				@include media-query(tabl-and-down) {
-					padding-left: 1rem;
-					padding-bottom: .5rem;
-				}
+// Read offline section
+.home {
+	@include e(read) {
+		@include m(offline) {
+			@extend .home__read--online;
+			padding-top: 5%;
+		}
+	}
+}
+
+// Read sections wrapper
+.read {
+	@include e(wrapper) {
+		@include media-query(lap-and-up) {
+			width: 50%;
+			display: inline-block;
+			vertical-align: middle;
+		}
+		@include media-query(desk-wide) {
+			font-size: 1.25rem;
+		}
+		@include media-query(desk-super-wide) {
+			font-size: 1.5rem;
+		}
+	}
+}
+
+// Read section title
+.read {
+	@include e(wrapper) {
+		@include m(title) {
+			margin-bottom: .5rem;
+			font-size: smaller;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			@include media-query(tabl-and-down) {
+				padding: 0 0 .5rem 1rem;
 			}
+		}
+	}
+}
 
+// Read section text
+.read {
+	@include e(wrapper) {
+		@include m(text) {
 			p {
 				margin-bottom: 0.5rem;
 				@include media-query(tabl-and-down) {
 					padding-left: 1rem;
 				}
-				@include media-query(desk-wide) {
-					font-size: 1.15rem;
-				}
 
 				a {
+					margin-left: 0.1rem;
+					padding-bottom: 1px;
 					font-family: $din;
 					font-weight: 700;
+					font-size: 0.9em;
 					border-bottom: 2px solid $black;
-					padding-bottom: 1px;
-					transition: all .5s $bezier;
+					transition: border-bottom .5s $bezier;
 					&:hover {
 						border-bottom-color: $red;
 					}
 				}
 			}
-
-			div {
-				@include media-query(lap-and-up) {
-					width: 50%;
-					display: inline-block;
-					vertical-align: middle;
-				}
-				@include media-query(desk-super-wide) {
-					width: 40%;
-					padding-left: 10%;
-				}
-			}
-
-			@include m(image) {
-				display: none;
-				@include media-query(lap-and-up) {
-					width: 40%;
-					margin-left: 8%;
-					display: inline-block;
-					vertical-align: middle;
-				}
-				@include media-query(desk-super-wide) {
-					width: 30%;
-				}
-			}
-
-			@include media-query(desk-wide) {	
-				padding-right: 5%;
-				padding-left: 5%;
-			}
-			@include media-query(desk-wide) {
-				font-size: 1.15em;
-			}
-			@include media-query(desk-super-wide) {
-				font-size: 1.25em;
-			}
 		}
 	}
 }
 
-.home {
-	@include e(read) {
-		@include m(offline) {
-			padding-top: 5%;
-			margin-bottom: 4rem;
-			overflow: hidden;
-
-			h3 {
-				@include media-query(tabl-and-down) {
-					padding-left: 1rem;
-					padding-bottom: .5rem;
-				}
-			}
-
-			p {
-				margin-bottom: 1rem;
-				@include media-query(tabl-and-down) {
-					padding-left: 1rem;
-				}
-				@include media-query(desk-wide) {
-					font-size: 1.15rem;
-				}
-
-				a {
-					font-family: $din;
-					font-weight: 700;
-					border-bottom: 2px solid $black;
-					padding-bottom: 1px;
-					transition: all .5s $bezier;
-					&:hover {
-						border-bottom-color: $red;
-					}
-				}
-			}
-
-			div {
-				@include media-query(lap-and-up) {
-					width: 50%;
-					display: inline-block;
-					vertical-align: middle;
-				}
-				@include media-query(desk-super-wide) {
-					width: 40%;
-					padding-right: 5%;
-				}
-			}
-
-			@include m(image) {
-				display: none;
-				@include media-query(lap-and-up) {
-					width: 40%;
-					margin-right: 8%;
-					display: inline-block;
-					vertical-align: middle;
-				}
-				@include media-query(desk-super-wide) {
-					padding-left: 5%;
-					width: 30%;
-				}
-			}
-
-			@include media-query(desk-wide) {	
-				padding-right: 5%;
-				padding-left: 5%;
-			}
-			@include media-query(desk-wide) {
-				font-size: 1.15em;
-			}
-			@include media-query(desk-super-wide) {
-				font-size: 1.25em;
-			}
-		}
-	}
-}
-
-.home {
-	@include e(read) {
+// Read section image on mobile
+.read {
+	@include e(wrapper) {
 		@include m(img-mobile) {
 			display: block;
 			float: left;
@@ -346,6 +248,42 @@
 			padding: 0 2rem 1rem 0;
 			@include media-query(lap-and-up) {
 				display: none;
+			}
+		}
+	}
+}
+
+// Read section image on desktop
+.read {
+	@include e(wrapper) {
+		@include m(image-online) {
+			display: none;
+			@include media-query(lap-and-up) {
+				display: inline-block;
+				vertical-align: middle;
+				width: 40%;
+				margin-left: 8%;
+			}
+			@include media-query(desk-super-wide) {
+				width: 30%;
+			}
+		}
+	}
+}
+
+.read {
+	@include e(wrapper) {
+		@include m(image-offline) {
+			display: none;
+			@include media-query(lap-and-up) {
+				display: inline-block;
+				vertical-align: middle;
+				width: 40%;
+				margin-right: 8%;
+			}
+			@include media-query(desk-super-wide) {
+				padding-left: 5%;
+				width: 30%;
 			}
 		}
 	}

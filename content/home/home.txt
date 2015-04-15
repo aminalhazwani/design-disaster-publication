@@ -9,9 +9,11 @@ Introtext: Proceedings of the conference <br>By Design or By Disaster 2013 <br><
 Covertext: 
 
 # By Design or by Disaster
-Proceedings of the conference <br>By Design or By Disaster 2013
+Proceedings of the conference <br>(link: http://pro2.unibz.it/projects/blogs/bydesignorbydisaster/conference/ text: By Design or By Disaster 2013)
 
-Free University of Bozen-Bolzano
+—
+
+Free University of Bozen Bolzano
 
 ----
 
