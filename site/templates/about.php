@@ -32,7 +32,7 @@
 		</section>
 
 		<section class="about__editors">
-			<h1>Editors</h1>
+			<h1>Writers and designers</h1>
 		</section>
 
 	</main>
