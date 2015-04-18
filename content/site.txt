@@ -25,6 +25,7 @@ Navigation:
 
 - (link: https://pro2.unibz.it/projects/blogs/glocaldesign/publication/about text: About)
 - (link: https://pro2.unibz.it/projects/blogs/glocaldesign/publication/index text: Index of articles)
+- (link: https://pro2.unibz.it/projects/blogs/glocaldesign/publication/download text: Download eBooks)
 - (link: http://pro2.unibz.it/projects/blogs/bydesignorbydisaster/ text: DoD Blog)
 - (link: http://pro2.unibz.it/projects/blogs/bydesignorbydisaster/MA/ text: MA in Glocal Design)
 - (link: http://unibz.it/en/design-art/welcome/default.html text: BA Design and Art)
