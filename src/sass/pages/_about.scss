@@ -20,6 +20,10 @@
 		@include media-query(desk) {
 			padding: 0 60px 90px 60px;
 		}
+		@include media-query(desk-super-wide) {
+			margin: 0 auto;
+			max-width: 1600px;
+		}
 
 		&:first-of-type {
 			padding: 30px 15px;
@@ -115,12 +119,25 @@
 			margin-bottom: 2rem;
 			@include media-query(desk) {
 				clear: none;
-				width: 32%;
+				width: calc(100% / 3);
 				float: left;
+			}
+			&:nth-child(1n) {
+				@include media-query(desk) {
+					box-sizing: border-box;
+					padding-right: 1.5%;
+				}
 			}
 			&:nth-child(2n) {
 				@include media-query(desk) {
-					margin: 0 2%;
+					box-sizing: border-box;
+					padding: 0 1.5%;
+				}
+			}
+			&:nth-child(3n) {
+				@include media-query(desk) {
+					box-sizing: border-box;
+					padding-left: 1.5%;
 				}
 			}
 			figure {

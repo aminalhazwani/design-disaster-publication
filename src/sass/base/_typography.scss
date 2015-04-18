@@ -36,7 +36,7 @@ blockquote {
 	font-family: $utopia;
 	font-weight: bold;
 	font-size: 1.25em;
-	border-left: 4px solid transparent;
+	border-left: 4px solid $black;
 	@include font-kern;
 
 	@include media-query(desk) {
@@ -73,7 +73,7 @@ pullquote {
 		width: 50%;
 		height: 6px;
 		margin: 0 auto .65em;
-		background-color: transparent;
+		background-color: $black;
 	}
 
 	&:after {
@@ -82,7 +82,7 @@ pullquote {
 		width: 50%;
 		height: 6px;
 		margin: .6em auto 0;
-		background-color: transparent;
+		background-color: $black;
 	}
 
 	@include media-query(desk) {
@@ -98,6 +98,7 @@ pullquote {
 	margin-top: 1rem;
 	hr {
 		border-style: solid;
+		border-color: $black;
 		margin: 0;
 	}
 	ol {

@@ -189,7 +189,7 @@
 .read {
 	@include e(wrapper) {
 		@include media-query(lap-and-up) {
-			width: 50%;
+			width: 55%;
 			display: inline-block;
 			vertical-align: middle;
 		}
@@ -205,9 +205,6 @@
 		@include m(title) {
 			margin-bottom: .5rem;
 			letter-spacing: 1px;
-			@include media-query(desk) {
-				margin-bottom: 1rem;
-			}
 		}
 	}
 }
@@ -276,11 +273,9 @@
 			@include media-query(lap-and-up) {
 				display: inline-block;
 				vertical-align: middle;
-				width: 40%;
-				margin-left: 9%;
-			}
-			@include media-query(desk-super-wide) {
-				width: 30%;
+				width: 45%;
+				padding-left: 5%;
+				box-sizing: border-box;
 			}
 		}
 	}
@@ -293,12 +288,9 @@
 			@include media-query(lap-and-up) {
 				display: inline-block;
 				vertical-align: middle;
-				width: 40%;
-				margin-right: 9%;
-			}
-			@include media-query(desk-super-wide) {
-				padding-left: 5%;
-				width: 30%;
+				width: 45%;
+				padding-right: 5%;
+				box-sizing: border-box;
 			}
 		}
 	}
