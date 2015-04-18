@@ -15,13 +15,13 @@
 		  			<img class="read__wrapper--img-mobile" src="assets/images/online_1200px_red.png" />
 			  		<div class="read__wrapper--text"><?php echo $page->onlinetext()->kirbytext() ?></div>
 			  		<a class="read__wrapper--button" href="/index">Read online</a>
-				</div>
-				<img class="read__wrapper--image-online" src="assets/images/online_1200px_red.png" />
+				</div><!--
+				--><img class="read__wrapper--image-online" src="assets/images/online_1200px_red.png" />
 	  		</div>
 
 	  		<div id="download" class="home__read--offline">
-	  			<img class="read__wrapper--image-offline" src="assets/images/offline_1200px_red.png" />
-	  			<div class="read__wrapper">
+	  			<img class="read__wrapper--image-offline" src="assets/images/offline_1200px_red.png" /><!--
+	  			--><div class="read__wrapper">
 		  			<h3 class="read__wrapper--title"><?php echo $page->offlinetitle() ?></h3>
 		  			<img class="read__wrapper--img-mobile" src="assets/images/offline_1200px_red.png" />
 		  			<div class="read__wrapper--text"><?php echo $page->offlinetext()->kirbytext() ?></div>
