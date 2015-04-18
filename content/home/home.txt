@@ -9,7 +9,7 @@ Introtext: Proceedings of the conference <br>By Design or By Disaster 2013 <br><
 Covertext: 
 
 # By Design or by Disaster
-Proceedings of the conference <br>(link: http://pro2.unibz.it/projects/blogs/bydesignorbydisaster/conference/ text: By Design or By Disaster 2013)
+Proceedings of the conference<br> (link: http://pro2.unibz.it/projects/blogs/bydesignorbydisaster/conference/ text: By Design or by Disaster 2013)
 
 —
 
@@ -21,12 +21,12 @@ Onlinetitle: Online reading
 
 ----
 
-Onlinetext: Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Morbi leo risus, porta ac consectetur so, what are you waiting for (link: https://pro2.unibz.it/projects/blogs/glocaldesign/publication/index text: read online)
+Onlinetext: Organic cred blog squid Truffaut, cliche gastropub normcore pug direct trade biodiesel gluten-free sartorial keffiyeh. Hoodie VHS gentrify skateboard. Locavore messenger bag pug, disrupt mumblecore banh mi salvia Truffaut food truck Shoreditch meditation. Drinking vinegar 90's banh mi, twee pug butcher American Apparel tilde Godard.
 
 ----
 
-Offlinetitle: Offline digital reading
+Offlinetitle: Offline reading
 
 ----
 
-Offlinetext: We offer digital version of our puclication as well. You can download an (link: # text: ePub) for your iPhone, iPad or Nook e-Reader. You can download a (link: # text: Mobi) for your Kindle or if you have another device you can download the standard (link: # text: PDF)
+Offlinetext: Ennui artisan selvage, umami 90's typewriter kitsch kogi direct trade freegan Carles Brooklyn. Taxidermy ugh flexitarian Echo Park, irony Neutra typewriter art party four dollar toast YOLO hashtag. Chillwave stumptown slow-carb next level 90's, letterpress leggings freegan trust fund banh mi Wes Anderson gluten-free keytar.
