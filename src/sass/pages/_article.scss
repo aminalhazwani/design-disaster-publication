@@ -3,6 +3,7 @@ article {
 	section {
 		padding: 45px 15px;
 		margin-bottom: 2px;
+		background-color: $white;
 		@include media-query(tabl) {
 			padding: 45px 30px;
 		}

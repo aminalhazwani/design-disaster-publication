@@ -33,6 +33,7 @@
 			@include media-query(desk) {
 				width: 50%;
 				float: left;
+				margin-bottom: 0;
 				padding-right: 2.6rem;
 				box-sizing: border-box;
 			}
@@ -73,7 +74,7 @@
 	@include e(header) {
 		@include m(author) {
 			line-height: 1.45;
-			margin-bottom: 3rem;
+			margin-bottom: 2rem;
 			span {
 				display: block;
 				margin-bottom: 0;
@@ -145,7 +146,7 @@
 .article {
 	@include e(header) {
 		@include m(abstract) {
-			padding-top: 3rem;
+			padding-top: 2rem;
 			border-top: 2px solid $yellow;
 			h1, h2, h3 {
 				color: $yellow;

@@ -47,14 +47,6 @@ Introtitle: Content
 
 ----
 
-Introbkcolor: white
-
-----
-
-Introtextcolor: black
-
-----
-
 Intro: 
 
 Index:
@@ -66,14 +58,6 @@ Index:
 ----
 
 Chonetitle: Key issues: Bic picture of interrelated global problems
-
-----
-
-Chonebkcolor: white
-
-----
-
-Chonetextcolor: black
 
 ----
 
@@ -117,14 +101,6 @@ Chtwotitle: Appropriate steps towards an Eco-Social Transformation
 
 ----
 
-Chtwobkcolor: white
-
-----
-
-Chtwotextcolor: black
-
-----
-
 Chtwo: 
 
 **a. The Great Transformation**(img: est_icon__02_01_final.png)(img: est_icon__02_02.png)
@@ -152,14 +128,6 @@ The surprizing phenomenon of the 21. century is the raising power of civil socie
 ----
 
 Chthreetitle: Practical Approaches to Eco-Social Transformation
-
-----
-
-Chthreebkcolor: white
-
-----
-
-Chthreetextcolor: black
 
 ----
 
@@ -249,27 +217,11 @@ Chfourtitle:
 
 ----
 
-Chfourbkcolor: white
-
-----
-
-Chfourtextcolor: black
-
-----
-
 Chfour: 
 
 ----
 
 Chfivetitle: 
-
-----
-
-Chfivebkcolor: white
-
-----
-
-Chfivetextcolor: black
 
 ----
 
@@ -281,27 +233,11 @@ Chsixtitle:
 
 ----
 
-Chsixbkcolor: white
-
-----
-
-Chsixtextcolor: black
-
-----
-
 Chsix: 
 
 ----
 
 Chseventitle: 
-
-----
-
-Chsevenbkcolor: white
-
-----
-
-Chseventextcolor: black
 
 ----
 
@@ -313,27 +249,11 @@ Cheighttitle:
 
 ----
 
-Cheightbkcolor: white
-
-----
-
-Cheighttextcolor: black
-
-----
-
 Cheight: 
 
 ----
 
 Chninetitle: 
-
-----
-
-Chninebkcolor: white
-
-----
-
-Chninetextcolor: black
 
 ----
 
@@ -345,14 +265,6 @@ Chtentitle:
 
 ----
 
-Chtenbkcolor: white
-
-----
-
-Chtentextcolor: black
-
-----
-
 Chten: 
 
 ----
@@ -361,27 +273,11 @@ Conclusiontitle:
 
 ----
 
-Conclusionbkcolor: white
-
-----
-
-Conclusiontextcolor: black
-
-----
-
 Conclusion: 
 
 ----
 
 Appendixtitle: 
-
-----
-
-Appendixbkcolor: white
-
-----
-
-Appendixtextcolor: black
 
 ----
 
