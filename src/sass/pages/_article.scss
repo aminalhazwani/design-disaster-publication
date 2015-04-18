@@ -17,118 +17,6 @@ article {
 	}
 }
 
-// Article bk-color and text-color
-article {
-	section {
-		&.bk-black {
-			background-color: $rich-black;
-		}
-		&.bk-red {
-			background-color: $red;
-		}
-		&.bk-white {
-			background-color: $white;
-		}
-		&.bk-yellow {
-			background-color: $yellow;
-		}
-		&.text-black {
-			.footnotes > hr {
-				border-color: $black;
-			}
-			h2, h3, p, ol, ul, figcaption, pullquote {
-				color: $black;
-			}
-			a {
-				color: $black;
-				border-bottom: 1px solid $black;
-			}
-			blockquote {
-				text-align: left;
-				border-left-color: $black;
-			}
-			pullquote {
-				&:after {
-					background-color: $black;
-				}
-				&:before {
-					background-color: $black;
-				} 
-			}
-		}
-		&.text-red {
-			.footnotes > hr {
-				border-color: $red;
-			}
-			h2, h3, p, ol, ul, figcaption, pullquote {
-				color: $red;
-			}
-			a {
-				color: $red;
-				border-bottom: 1px solid $red;
-			}
-			blockquote {
-				border-left-color: $red;
-			}
-			pullquote {
-				&:after {
-					background-color: $red;
-				}
-				&:before {
-					background-color: $red;
-				} 
-			}
-		}
-		&.text-white {
-			@include font-smooth();
-			.footnotes > hr {
-				border-color: $white;
-			}
-			h2, h3, p, ol, ul, figcaption, pullquote {
-				color: $white;
-			}
-			a {
-				color: $white;
-				border-bottom: 1px solid $white;
-			}
-			blockquote {
-				border-left-color: $white;
-			}
-			pullquote {
-				&:after {
-					background-color: $white;
-				}
-				&:before {
-					background-color: $white;
-				} 
-			}
-		}
-		&.text-yellow {
-			.footnotes > hr {
-				border-color: $yellow;
-			}
-			h2, h3, p, ol, ul, figcaption, pullquote {
-				color: $yellow;
-			}
-			a {
-				color: $yellow;
-				border-bottom: 1px solid $yellow;
-			}
-			blockquote {
-				border-left-color: $yellow;
-			}
-			pullquote {
-				&:after {
-					background-color: $yellow;
-				}
-				&:before {
-					background-color: $yellow;
-				} 
-			}
-		}
-	}
-}
-
 // Article content floating
 .article {
 	@include e(wrapper) {
@@ -178,6 +66,9 @@ article {
 				margin-left: 2.6rem;
 				padding: 0 0 0 2rem;
 			}
+		}
+		a {
+			border-bottom-color: $black;
 		}
 	}
 }
